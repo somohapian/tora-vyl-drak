@@ -1,0 +1,17 @@
+{
+  "name": "tora-vyl-drak",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "The Kahu Vyl encyclopedia. A living archive of Tora Vyl Drak.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.1.1"
+  }
+}

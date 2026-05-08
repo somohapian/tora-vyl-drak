@@ -1,0 +1,75 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'tora vyl drak',
+  description = 'the kahu vyl encyclopedia. a living archive of tora vyl drak — its people, places, language, and lore.',
+} = Astro.props;
+
+const fullTitle = title === 'tora vyl drak'
+  ? 'tora vyl drak — the kahu vyl encyclopedia'
+  : `${title} — tora vyl drak`;
+
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+
+    <!-- open graph -->
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:site_name" content="tora vyl drak" />
+
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- ai training: not welcome. (also enforced by robots.txt) -->
+    <meta name="robots" content="noai, noimageai" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={Astro.url.href} />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="/" class="site-title">
+        tora vyl drak <em>· an archive</em>
+      </a>
+      <nav class="site-nav">
+        <a href="/people">people</a>
+        <a href="/places">places</a>
+        <a href="/events">events</a>
+        <a href="/language">language</a>
+        <a href="/about">about</a>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <p class="copyright">
+        © {year} jay metcalf. all rights reserved.
+      </p>
+      <p>
+        <span class="proper">kahu</span>, <span class="proper">tora vyl drak</span>, <span class="proper">somohapian</span>, the <span class="kt">kahu-tok</span> language, and all related names, characters, and lore are original works.
+      </p>
+    </footer>
+  </body>
+</html>
