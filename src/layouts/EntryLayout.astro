@@ -1,0 +1,52 @@
+---
+import Layout from './Layout.astro';
+
+interface Props {
+  title: string;
+  kahu_tok?: string;
+  meta?: { label: string; value: string }[];
+  open_canon?: string[];
+  back_href: string;
+  back_label: string;
+}
+
+const { title, kahu_tok, meta = [], open_canon = [], back_href, back_label } = Astro.props;
+---
+
+<Layout title={title}>
+  <article class="entry">
+    <p class="entry-breadcrumb">
+      <a href={back_href}>{back_label}</a>
+    </p>
+
+    <header class="entry-header">
+      <h1>{title}</h1>
+      {kahu_tok && <p class="entry-kahu-tok"><span class="kt">{kahu_tok}</span></p>}
+    </header>
+
+    {meta.length > 0 && (
+      <dl class="entry-meta">
+        {meta.map((m) => (
+          <div class="entry-meta-row">
+            <dt>{m.label}</dt>
+            <dd set:html={m.value} />
+          </div>
+        ))}
+      </dl>
+    )}
+
+    <div class="entry-body">
+      <slot />
+    </div>
+
+    {open_canon.length > 0 && (
+      <aside class="entry-open-canon">
+        <h2>open canon</h2>
+        <p>the following questions are not yet settled in the record:</p>
+        <ul>
+          {open_canon.map((q) => <li>{q}</li>)}
+        </ul>
+      </aside>
+    )}
+  </article>
+</Layout>

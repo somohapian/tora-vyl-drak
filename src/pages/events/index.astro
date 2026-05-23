@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const entries = await getCollection('events');
+entries.sort((a, b) => (a.data.year || '').localeCompare(b.data.year || ''));
+---
+
+<Layout title="events">
+  <h1>events</h1>
+  <p class="lede">the fracture, the leveling, the schism.</p>
+  <hr class="kahu-rule" />
+  <ul class="entry-list">
+    {entries.map((entry) => (
+      <li>
+        <a href={`/events/${entry.slug}`}>
+          <span class="entry-list-name">{entry.data.name}</span>
+          {entry.data.year && <span class="entry-list-kt">{entry.data.year}</span>}
+          <span class="entry-list-summary">{entry.data.summary}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Layout>

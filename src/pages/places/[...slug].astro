@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import EntryLayout from '../../layouts/EntryLayout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('places');
+  return entries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const d = entry.data;
+
+const meta = [
+  d.region && { label: 'region', value: d.region },
+  d.elevation && { label: 'elevation', value: d.elevation },
+  d.status && { label: 'status', value: d.status },
+].filter(Boolean) as { label: string; value: string }[];
+---
+
+<EntryLayout
+  title={d.name}
+  kahu_tok={d.kahu_tok}
+  meta={meta}
+  open_canon={d.open_canon}
+  back_href="/places"
+  back_label="← all places"
+>
+  <Content />
+</EntryLayout>
