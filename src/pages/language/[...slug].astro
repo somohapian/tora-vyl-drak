@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import EntryLayout from '../../layouts/EntryLayout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('language');
+  return entries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const d = entry.data;
+
+const meta = [
+  d.part_of_speech && { label: 'part of speech', value: d.part_of_speech },
+  { label: 'definition', value: d.definition },
+  d.pronunciation && { label: 'pronunciation', value: d.pronunciation },
+  d.source && { label: 'source', value: d.source },
+  d.entered && { label: 'entered the lexicon', value: d.entered },
+].filter(Boolean) as { label: string; value: string }[];
+---
+
+<EntryLayout
+  title={d.word}
+  meta={meta}
+  open_canon={d.open_canon}
+  back_href="/language"
+  back_label="← all words"
+>
+  <Content />
+</EntryLayout>

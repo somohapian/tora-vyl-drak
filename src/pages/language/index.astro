@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const entries = await getCollection('language');
+entries.sort((a, b) => a.data.word.localeCompare(b.data.word));
+---
+
+<Layout title="language">
+  <h1>language</h1>
+  <p class="lede">kahu-tok and the bixel 1000.</p>
+  <hr class="kahu-rule" />
+  <ul class="entry-list">
+    {entries.map((entry) => (
+      <li>
+        <a href={`/language/${entry.slug}`}>
+          <span class="entry-list-name kt">{entry.data.word}</span>
+          <span class="entry-list-kt">{entry.data.definition}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Layout>

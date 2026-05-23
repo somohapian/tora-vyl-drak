@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import EntryLayout from '../../layouts/EntryLayout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('events');
+  return entries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const d = entry.data;
+
+const meta = [
+  d.year && { label: 'year', value: d.year },
+  d.era && { label: 'era', value: d.era },
+].filter(Boolean) as { label: string; value: string }[];
+---
+
+<EntryLayout
+  title={d.name}
+  kahu_tok={d.kahu_tok}
+  meta={meta}
+  open_canon={d.open_canon}
+  back_href="/events"
+  back_label="← all events"
+>
+  <Content />
+</EntryLayout>

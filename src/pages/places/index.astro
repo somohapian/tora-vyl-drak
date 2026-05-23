@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const entries = await getCollection('places');
+entries.sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<Layout title="places">
+  <h1>places</h1>
+  <p class="lede">the caldera and beyond.</p>
+  <hr class="kahu-rule" />
+  <ul class="entry-list">
+    {entries.map((entry) => (
+      <li>
+        <a href={`/places/${entry.slug}`}>
+          <span class="entry-list-name">{entry.data.name}</span>
+          {entry.data.kahu_tok && <span class="kt entry-list-kt">{entry.data.kahu_tok}</span>}
+          <span class="entry-list-summary">{entry.data.summary}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Layout>
