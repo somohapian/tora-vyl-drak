@@ -240,9 +240,10 @@ a:hover { color: var(--ember-deep); }
   .site-search input[type="search"] { width: 10rem; }
 }
 
-/* ----- main ----- */
+/* ----- main -----
+   sizing is handled by .page-shell > main (see sidebar.css). this rule
+   stays as a fallback if Layout is ever used without the sidebar shell. */
 main {
-  flex: 1;
   padding: 4rem var(--gutter) 6rem;
   max-width: 64rem;
   margin: 0 auto;

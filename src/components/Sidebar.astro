@@ -1,0 +1,126 @@
+---
+import { getCollection } from 'astro:content';
+
+const CATEGORIES = [
+  { slug: 'people', label: 'people' },
+  { slug: 'places', label: 'places' },
+  { slug: 'events', label: 'events' },
+  { slug: 'eras', label: 'eras' },
+  { slug: 'concepts', label: 'concepts' },
+  { slug: 'organizations', label: 'organizations' },
+  { slug: 'objects', label: 'objects' },
+  { slug: 'language', label: 'language' },
+] as const;
+
+const collections = await Promise.all(
+  CATEGORIES.map((c) => getCollection(c.slug)),
+);
+
+const groups = CATEGORIES.map((c, i) => {
+  const entries = collections[i]
+    .map((e) => {
+      const d = e.data as { name?: string; word?: string };
+      return {
+        slug: e.slug,
+        name: d.name ?? d.word ?? e.slug,
+      };
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
+  return { ...c, entries };
+});
+
+const pathname = Astro.url.pathname.replace(/\/+$/, '') || '/';
+const segments = pathname.split('/').filter(Boolean);
+const knownSlugs = new Set(CATEGORIES.map((c) => c.slug));
+const currentCollection = segments[0] && knownSlugs.has(segments[0]) ? segments[0] : null;
+const currentSlug = currentCollection && segments.length > 1 ? segments.slice(1).join('/') : null;
+---
+
+<button
+  type="button"
+  class="wiki-sidebar-toggle"
+  aria-label="open archive navigation"
+  aria-expanded="false"
+  aria-controls="wiki-sidebar-nav"
+  data-sidebar-toggle
+>
+  <span class="wiki-sidebar-toggle-bar" aria-hidden="true"></span>
+  <span class="wiki-sidebar-toggle-bar" aria-hidden="true"></span>
+  <span class="wiki-sidebar-toggle-bar" aria-hidden="true"></span>
+</button>
+
+<aside class="wiki-sidebar">
+  <nav
+    id="wiki-sidebar-nav"
+    class="wiki-sidebar-nav"
+    data-sidebar-nav
+    aria-label="archive index"
+  >
+    <p class="wiki-sidebar-heading">the archive</p>
+    <ol class="wiki-sidebar-groups">
+      {groups.map((g) => {
+        const isCurrentGroup = currentCollection === g.slug;
+        const isIndexCurrent = isCurrentGroup && !currentSlug;
+        return (
+          <li class={`wiki-sidebar-group ${isCurrentGroup ? 'is-current-group' : ''}`}>
+            <details open={isCurrentGroup}>
+              <summary class={`wiki-sidebar-group-summary ${isIndexCurrent ? 'is-current' : ''}`}>
+                <span class="wiki-sidebar-group-caret" aria-hidden="true"></span>
+                <a class="wiki-sidebar-group-link" href={`/${g.slug}`}>{g.label}</a>
+                <span class="wiki-sidebar-group-count">{g.entries.length}</span>
+              </summary>
+              <ul class="wiki-sidebar-entries">
+                {g.entries.map((e) => {
+                  const isCurrent = isCurrentGroup && currentSlug === e.slug;
+                  return (
+                    <li class={`wiki-sidebar-entry ${isCurrent ? 'is-current' : ''}`}>
+                      {isCurrent
+                        ? <span aria-current="page">{e.name}</span>
+                        : <a href={`/${g.slug}/${e.slug}`}>{e.name}</a>}
+                    </li>
+                  );
+                })}
+              </ul>
+            </details>
+          </li>
+        );
+      })}
+    </ol>
+  </nav>
+</aside>
+
+<div class="wiki-sidebar-scrim" data-sidebar-scrim hidden></div>
+
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('[data-sidebar-toggle]');
+  const nav = document.querySelector<HTMLElement>('[data-sidebar-nav]');
+  const scrim = document.querySelector<HTMLElement>('[data-sidebar-scrim]');
+
+  function setOpen(open: boolean) {
+    if (!nav || !toggle) return;
+    nav.classList.toggle('is-open', open);
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (scrim) {
+      if (open) scrim.removeAttribute('hidden');
+      else scrim.setAttribute('hidden', '');
+    }
+    document.documentElement.classList.toggle('wiki-sidebar-open', open);
+  }
+
+  toggle?.addEventListener('click', () => {
+    setOpen(!nav?.classList.contains('is-open'));
+  });
+
+  scrim?.addEventListener('click', () => setOpen(false));
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && nav?.classList.contains('is-open')) setOpen(false);
+  });
+
+  nav?.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement | null;
+    if (target && target.tagName === 'A') {
+      setOpen(false);
+    }
+  });
+</script>

@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 import '../styles/entries.css';
+import '../styles/sidebar.css';
+import Sidebar from '../components/Sidebar.astro';
 
 interface Props {
   title?: string;
@@ -77,9 +79,13 @@ const year = new Date().getFullYear();
       </form>
     </header>
 
-    <main>
-      <slot />
-    </main>
+    <div class="page-shell">
+      <Sidebar />
+      <main>
+        <slot />
+      </main>
+      <aside class="page-right-rail" aria-hidden="true"></aside>
+    </div>
 
     <footer class="site-footer">
       <p class="copyright">
