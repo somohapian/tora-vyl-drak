@@ -1,0 +1,35 @@
+---
+import backlinksData from '../data/backlinks.json';
+
+interface Props {
+  collection: string;
+  slug: string;
+}
+
+const { collection, slug } = Astro.props;
+const key = `${collection}/${slug}`;
+const backlinks = (backlinksData as Record<string, Array<{
+  collection: string;
+  slug: string;
+  name: string;
+  kahuTok: string;
+  summary: string;
+}>>)[key] ?? [];
+---
+
+{backlinks.length > 0 && (
+  <aside class="entry-backlinks">
+    <h2>mentioned by</h2>
+    <ul>
+      {backlinks.map((b) => (
+        <li>
+          <a href={`/${b.collection}/${b.slug}`}>
+            <span class="backlinks-name">{b.name}</span>
+            {b.kahuTok && <span class="kt backlinks-kt">{b.kahuTok}</span>}
+            <span class="backlinks-collection">{b.collection}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </aside>
+)}

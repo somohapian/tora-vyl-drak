@@ -1,0 +1,2898 @@
+{
+  "people/bixel": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "",
+      "summary": "a community of people. the kahu people. one word at every scale."
+    },
+    {
+      "collection": "language",
+      "slug": "micasu",
+      "name": "micasu",
+      "kahuTok": "",
+      "summary": "welcome"
+    },
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    }
+  ],
+  "people/hanna-miskinnis": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-great-devaluation",
+      "name": "the great devaluation",
+      "kahuTok": "",
+      "summary": "the decades of institutional decay, information warfare, and environmental degradation that preceded the fracture. the world that broke before the world broke."
+    },
+    {
+      "collection": "events",
+      "slug": "the-schism",
+      "name": "the schism",
+      "kahuTok": "",
+      "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    }
+  ],
+  "people/mara": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    }
+  ],
+  "people/ston": [],
+  "people/the-longs": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-great-devaluation",
+      "name": "the great devaluation",
+      "kahuTok": "",
+      "summary": "the decades of institutional decay, information warfare, and environmental degradation that preceded the fracture. the world that broke before the world broke."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-silence",
+      "name": "the great silence",
+      "kahuTok": "",
+      "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
+    },
+    {
+      "collection": "events",
+      "slug": "the-leveling",
+      "name": "the leveling",
+      "kahuTok": "",
+      "summary": "the coordinated emp counter-strike by surface survivors against the longs' arcologies. the act that sealed the longs in permanently."
+    },
+    {
+      "collection": "events",
+      "slug": "the-schism",
+      "name": "the schism",
+      "kahuTok": "",
+      "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
+    },
+    {
+      "collection": "people",
+      "slug": "hanna-miskinnis",
+      "name": "hanna miskinnis",
+      "kahuTok": "",
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+    }
+  ],
+  "places/hart-ston": [
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "events",
+      "slug": "the-caldera-shudder",
+      "name": "the caldera shudder",
+      "kahuTok": "",
+      "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
+    }
+  ],
+  "places/hart-wata": [
+    {
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "places/hot-kasa": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "events",
+      "slug": "the-caldera-shudder",
+      "name": "the caldera shudder",
+      "kahuTok": "",
+      "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "places",
+      "slug": "the-hearth",
+      "name": "the hearth",
+      "kahuTok": "",
+      "summary": "the west quadrant of the caldera. holds the geothermal grid, the principal settlement of hot-kasa, and most of the kahu's industrial and infrastructure systems."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "places/nu-tera": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "language",
+      "slug": "micasu",
+      "name": "micasu",
+      "kahuTok": "",
+      "summary": "welcome"
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-wata",
+      "name": "hart-wata",
+      "kahuTok": "hart-wata",
+      "summary": "the great lake at the center of the caldera. heart-water. the kahu's primary freshwater source and the geographic center of life inside tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "places/ol-tri-shen": [
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "places/sun-tera": [
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "events",
+      "slug": "the-caldera-shudder",
+      "name": "the caldera shudder",
+      "kahuTok": "",
+      "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-wata",
+      "name": "hart-wata",
+      "kahuTok": "hart-wata",
+      "summary": "the great lake at the center of the caldera. heart-water. the kahu's primary freshwater source and the geographic center of life inside tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "the-hearth",
+      "name": "the hearth",
+      "kahuTok": "",
+      "summary": "the west quadrant of the caldera. holds the geothermal grid, the principal settlement of hot-kasa, and most of the kahu's industrial and infrastructure systems."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "places/the-gate": [
+    {
+      "collection": "concepts",
+      "slug": "the-creeping-dark",
+      "name": "the creeping dark",
+      "kahuTok": "",
+      "summary": "the kahu name for the slow neurotoxic descent caused by accumulating peli-shen exposure. the experience of the lowlands."
+    },
+    {
+      "collection": "language",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "",
+      "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
+    },
+    {
+      "collection": "objects",
+      "slug": "air-klin",
+      "name": "air-klin",
+      "kahuTok": "air-klin",
+      "summary": "the respiratory biome inoculation administered to zou-esh before deep or sustained operations below the peli-shen spore line. clean-air. cleared from the body post-mission."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "places/the-hearth": [
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-warden-tenders",
+      "name": "the warden-tenders",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-wata",
+      "name": "hart-wata",
+      "kahuTok": "hart-wata",
+      "summary": "the great lake at the center of the caldera. heart-water. the kahu's primary freshwater source and the geographic center of life inside tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "hot-kasa",
+      "name": "hot-kasa",
+      "kahuTok": "hot-kasa",
+      "summary": "the principal kahu settlement. roughly 120,000 people live in chambers tunneled through lava tubes in the hearth, heated by the geothermal grid."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "places/the-long-climb": [
+    {
+      "collection": "concepts",
+      "slug": "the-creeping-dark",
+      "name": "the creeping dark",
+      "kahuTok": "",
+      "summary": "the kahu name for the slow neurotoxic descent caused by accumulating peli-shen exposure. the experience of the lowlands."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    }
+  ],
+  "places/the-wilds": [
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-wata",
+      "name": "hart-wata",
+      "kahuTok": "hart-wata",
+      "summary": "the great lake at the center of the caldera. heart-water. the kahu's primary freshwater source and the geographic center of life inside tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "places/tora-vyl-drak": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-creeping-dark",
+      "name": "the creeping dark",
+      "kahuTok": "",
+      "summary": "the kahu name for the slow neurotoxic descent caused by accumulating peli-shen exposure. the experience of the lowlands."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "events",
+      "slug": "the-caldera-shudder",
+      "name": "the caldera shudder",
+      "kahuTok": "",
+      "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
+    },
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-eruption",
+      "name": "the great eruption",
+      "kahuTok": "",
+      "summary": "the vei-8 super-eruption of the cascade volcanic arc that formed the kahu vyl caldera. delayed consequence of the 2075 cascadia impact. the geological event that made tora vyl drak possible."
+    },
+    {
+      "collection": "events",
+      "slug": "the-schism",
+      "name": "the schism",
+      "kahuTok": "",
+      "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
+    },
+    {
+      "collection": "language",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "",
+      "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-warden-tenders",
+      "name": "the warden-tenders",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-ston",
+      "name": "hart-ston",
+      "kahuTok": "hart-ston",
+      "summary": "the active volcanic cone within the caldera. heart-stone. sacred. the source of the residual heat that keeps the kahu alive."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-wata",
+      "name": "hart-wata",
+      "kahuTok": "hart-wata",
+      "summary": "the great lake at the center of the caldera. heart-water. the kahu's primary freshwater source and the geographic center of life inside tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-hearth",
+      "name": "the hearth",
+      "kahuTok": "",
+      "summary": "the west quadrant of the caldera. holds the geothermal grid, the principal settlement of hot-kasa, and most of the kahu's industrial and infrastructure systems."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    }
+  ],
+  "events/the-caldera-shudder": [
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-endura",
+      "name": "age of endura",
+      "kahuTok": "",
+      "summary": "the modern era of the kahu. the long time of troubles, the schism, and the questions the golden age did not have to answer."
+    },
+    {
+      "collection": "events",
+      "slug": "the-schism",
+      "name": "the schism",
+      "kahuTok": "",
+      "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-ston",
+      "name": "hart-ston",
+      "kahuTok": "hart-ston",
+      "summary": "the active volcanic cone within the caldera. heart-stone. sacred. the source of the residual heat that keeps the kahu alive."
+    },
+    {
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "events/the-first-descent": [
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "eras",
+      "slug": "the-dark-century",
+      "name": "the dark century",
+      "kahuTok": "",
+      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+    },
+    {
+      "collection": "events",
+      "slug": "the-leveling",
+      "name": "the leveling",
+      "kahuTok": "",
+      "summary": "the coordinated emp counter-strike by surface survivors against the longs' arcologies. the act that sealed the longs in permanently."
+    },
+    {
+      "collection": "language",
+      "slug": "micasu",
+      "name": "micasu",
+      "kahuTok": "",
+      "summary": "welcome"
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-ston",
+      "name": "hart-ston",
+      "kahuTok": "hart-ston",
+      "summary": "the active volcanic cone within the caldera. heart-stone. sacred. the source of the residual heat that keeps the kahu alive."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "events/the-fracture": [
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-great-devaluation",
+      "name": "the great devaluation",
+      "kahuTok": "",
+      "summary": "the decades of institutional decay, information warfare, and environmental degradation that preceded the fracture. the world that broke before the world broke."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "eras",
+      "slug": "the-dark-century",
+      "name": "the dark century",
+      "kahuTok": "",
+      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-eruption",
+      "name": "the great eruption",
+      "kahuTok": "",
+      "summary": "the vei-8 super-eruption of the cascade volcanic arc that formed the kahu vyl caldera. delayed consequence of the 2075 cascadia impact. the geological event that made tora vyl drak possible."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-silence",
+      "name": "the great silence",
+      "kahuTok": "",
+      "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
+    },
+    {
+      "collection": "events",
+      "slug": "the-leveling",
+      "name": "the leveling",
+      "kahuTok": "",
+      "summary": "the coordinated emp counter-strike by surface survivors against the longs' arcologies. the act that sealed the longs in permanently."
+    },
+    {
+      "collection": "people",
+      "slug": "hanna-miskinnis",
+      "name": "hanna miskinnis",
+      "kahuTok": "",
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    }
+  ],
+  "events/the-great-eruption": [
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-wata",
+      "name": "hart-wata",
+      "kahuTok": "hart-wata",
+      "summary": "the great lake at the center of the caldera. heart-water. the kahu's primary freshwater source and the geographic center of life inside tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    }
+  ],
+  "events/the-great-silence": [
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
+    }
+  ],
+  "events/the-leveling": [
+    {
+      "collection": "concepts",
+      "slug": "the-great-devaluation",
+      "name": "the great devaluation",
+      "kahuTok": "",
+      "summary": "the decades of institutional decay, information warfare, and environmental degradation that preceded the fracture. the world that broke before the world broke."
+    },
+    {
+      "collection": "people",
+      "slug": "hanna-miskinnis",
+      "name": "hanna miskinnis",
+      "kahuTok": "",
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    }
+  ],
+  "events/the-schism": [
+    {
+      "collection": "eras",
+      "slug": "age-of-endura",
+      "name": "age of endura",
+      "kahuTok": "",
+      "summary": "the modern era of the kahu. the long time of troubles, the schism, and the questions the golden age did not have to answer."
+    },
+    {
+      "collection": "events",
+      "slug": "the-caldera-shudder",
+      "name": "the caldera shudder",
+      "kahuTok": "",
+      "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-warden-tenders",
+      "name": "the warden-tenders",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
+    },
+    {
+      "collection": "people",
+      "slug": "hanna-miskinnis",
+      "name": "hanna miskinnis",
+      "kahuTok": "",
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    }
+  ],
+  "eras/age-of-bloom": [
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-endura",
+      "name": "age of endura",
+      "kahuTok": "",
+      "summary": "the modern era of the kahu. the long time of troubles, the schism, and the questions the golden age did not have to answer."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
+    }
+  ],
+  "eras/age-of-endura": [
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    }
+  ],
+  "eras/age-of-tapestry": [
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "",
+      "summary": "a community of people. the kahu people. one word at every scale."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    }
+  ],
+  "eras/the-dark-century": [
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-silence",
+      "name": "the great silence",
+      "kahuTok": "",
+      "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
+    },
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "people",
+      "slug": "ston",
+      "name": "ston",
+      "kahuTok": "",
+      "summary": "figure named in the kahu record. canon is incomplete; this entry will be expanded as records are recovered."
+    }
+  ],
+  "concepts/kahu": [
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-creeping-dark",
+      "name": "the creeping dark",
+      "kahuTok": "",
+      "summary": "the kahu name for the slow neurotoxic descent caused by accumulating peli-shen exposure. the experience of the lowlands."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-great-devaluation",
+      "name": "the great devaluation",
+      "kahuTok": "",
+      "summary": "the decades of institutional decay, information warfare, and environmental degradation that preceded the fracture. the world that broke before the world broke."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-endura",
+      "name": "age of endura",
+      "kahuTok": "",
+      "summary": "the modern era of the kahu. the long time of troubles, the schism, and the questions the golden age did not have to answer."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "eras",
+      "slug": "the-dark-century",
+      "name": "the dark century",
+      "kahuTok": "",
+      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+    },
+    {
+      "collection": "events",
+      "slug": "the-caldera-shudder",
+      "name": "the caldera shudder",
+      "kahuTok": "",
+      "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-eruption",
+      "name": "the great eruption",
+      "kahuTok": "",
+      "summary": "the vei-8 super-eruption of the cascade volcanic arc that formed the kahu vyl caldera. delayed consequence of the 2075 cascadia impact. the geological event that made tora vyl drak possible."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-silence",
+      "name": "the great silence",
+      "kahuTok": "",
+      "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
+    },
+    {
+      "collection": "events",
+      "slug": "the-leveling",
+      "name": "the leveling",
+      "kahuTok": "",
+      "summary": "the coordinated emp counter-strike by surface survivors against the longs' arcologies. the act that sealed the longs in permanently."
+    },
+    {
+      "collection": "events",
+      "slug": "the-schism",
+      "name": "the schism",
+      "kahuTok": "",
+      "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "",
+      "summary": "a community of people. the kahu people. one word at every scale."
+    },
+    {
+      "collection": "language",
+      "slug": "micasu",
+      "name": "micasu",
+      "kahuTok": "",
+      "summary": "welcome"
+    },
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "language",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "",
+      "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
+    },
+    {
+      "collection": "objects",
+      "slug": "air-klin",
+      "name": "air-klin",
+      "kahuTok": "air-klin",
+      "summary": "the respiratory biome inoculation administered to zou-esh before deep or sustained operations below the peli-shen spore line. clean-air. cleared from the body post-mission."
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-warden-tenders",
+      "name": "the warden-tenders",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "people",
+      "slug": "hanna-miskinnis",
+      "name": "hanna miskinnis",
+      "kahuTok": "",
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "people",
+      "slug": "ston",
+      "name": "ston",
+      "kahuTok": "",
+      "summary": "figure named in the kahu record. canon is incomplete; this entry will be expanded as records are recovered."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-ston",
+      "name": "hart-ston",
+      "kahuTok": "hart-ston",
+      "summary": "the active volcanic cone within the caldera. heart-stone. sacred. the source of the residual heat that keeps the kahu alive."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-wata",
+      "name": "hart-wata",
+      "kahuTok": "hart-wata",
+      "summary": "the great lake at the center of the caldera. heart-water. the kahu's primary freshwater source and the geographic center of life inside tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "hot-kasa",
+      "name": "hot-kasa",
+      "kahuTok": "hot-kasa",
+      "summary": "the principal kahu settlement. roughly 120,000 people live in chambers tunneled through lava tubes in the hearth, heated by the geothermal grid."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-hearth",
+      "name": "the hearth",
+      "kahuTok": "",
+      "summary": "the west quadrant of the caldera. holds the geothermal grid, the principal settlement of hot-kasa, and most of the kahu's industrial and infrastructure systems."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "concepts/peli-shen": [
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-creeping-dark",
+      "name": "the creeping dark",
+      "kahuTok": "",
+      "summary": "the kahu name for the slow neurotoxic descent caused by accumulating peli-shen exposure. the experience of the lowlands."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-eruption",
+      "name": "the great eruption",
+      "kahuTok": "",
+      "summary": "the vei-8 super-eruption of the cascade volcanic arc that formed the kahu vyl caldera. delayed consequence of the 2075 cascadia impact. the geological event that made tora vyl drak possible."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-silence",
+      "name": "the great silence",
+      "kahuTok": "",
+      "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
+    },
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "objects",
+      "slug": "air-klin",
+      "name": "air-klin",
+      "kahuTok": "air-klin",
+      "summary": "the respiratory biome inoculation administered to zou-esh before deep or sustained operations below the peli-shen spore line. clean-air. cleared from the body post-mission."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "concepts/the-cascade": [
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-eruption",
+      "name": "the great eruption",
+      "kahuTok": "",
+      "summary": "the vei-8 super-eruption of the cascade volcanic arc that formed the kahu vyl caldera. delayed consequence of the 2075 cascadia impact. the geological event that made tora vyl drak possible."
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "concepts/the-creeping-dark": [
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    }
+  ],
+  "concepts/the-five-filters-of-uniqueness": [],
+  "concepts/the-great-devaluation": [
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    }
+  ],
+  "concepts/the-hyper-winter": [
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "eras",
+      "slug": "the-dark-century",
+      "name": "the dark century",
+      "kahuTok": "",
+      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+    },
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
+    }
+  ],
+  "concepts/warden": [
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-warden-tenders",
+      "name": "the warden-tenders",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
+    },
+    {
+      "collection": "places",
+      "slug": "hot-kasa",
+      "name": "hot-kasa",
+      "kahuTok": "hot-kasa",
+      "summary": "the principal kahu settlement. roughly 120,000 people live in chambers tunneled through lava tubes in the hearth, heated by the geothermal grid."
+    },
+    {
+      "collection": "places",
+      "slug": "the-hearth",
+      "name": "the hearth",
+      "kahuTok": "",
+      "summary": "the west quadrant of the caldera. holds the geothermal grid, the principal settlement of hot-kasa, and most of the kahu's industrial and infrastructure systems."
+    }
+  ],
+  "organizations/the-cat-kahu": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "",
+      "summary": "a community of people. the kahu people. one word at every scale."
+    },
+    {
+      "collection": "objects",
+      "slug": "air-klin",
+      "name": "air-klin",
+      "kahuTok": "air-klin",
+      "summary": "the respiratory biome inoculation administered to zou-esh before deep or sustained operations below the peli-shen spore line. clean-air. cleared from the body post-mission."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    }
+  ],
+  "organizations/the-council": [
+    {
+      "collection": "concepts",
+      "slug": "the-great-devaluation",
+      "name": "the great devaluation",
+      "kahuTok": "",
+      "summary": "the decades of institutional decay, information warfare, and environmental degradation that preceded the fracture. the world that broke before the world broke."
+    },
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "events",
+      "slug": "the-caldera-shudder",
+      "name": "the caldera shudder",
+      "kahuTok": "",
+      "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-schism",
+      "name": "the schism",
+      "kahuTok": "",
+      "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-warden-tenders",
+      "name": "the warden-tenders",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
+    },
+    {
+      "collection": "places",
+      "slug": "hot-kasa",
+      "name": "hot-kasa",
+      "kahuTok": "hot-kasa",
+      "summary": "the principal kahu settlement. roughly 120,000 people live in chambers tunneled through lava tubes in the hearth, heated by the geothermal grid."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    }
+  ],
+  "organizations/the-warden-tenders": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-great-devaluation",
+      "name": "the great devaluation",
+      "kahuTok": "",
+      "summary": "the decades of institutional decay, information warfare, and environmental degradation that preceded the fracture. the world that broke before the world broke."
+    },
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "events",
+      "slug": "the-caldera-shudder",
+      "name": "the caldera shudder",
+      "kahuTok": "",
+      "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-schism",
+      "name": "the schism",
+      "kahuTok": "",
+      "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "",
+      "summary": "a community of people. the kahu people. one word at every scale."
+    },
+    {
+      "collection": "objects",
+      "slug": "air-klin",
+      "name": "air-klin",
+      "kahuTok": "air-klin",
+      "summary": "the respiratory biome inoculation administered to zou-esh before deep or sustained operations below the peli-shen spore line. clean-air. cleared from the body post-mission."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-ston",
+      "name": "hart-ston",
+      "kahuTok": "hart-ston",
+      "summary": "the active volcanic cone within the caldera. heart-stone. sacred. the source of the residual heat that keeps the kahu alive."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-wata",
+      "name": "hart-wata",
+      "kahuTok": "hart-wata",
+      "summary": "the great lake at the center of the caldera. heart-water. the kahu's primary freshwater source and the geographic center of life inside tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
+    },
+    {
+      "collection": "places",
+      "slug": "the-hearth",
+      "name": "the hearth",
+      "kahuTok": "",
+      "summary": "the west quadrant of the caldera. holds the geothermal grid, the principal settlement of hot-kasa, and most of the kahu's industrial and infrastructure systems."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    }
+  ],
+  "organizations/zou-esh": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "language",
+      "slug": "micasu",
+      "name": "micasu",
+      "kahuTok": "",
+      "summary": "welcome"
+    },
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "language",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "",
+      "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
+    },
+    {
+      "collection": "objects",
+      "slug": "air-klin",
+      "name": "air-klin",
+      "kahuTok": "air-klin",
+      "summary": "the respiratory biome inoculation administered to zou-esh before deep or sustained operations below the peli-shen spore line. clean-air. cleared from the body post-mission."
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "people",
+      "slug": "ston",
+      "name": "ston",
+      "kahuTok": "",
+      "summary": "figure named in the kahu record. canon is incomplete; this entry will be expanded as records are recovered."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    }
+  ],
+  "objects/air-klin": [
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    }
+  ],
+  "objects/ston-shen": [
+    {
+      "collection": "eras",
+      "slug": "the-dark-century",
+      "name": "the dark century",
+      "kahuTok": "",
+      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "people",
+      "slug": "ston",
+      "name": "ston",
+      "kahuTok": "",
+      "summary": "figure named in the kahu record. canon is incomplete; this entry will be expanded as records are recovered."
+    }
+  ],
+  "objects/the-zou-kit": [],
+  "language/kahu": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-creeping-dark",
+      "name": "the creeping dark",
+      "kahuTok": "",
+      "summary": "the kahu name for the slow neurotoxic descent caused by accumulating peli-shen exposure. the experience of the lowlands."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-great-devaluation",
+      "name": "the great devaluation",
+      "kahuTok": "",
+      "summary": "the decades of institutional decay, information warfare, and environmental degradation that preceded the fracture. the world that broke before the world broke."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-endura",
+      "name": "age of endura",
+      "kahuTok": "",
+      "summary": "the modern era of the kahu. the long time of troubles, the schism, and the questions the golden age did not have to answer."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "eras",
+      "slug": "the-dark-century",
+      "name": "the dark century",
+      "kahuTok": "",
+      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+    },
+    {
+      "collection": "events",
+      "slug": "the-caldera-shudder",
+      "name": "the caldera shudder",
+      "kahuTok": "",
+      "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-eruption",
+      "name": "the great eruption",
+      "kahuTok": "",
+      "summary": "the vei-8 super-eruption of the cascade volcanic arc that formed the kahu vyl caldera. delayed consequence of the 2075 cascadia impact. the geological event that made tora vyl drak possible."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-silence",
+      "name": "the great silence",
+      "kahuTok": "",
+      "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
+    },
+    {
+      "collection": "events",
+      "slug": "the-leveling",
+      "name": "the leveling",
+      "kahuTok": "",
+      "summary": "the coordinated emp counter-strike by surface survivors against the longs' arcologies. the act that sealed the longs in permanently."
+    },
+    {
+      "collection": "events",
+      "slug": "the-schism",
+      "name": "the schism",
+      "kahuTok": "",
+      "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
+    },
+    {
+      "collection": "language",
+      "slug": "micasu",
+      "name": "micasu",
+      "kahuTok": "",
+      "summary": "welcome"
+    },
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "language",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "",
+      "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
+    },
+    {
+      "collection": "objects",
+      "slug": "air-klin",
+      "name": "air-klin",
+      "kahuTok": "air-klin",
+      "summary": "the respiratory biome inoculation administered to zou-esh before deep or sustained operations below the peli-shen spore line. clean-air. cleared from the body post-mission."
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-warden-tenders",
+      "name": "the warden-tenders",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "people",
+      "slug": "hanna-miskinnis",
+      "name": "hanna miskinnis",
+      "kahuTok": "",
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "people",
+      "slug": "ston",
+      "name": "ston",
+      "kahuTok": "",
+      "summary": "figure named in the kahu record. canon is incomplete; this entry will be expanded as records are recovered."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-ston",
+      "name": "hart-ston",
+      "kahuTok": "hart-ston",
+      "summary": "the active volcanic cone within the caldera. heart-stone. sacred. the source of the residual heat that keeps the kahu alive."
+    },
+    {
+      "collection": "places",
+      "slug": "hart-wata",
+      "name": "hart-wata",
+      "kahuTok": "hart-wata",
+      "summary": "the great lake at the center of the caldera. heart-water. the kahu's primary freshwater source and the geographic center of life inside tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "hot-kasa",
+      "name": "hot-kasa",
+      "kahuTok": "hot-kasa",
+      "summary": "the principal kahu settlement. roughly 120,000 people live in chambers tunneled through lava tubes in the hearth, heated by the geothermal grid."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-hearth",
+      "name": "the hearth",
+      "kahuTok": "",
+      "summary": "the west quadrant of the caldera. holds the geothermal grid, the principal settlement of hot-kasa, and most of the kahu's industrial and infrastructure systems."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "language/micasu": [
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    }
+  ],
+  "language/peli-shen": [
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-creeping-dark",
+      "name": "the creeping dark",
+      "kahuTok": "",
+      "summary": "the kahu name for the slow neurotoxic descent caused by accumulating peli-shen exposure. the experience of the lowlands."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-eruption",
+      "name": "the great eruption",
+      "kahuTok": "",
+      "summary": "the vei-8 super-eruption of the cascade volcanic arc that formed the kahu vyl caldera. delayed consequence of the 2075 cascadia impact. the geological event that made tora vyl drak possible."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-silence",
+      "name": "the great silence",
+      "kahuTok": "",
+      "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
+    },
+    {
+      "collection": "objects",
+      "slug": "air-klin",
+      "name": "air-klin",
+      "kahuTok": "air-klin",
+      "summary": "the respiratory biome inoculation administered to zou-esh before deep or sustained operations below the peli-shen spore line. clean-air. cleared from the body post-mission."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+    }
+  ],
+  "language/zou-esh": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "peli-shen",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-cascade",
+      "name": "the cascade",
+      "kahuTok": "",
+      "summary": "the volcanic arc that holds tora vyl drak. the bones of the range. the geographic condition of kahu existence."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "language",
+      "slug": "micasu",
+      "name": "micasu",
+      "kahuTok": "",
+      "summary": "welcome"
+    },
+    {
+      "collection": "language",
+      "slug": "peli-shen",
+      "name": "peli-shen",
+      "kahuTok": "",
+      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "objects",
+      "slug": "air-klin",
+      "name": "air-klin",
+      "kahuTok": "air-klin",
+      "summary": "the respiratory biome inoculation administered to zou-esh before deep or sustained operations below the peli-shen spore line. clean-air. cleared from the body post-mission."
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "people",
+      "slug": "ston",
+      "name": "ston",
+      "kahuTok": "",
+      "summary": "figure named in the kahu record. canon is incomplete; this entry will be expanded as records are recovered."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "ol-tri-shen",
+      "name": "ol-tri shen",
+      "kahuTok": "ol-tri shen",
+      "summary": "the old-tree forest preserve in the wilds. the kahu's longest-running deliberate non-cultivation. the closest thing inside the caldera to ancient ecology."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "the-wilds",
+      "name": "the wilds",
+      "kahuTok": "",
+      "summary": "the north quadrant of the caldera. mostly unsettled. holds the ol-tri shen forest preserve and the kahu's principal contact with non-cultivated ecology inside the rim."
+    }
+  ]
+}

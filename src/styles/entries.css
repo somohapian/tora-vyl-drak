@@ -297,6 +297,71 @@
   max-width: none;
 }
 
+/* ===== BACKLINKS (Mentioned by) ===== */
+
+.entry-backlinks {
+  margin-top: 2.25rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule, #d4c8ad);
+}
+
+.entry-backlinks h2 {
+  font-size: 1rem;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  color: var(--ash, #8c857a);
+  margin: 0 0 1rem 0;
+}
+
+.entry-backlinks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
+}
+
+.entry-backlinks li {
+  margin: 0;
+}
+
+.entry-backlinks a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.25rem 0.55rem;
+  background: var(--paper-deeper, rgba(180, 165, 140, 0.05));
+  border-left: 2px solid transparent;
+  text-decoration: none;
+  color: var(--ink, #1a1410);
+  transition: border-color 120ms ease, background 120ms ease;
+}
+
+.entry-backlinks a:hover {
+  border-left-color: var(--ember, #a8462b);
+  background: var(--paper-deeper-hover, rgba(180, 165, 140, 0.12));
+}
+
+.backlinks-name {
+  font-family: var(--serif-display, 'Fraunces', serif);
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: lowercase;
+}
+
+.backlinks-kt {
+  font-size: 0.78rem;
+}
+
+.backlinks-collection {
+  font-family: var(--mono, monospace);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ash, #8c857a);
+}
+
 /* ===== CATEGORY STRIP (bottom mini-nav on entry pages) ===== */
 
 .category-strip {

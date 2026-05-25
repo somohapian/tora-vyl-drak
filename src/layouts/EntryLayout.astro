@@ -1,6 +1,7 @@
 ---
 import Layout from './Layout.astro';
 import SeeAlso from '../components/SeeAlso.astro';
+import Backlinks from '../components/Backlinks.astro';
 import CategoryStrip from '../components/CategoryStrip.astro';
 import Infobox from '../components/Infobox.astro';
 
@@ -102,6 +103,8 @@ const infoboxMeta = dedupeInfoboxMeta(meta);
     )}
 
     <SeeAlso collection={collection} slug={slug} />
+
+    <Backlinks collection={collection} slug={slug} />
   </article>
 
   <CategoryStrip current={collection} />
