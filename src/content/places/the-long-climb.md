@@ -1,0 +1,22 @@
+---
+name: the long climb
+region: from the lowlands to the nu-tera plateau, eastern approach to tora vyl drak
+elevation: rises from below 5,000 ft to approximately 5,200 ft at the gate
+status: active
+summary: the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter.
+open_canon:
+  - the precise length of the climb in miles
+  - the kahu-tok name for the long climb, if distinct from the english phrase
+  - the specific terrain features, switchbacks, and difficult passages along the climb
+  - any known historical incidents on the climb beyond mara's death at its top
+---
+
+the long climb is the narrow ascent path from the lowlands to the nu-tera plateau. it is the only land approach to <span class="proper">tora vyl drak</span> from the world below the <span class="kt">peli-shen</span> spore line. anyone who reaches the kahu reaches them by this route, the gate at its top, and the stone climb above that.
+
+the climb runs up the southeastern flank of the cascade arc, gaining roughly two thousand feet of elevation over its length. the route is consistently narrow. in places it tightens to passages where one person at a time is the rule. the surface is uneven, the footing in many sections is rock that requires watching, and the elevation gain is sustained rather than gradual. the climb takes most travelers a full day under good conditions and longer under any conditions worse than good.
+
+the climb is impassable in winter. snow accumulates at the higher elevations and the lower switchbacks ice. the passes that look open from below close. weather windows narrow. attempts to ascend in winter, when survivors below have made them, have usually failed. the kahu's summer-only operating season for zou-esh missions is in part a consequence of the climb's seasonal limit.
+
+the gate sits at the top of the long climb where the rock opens out onto the nu-tera plateau. the chokepoint geography is what makes the gate the defensible point it is. there is no other way up onto the plateau that does not first require a much longer climb up other parts of the rim, through terrain that is harder to cross than the long climb itself.
+
+mara died at the gate, defending the top of the long climb against raiders who had come up it during summer season. the geography of the climb is the reason her position was defensible alone. one person can hold a chokepoint that many people cannot pass through abreast.

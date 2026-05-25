@@ -1,0 +1,23 @@
+---
+name: the five filters of uniqueness
+category: geographic and sociological analysis
+summary: the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many.
+open_canon:
+  - the kahu-tok name for the filters, if a formal kahu-tok term exists for the concept
+  - the named individual or institution that first articulated the filters as a framework
+  - whether other near-misses (calderas that fail one or more filters) are documented in kahu records
+---
+
+the five filters of uniqueness are the five conditions, geological and human, that together make <span class="proper">tora vyl drak</span> the only sanctuary of its kind on the post-fracture earth. each filter is necessary; none alone is sufficient. all five had to apply at the same place at the same time for a civilization to be possible. the kahu's framework for understanding their own existence is in significant part the recognition that all five did apply, in this caldera, and almost certainly nowhere else.
+
+**the supervolcano filter.** vei-8 calderas of the scale of <span class="proper">tora vyl drak</span> are incredibly rare. they require precise crustal pressures sustained over geological time, then a particular triggering condition. the 2133 ad eruption that formed the caldera was the consequence of an extraordinary trigger, the 2075 cascadia impact, acting on a magma chamber already loaded toward release. earth has very few similar calderas. most of them did not erupt in the relevant century.
+
+**the goldilocks altitude.** the floor of <span class="proper">tora vyl drak</span> sits at exactly six thousand feet. high enough to sit safely above the five thousand foot <span class="kt">peli-shen</span> spore line. low enough to retain a sufficiently thick atmosphere and a temperate microclimate capable of sustaining large-scale open agriculture. other global calderas fail the altitude test. yellowstone is a frozen high-altitude alpine desert at over seven thousand feet, too cold and too thin-aired for sustained agriculture at scale. toba and taupō lie deep within the toxic lowland spore zones, below the kill line. <span class="proper">tora vyl drak</span> is the goldilocks: not too high, not too low.
+
+**the life support filter.** the underlying volcano is mostly dead but slightly alive. its residual magma chamber powers the geothermal grid that warms the chambers of hot-kasa and the rest of the kahu infrastructure. the chamber is no longer active enough to threaten the basin with a follow-on eruption at the scale of the great eruption. the caldera shudder of approximately 4525 ad was a warning, not a repeat performance; nothing further has come of it. the volcano gives the kahu warmth and does not take it back.
+
+**the hard reset.** the initial vei-8 super-eruption incinerated centuries of heavy metal contamination, <span class="kt">peli-shen</span> mycelium, and post-impact biological wreckage that had accumulated in the basin's geographic envelope. it laid down a perfectly sterile, nutrient-rich volcanic ash topsoil over a clean rock substrate. the kahu's agricultural inheritance is built on this single clean foundation. no other inhabited place on earth was reset cleanly by the same kind of event.
+
+**the sociological filter.** the survivors who found and built <span class="proper">tora vyl drak</span> chose, against the available alternatives, to forge an egalitarian society centered on empathy, open resource-sharing, and collective preservation. the alternative paths, authoritarianism, hoarding, the longs' arcology-and-isolation model, were available and were taken by other survivor groups elsewhere. the kahu's filter is the one that humans control. its operation across the founding generations of the age of tapestry produced the philosophical commitments that the language and the institutions now hold in place.
+
+the framework of the five filters is the kahu's quiet answer to the question of why they survived when so many did not. the answer is not, in their telling, that they were chosen. the answer is that they were exposed to a set of conditions that no other surviving population was simultaneously exposed to, and they made the choices that the conditions allowed. the kahu's pride in their existence is qualified by the recognition that almost any one of the filters could have failed, and most of them did, almost everywhere else.

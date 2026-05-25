@@ -1,0 +1,26 @@
+---
+word: peli-shen
+pronunciation: peh-lee shen
+part_of_speech: noun
+definition: 'the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life.'
+etymology: 'compound of peli (danger) and shen (life). the word reads in importance-first order. the danger is the more important feature, named first; that it is alive is named second.'
+source: bixel 1000 engineered core
+entered: founding generation of kahu-tok, age of tapestry
+related:
+  - peli
+  - shen
+  - the creeping dark
+open_canon:
+  - whether the kahu have a distinct kahu-tok term for the spore line itself, separate from peli-shen
+  - whether the compound peli-shen is morphologically frozen, or whether peli- and -shen function as separable morphemes in modern kahu-tok usage
+---
+
+<span class="kt">peli-shen</span> is the kahu-tok word for the radiotrophic fungus that has rendered the post-fracture lowlands lethal. the literal reading of the compound is "danger-life," from <span class="kt">peli</span> (danger) and <span class="kt">shen</span> (life).
+
+the importance-first construction of the word is exact to the kahu's relationship with the organism. <span class="kt">peli-shen</span> is alive. that is the second thing about it. the first thing is that it is dangerous. naming the danger before the life is the kahu refusal to ever soften, by linguistic order, what <span class="kt">peli-shen</span> means.
+
+the word is used both for the fungus as a biological organism and, in shortened form, as a warning. a zou-esh in the field who needs to alert a partner to spore presence will say <span class="kt">!peli-shen</span> or, more sharply, <span class="kt">!peli</span> alone. context and tone disambiguate.
+
+the concept entry for <span class="kt">peli-shen</span> covers the organism's biology, its distribution, its toxicity vectors, and the kill line at five thousand feet of elevation. this entry is the dictionary entry for the word as a word.
+
+<span class="kt">peli</span> and <span class="kt">shen</span> are both productive roots of the bixel 1000. <span class="kt">shen</span> appears in other compounds including <span class="kt">ston-shen</span> (rock-life, the chemosynthetic paste of the dark century) and <span class="kt">ol-tri shen</span> (old-tree life, the forest preserve in the wilds). <span class="kt">peli</span> functions as the kahu-tok marker for danger across many specific applications.

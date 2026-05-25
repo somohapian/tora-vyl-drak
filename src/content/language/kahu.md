@@ -1,0 +1,27 @@
+---
+word: kahu
+pronunciation: kah-hoo
+part_of_speech: noun
+definition: a community of people. the kahu people. one word at every scale.
+etymology: a foundational engineered word of the bixel 1000, designed to operate at every scale of human community without splitting by size.
+source: bixel 1000 engineered core
+entered: founding generation of kahu-tok, age of tapestry
+related:
+  - kahu-tok
+  - koru-kahu
+  - cat-kahu
+open_canon:
+  - whether kahu-tok permits modifier words to disambiguate scale when a speaker chooses to be explicit
+  - 'what word, if any, exists in kahu-tok for individual in the abstract'
+  - whether kahu can grammatically refer to a community a speaker does not belong to (out-group), or implies in-group membership of the speaker
+---
+
+<span class="kt">kahu</span> is the foundational word of the kahu-tok language and of the kahu world. it means a community of people. it is used at every scale: the family unit of ten to twelve people, the larger sub-community of fifty to sixty, the entire population of approximately two hundred and seventy-eight thousand. the word does not split by scale.
+
+the lexical decision is the philosophical commitment of the kahu civilization expressed at the level of language. the kahu refuse to encode, in their daily speech, the conceptual move that places the individual or the family in opposition to the larger community. by not having separate words for family and society, the language does not make the opposition available. context disambiguates scale in every actual usage. nothing fails to communicate. what fails is the rhetorical move of "my small kahu against my larger kahu," because the speaker would be saying "my kahu against my kahu," which makes no sense in the language.
+
+the concept entry for <span class="proper">kahu</span> covers the philosophical implications in depth. this entry is the dictionary entry for the word as a word.
+
+<span class="kt">kahu</span> appears in compound forms throughout kahu-tok. <span class="kt">kahu-tok</span> is the language itself, kahu-talk. <span class="kt">koru-kahu</span> is, in the bible's glossary, given as one of the engineered terms. the cat-kahu and the warden-tenders, in their kahu-tok names (open canon for the warden-tenders), use <span class="kt">kahu</span> as the core noun that the modifier specifies. the word is productive: any kahu vocation or sub-community can take its name from a modifier plus <span class="kt">kahu</span>.
+
+the word's origin is the bixel 1000, the engineered core vocabulary that bixel developed during the early age of tapestry. whether bixel inherited the word from one of the bunker speech communities or coined it fresh is open canon. either way, the form that survives is the one that holds the principle.
