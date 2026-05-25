@@ -147,6 +147,99 @@ a:hover { color: var(--ember-deep); }
   text-underline-offset: 3px;
 }
 
+/* ----- search ----- */
+.site-search {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.site-search input[type="search"] {
+  font-family: var(--serif-body);
+  font-size: 0.92rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  background: transparent;
+  border: 1px solid var(--rule);
+  padding: 0.3rem 0.7rem;
+  width: 12rem;
+  transition: border-color 120ms ease, background 120ms ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.site-search input[type="search"]:focus {
+  outline: none;
+  border-color: var(--ember);
+  background: var(--parchment-deep);
+}
+
+.site-search-results {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  right: 0;
+  width: 22rem;
+  max-width: 80vw;
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0;
+  background: var(--parchment);
+  border: 1px solid var(--rule);
+  box-shadow: 0 6px 20px rgba(26, 20, 16, 0.08);
+  max-height: 24rem;
+  overflow-y: auto;
+  z-index: 50;
+}
+
+.site-search-results[hidden] { display: none; }
+
+.site-search-results li { margin: 0; }
+
+.site-search-results a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.site-search-results a:hover {
+  background: var(--parchment-deep);
+  color: var(--ember-deep);
+}
+
+.search-name {
+  font-family: var(--serif-display);
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.search-collection {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ash);
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .site-search input[type="search"] { width: 10rem; }
+}
+
 /* ----- main ----- */
 main {
   flex: 1;
@@ -213,6 +306,58 @@ main {
   color: var(--ash);
   text-transform: uppercase;
   letter-spacing: 0.08em;
+}
+
+/* ----- recently added list on the home ----- */
+.recently-added {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 0.75rem;
+}
+.recently-added li { margin: 0; }
+.recently-added a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.75rem;
+  padding: 0.6rem 0.875rem;
+  background: rgba(180, 165, 140, 0.05);
+  border-left: 2px solid transparent;
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color 120ms ease, background 120ms ease;
+}
+.recently-added a:hover {
+  border-left-color: var(--ember);
+  background: rgba(180, 165, 140, 0.12);
+}
+.recently-added-name {
+  font-family: var(--serif-display);
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+.recently-added-kt {
+  font-size: 0.82rem;
+}
+.recently-added-collection {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ash);
+  margin-left: auto;
+}
+.recently-added-summary {
+  font-family: var(--serif-body);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin: 0.25rem 0 0 0.875rem;
+  max-width: none;
 }
 
 /* ----- a small in-world flourish: a horizontal rule that feels carved ----- */

@@ -1,5 +1,42 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const RECENT_SLUGS: Array<[string, string]> = [
+  ['places', 'the-hearth'],
+  ['places', 'the-wilds'],
+  ['eras', 'age-of-tapestry'],
+  ['eras', 'the-dark-century'],
+  ['concepts', 'the-creeping-dark'],
+  ['concepts', 'the-five-filters-of-uniqueness'],
+  ['events', 'the-first-descent'],
+  ['organizations', 'the-council'],
+  ['people', 'the-longs'],
+];
+
+const all = await Promise.all([
+  getCollection('places'),
+  getCollection('eras'),
+  getCollection('concepts'),
+  getCollection('events'),
+  getCollection('organizations'),
+  getCollection('people'),
+  getCollection('objects'),
+  getCollection('language'),
+]);
+const flat = all.flat();
+const lookup = new Map(flat.map((e) => [`${e.collection}/${e.slug}`, e]));
+
+const recent = RECENT_SLUGS
+  .map(([col, slug]) => lookup.get(`${col}/${slug}`))
+  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+  .map((e) => ({
+    collection: e.collection,
+    slug: e.slug,
+    name: 'name' in e.data ? e.data.name : (e.data as { word: string }).word,
+    kahu_tok: 'kahu_tok' in e.data ? e.data.kahu_tok : undefined,
+    summary: 'summary' in e.data ? e.data.summary : (e.data as { definition?: string }).definition ?? '',
+  }));
 ---
 
 <Layout>
@@ -63,6 +100,21 @@ import Layout from '../layouts/Layout.astro';
       <span class="meta">the zou-kit and beyond</span>
     </a>
   </div>
+
+  <h2>recently added</h2>
+
+  <ul class="recently-added">
+    {recent.map((r) => (
+      <li>
+        <a href={`/${r.collection}/${r.slug}`}>
+          <span class="recently-added-name">{r.name}</span>
+          {r.kahu_tok && <span class="kt recently-added-kt">{r.kahu_tok}</span>}
+          <span class="recently-added-collection">{r.collection}</span>
+        </a>
+        {r.summary && <p class="recently-added-summary">{r.summary}</p>}
+      </li>
+    ))}
+  </ul>
 
   <h2>about this archive</h2>
 

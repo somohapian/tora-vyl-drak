@@ -45,6 +45,7 @@ const year = new Date().getFullYear();
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={Astro.url.href} />
+    <script src="/search.js" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -55,9 +56,25 @@ const year = new Date().getFullYear();
         <a href="/people">people</a>
         <a href="/places">places</a>
         <a href="/events">events</a>
+        <a href="/eras">eras</a>
+        <a href="/concepts">concepts</a>
+        <a href="/organizations">organizations</a>
+        <a href="/objects">objects</a>
         <a href="/language">language</a>
-        <a href="/about">about</a>
       </nav>
+      <form class="site-search" role="search" data-wiki-search>
+        <label for="wiki-search" class="sr-only">search the archive</label>
+        <input
+          id="wiki-search"
+          type="search"
+          name="q"
+          placeholder="search…"
+          autocomplete="off"
+          spellcheck="false"
+          data-wiki-search-input
+        />
+        <ul class="site-search-results" data-wiki-search-results hidden></ul>
+      </form>
     </header>
 
     <main>
