@@ -1,18 +1,60 @@
 /* ===== ENTRY PAGES (append to global.css) ===== */
 
 .entry-breadcrumb {
-  font-size: 0.875rem;
+  font-family: var(--mono, 'JetBrains Mono', monospace);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
   margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: baseline;
 }
 
 .entry-breadcrumb a {
-  color: var(--ink-light, #6b6357);
+  color: var(--ash, #8c857a);
   text-decoration: none;
   border-bottom: none;
 }
 
 .entry-breadcrumb a:hover {
-  color: var(--ember, #b85c2e);
+  color: var(--ember, #a8462b);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.entry-breadcrumb-sep {
+  color: var(--ash-light, #b8b0a3);
+}
+
+.entry-breadcrumb-current {
+  color: var(--ink-soft, #3d342a);
+}
+
+/* ----- wiki-link: subtle anchor for cross-references in entry bodies ----- */
+.entry-body a.wiki-link {
+  color: var(--ember, #a8462b);
+  text-decoration: underline;
+  text-decoration-color: var(--ember, #a8462b);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-style: dotted;
+}
+.entry-body a.wiki-link:hover {
+  color: var(--ember-deep, #7a2f1a);
+  text-decoration-style: solid;
+}
+/* if a wiki-link wraps (or is wrapped by) a .proper span,
+   the span's underline should disappear so the link's underline carries */
+.entry-body a.wiki-link .proper,
+.entry-body .proper a.wiki-link {
+  text-decoration: none;
+}
+/* the kt wrapper still keeps its italic mono treatment inside a link */
+.entry-body a.wiki-link .kt,
+.entry-body .kt a.wiki-link {
+  color: inherit;
 }
 
 .entry-header {
@@ -179,4 +221,132 @@
   .entry-meta dt:first-child {
     margin-top: 0;
   }
+}
+
+/* ===== SEE ALSO ===== */
+
+.entry-see-also {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule, #d4c8ad);
+}
+
+.entry-see-also h2 {
+  font-size: 1rem;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  color: var(--ash, #8c857a);
+  margin: 0 0 1rem 0;
+}
+
+.entry-see-also ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.75rem;
+}
+
+.entry-see-also li {
+  margin: 0;
+}
+
+.entry-see-also a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem 0.875rem;
+  background: var(--paper-deeper, rgba(180, 165, 140, 0.05));
+  border-left: 2px solid transparent;
+  text-decoration: none;
+  color: var(--ink, #1a1410);
+  transition: border-color 120ms ease, background 120ms ease;
+}
+
+.entry-see-also a:hover {
+  border-left-color: var(--ember, #a8462b);
+  background: var(--paper-deeper-hover, rgba(180, 165, 140, 0.12));
+}
+
+.see-also-name {
+  font-family: var(--serif-display, 'Fraunces', serif);
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+
+.see-also-kt {
+  font-size: 0.82rem;
+}
+
+.see-also-collection {
+  font-family: var(--mono, monospace);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ash, #8c857a);
+}
+
+.see-also-summary {
+  font-family: var(--serif-body, 'EB Garamond', serif);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--ink-light, #6b6357);
+  margin: 0.25rem 0 0 0.875rem;
+  max-width: none;
+}
+
+/* ===== CATEGORY STRIP (bottom mini-nav on entry pages) ===== */
+
+.category-strip {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2rem var(--gutter, 2rem) 0;
+  border-top: 1px dashed var(--rule, #d4c8ad);
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.category-strip-label {
+  font-family: var(--mono, monospace);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ash, #8c857a);
+}
+
+.category-strip ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.25rem;
+  font-family: var(--serif-body, 'EB Garamond', serif);
+  font-style: italic;
+  font-size: 0.92rem;
+}
+
+.category-strip li {
+  margin: 0;
+}
+
+.category-strip a {
+  color: var(--ink-soft, #3d342a);
+  text-decoration: none;
+}
+
+.category-strip a:hover {
+  color: var(--ember, #a8462b);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.category-strip li.is-current span {
+  color: var(--ember, #a8462b);
+  font-weight: 500;
 }

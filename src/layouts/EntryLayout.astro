@@ -1,23 +1,41 @@
 ---
 import Layout from './Layout.astro';
+import SeeAlso from '../components/SeeAlso.astro';
+import CategoryStrip from '../components/CategoryStrip.astro';
 
 interface Props {
   title: string;
   kahu_tok?: string;
   meta?: { label: string; value: string }[];
   open_canon?: string[];
-  back_href: string;
-  back_label: string;
+  collection: string;
+  slug: string;
 }
 
-const { title, kahu_tok, meta = [], open_canon = [], back_href, back_label } = Astro.props;
+const COLLECTION_LABELS: Record<string, string> = {
+  people: 'people',
+  places: 'places',
+  events: 'events',
+  eras: 'eras',
+  concepts: 'concepts',
+  organizations: 'organizations',
+  objects: 'objects',
+  language: 'language',
+};
+
+const { title, kahu_tok, meta = [], open_canon = [], collection, slug } = Astro.props;
+const categoryLabel = COLLECTION_LABELS[collection] ?? collection;
 ---
 
 <Layout title={title}>
   <article class="entry">
-    <p class="entry-breadcrumb">
-      <a href={back_href}>{back_label}</a>
-    </p>
+    <nav class="entry-breadcrumb" aria-label="breadcrumb">
+      <a href="/">archive</a>
+      <span class="entry-breadcrumb-sep">/</span>
+      <a href={`/${collection}`}>{categoryLabel}</a>
+      <span class="entry-breadcrumb-sep">/</span>
+      <span class="entry-breadcrumb-current">{title}</span>
+    </nav>
 
     <header class="entry-header">
       <h1>{title}</h1>
@@ -48,5 +66,9 @@ const { title, kahu_tok, meta = [], open_canon = [], back_href, back_label } = A
         </ul>
       </aside>
     )}
+
+    <SeeAlso collection={collection} slug={slug} />
   </article>
+
+  <CategoryStrip current={collection} />
 </Layout>

@@ -1,0 +1,32 @@
+---
+interface Props {
+  current?: string;
+}
+
+const { current } = Astro.props;
+
+const CATEGORIES = [
+  { slug: 'people', label: 'people' },
+  { slug: 'places', label: 'places' },
+  { slug: 'events', label: 'events' },
+  { slug: 'eras', label: 'eras' },
+  { slug: 'concepts', label: 'concepts' },
+  { slug: 'organizations', label: 'organizations' },
+  { slug: 'objects', label: 'objects' },
+  { slug: 'language', label: 'language' },
+];
+---
+
+<nav class="category-strip" aria-label="browse all categories">
+  <span class="category-strip-label">browse</span>
+  <ul>
+    {CATEGORIES.map((c) => (
+      <li class={current === c.slug ? 'is-current' : ''}>
+        {current === c.slug
+          ? <span aria-current="page">{c.label}</span>
+          : <a href={`/${c.slug}`}>{c.label}</a>
+        }
+      </li>
+    ))}
+  </ul>
+</nav>

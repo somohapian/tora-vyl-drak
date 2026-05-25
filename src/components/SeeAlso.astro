@@ -1,0 +1,36 @@
+---
+import seeAlsoData from '../data/see-also.json';
+
+interface Props {
+  collection: string;
+  slug: string;
+}
+
+const { collection, slug } = Astro.props;
+const key = `${collection}/${slug}`;
+const related = (seeAlsoData as Record<string, Array<{
+  collection: string;
+  slug: string;
+  name: string;
+  kahuTok: string;
+  summary: string;
+}>>)[key] ?? [];
+---
+
+{related.length > 0 && (
+  <aside class="entry-see-also">
+    <h2>see also</h2>
+    <ul>
+      {related.map((r) => (
+        <li>
+          <a href={`/${r.collection}/${r.slug}`}>
+            <span class="see-also-name">{r.name}</span>
+            {r.kahuTok && <span class="kt see-also-kt">{r.kahuTok}</span>}
+            <span class="see-also-collection">{r.collection}</span>
+          </a>
+          {r.summary && <p class="see-also-summary">{r.summary}</p>}
+        </li>
+      ))}
+    </ul>
+  </aside>
+)}
