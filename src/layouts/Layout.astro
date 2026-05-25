@@ -3,6 +3,7 @@ import '../styles/global.css';
 import '../styles/entries.css';
 import '../styles/sidebar.css';
 import '../styles/infobox.css';
+import '../styles/hover-card.css';
 import Sidebar from '../components/Sidebar.astro';
 
 interface Props {
@@ -49,6 +50,7 @@ const year = new Date().getFullYear();
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={Astro.url.href} />
     <script src="/search.js" defer></script>
+    <script src="/hover-card.js" defer></script>
   </head>
   <body>
     <header class="site-header">

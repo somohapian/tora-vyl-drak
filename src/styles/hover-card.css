@@ -1,0 +1,31 @@
+/* ============================================================
+   tora vyl drak — hover-card preview for internal wiki-links
+   Driven by public/hover-card.js. Desktop-only (the script no-ops
+   on touch / no-hover devices), so we don't need a touch fallback.
+   ============================================================ */
+
+.wiki-hover-card {
+  position: absolute;
+  z-index: 60;
+  max-width: 22rem;
+  padding: 0.65rem 0.85rem;
+  background: #faf4e6;
+  border: 1px solid var(--rule);
+  box-shadow: 0 4px 18px rgba(26, 20, 16, 0.12);
+  font-family: var(--serif-body);
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  pointer-events: auto;
+}
+
+.wiki-hover-card[hidden] {
+  display: none;
+}
+
+/* hide entirely on devices without a hover-capable pointer — the JS already
+   short-circuits, but this is belt-and-braces in case a script-injected
+   card slips through. */
+@media (hover: none) {
+  .wiki-hover-card { display: none !important; }
+}
