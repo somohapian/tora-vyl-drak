@@ -9,7 +9,7 @@ open_canon:
   - whether the longs' isolation reads in kahu thinking as having broken from kahu in a way that is, by the language, unspeakable
 ---
 
-<span class="kt">kahu</span> is the word for the kahu people, the inhabitants of <span class="proper">tora vyl drak</span> and the plateau of nu-tera. it is also the word for a kahu, a single community of any size from a family unit of ten to twelve people through a sub-community of fifty to sixty to the entire population of approximately two hundred and seventy-eight thousand. the word does not split by scale.
+<a class="wiki-link" href="/language/kahu"><span class="kt">kahu</span></a> is the word for the kahu people, the inhabitants of <span class="proper"><a class="wiki-link" href="/places/tora-vyl-drak">tora vyl drak</a></span> and the plateau of <a class="wiki-link" href="/places/nu-tera">nu-tera</a>. it is also the word for a kahu, a single community of any size from a family unit of ten to twelve people through a sub-community of fifty to sixty to the entire population of approximately two hundred and seventy-eight thousand. the word does not split by scale.
 
 this is the central philosophical commitment of the kahu world, expressed at the lexical level.
 
@@ -19,9 +19,9 @@ context disambiguates scale in every actual usage. a speaker knows which kahu is
 
 the better question, in kahu thinking, is not "which kahu do you mean" but "which kahu are you holding right now." a speaker can answer this naturally.
 
-the philosophical consequence is that the conceptual move of the sovereign individual standing against family, against community, against everyone, has no clean expression in kahu-tok. to stand outside the kahu, a kahu has to stand outside the language as well. the longs, sealed in their arcologies, have done exactly this. they speak whatever they speak inside their walls. they are not kahu by any reading.
+the philosophical consequence is that the conceptual move of the sovereign individual standing against family, against community, against everyone, has no clean expression in kahu-tok. to stand outside the kahu, a kahu has to stand outside the language as well. <a class="wiki-link" href="/people/the-longs">the longs</a>, sealed in their arcologies, have done exactly this. they speak whatever they speak inside their walls. they are not kahu by any reading.
 
-within the kahu, vocations differentiate without splitting. the warden-tenders, the zou-esh, the cat-kahu, the farmers of nu-tera, the families of hot-kasa: all kahu, all part of the same word. mara, the saint of the zou-esh, is kahu. bixel, the architect of the language, is kahu. hanna miskinnis, the pre-impact researcher whose refusal seeded the purist tradition, is honored as kahu in spirit even though she died before the first kahu were born.
+within the kahu, vocations differentiate without splitting. <a class="wiki-link" href="/organizations/the-warden-tenders">the warden-tenders</a>, the <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a>, <a class="wiki-link" href="/organizations/the-cat-kahu">the cat-kahu</a>, the farmers of nu-tera, the families of <a class="wiki-link" href="/places/hot-kasa">hot-kasa</a>: all kahu, all part of the same word. <a class="wiki-link" href="/people/mara">mara</a>, the saint of the zou-esh, is kahu. <a class="wiki-link" href="/people/bixel">bixel</a>, the architect of the language, is kahu. <a class="wiki-link" href="/people/hanna-miskinnis">hanna miskinnis</a>, the pre-impact researcher whose refusal seeded the purist tradition, is honored as kahu in spirit even though she died before the first kahu were born.
 
 a kahu does not lose the word by leaving the tapestry. someone who walks down to nu-tera alone for a season is still kahu. someone who is born at nu-tera, settles into the agricultural belt, and never moves up to the caldera is kahu in the full sense. the word does not subdivide by geography either.
 

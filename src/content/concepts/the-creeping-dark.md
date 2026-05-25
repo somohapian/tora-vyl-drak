@@ -9,7 +9,7 @@ open_canon:
   - whether the kahu carry any folk traditions or rituals around the creeping dark
 ---
 
-the creeping dark is the kahu name for the slow neurotoxic descent caused by accumulating <span class="kt">peli-shen</span> exposure. it is what happens to the mind of a person who lives below five thousand feet.
+the creeping dark is the <a class="wiki-link" href="/concepts/kahu">kahu</a> name for the slow neurotoxic descent caused by accumulating <a class="wiki-link" href="/language/peli-shen"><span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span></a> exposure. it is what happens to the mind of a person who lives below five thousand feet.
 
 <span class="kt">peli-shen</span> spores carry heavy-metal nanoparticles and unique mycotoxins. each breath at lowland concentration deposits a small dose into the body. each breath that follows adds to it. the body cannot eliminate the load at the rate the lowlands impose. over weeks and months and years, accumulation reaches the brain.
 
@@ -19,7 +19,7 @@ the middle stages compound. the agitation deepens. the hallucinations become har
 
 the late stages are the descent the kahu name with the phrase. the person becomes increasingly unwell, less able to function, less able to recognize the people they know, less able to maintain the basic life skills that kept them alive in the lowlands. dementia indistinguishable from the late-stage dementias of pre-collapse medicine. eventually the body's other systems begin to fail under the heavy-metal load. eventually the person is gone.
 
-the descent is reversible only in the early stages and only by moving above the spore line. the kahu's quarantine protocol at the gate exists for exactly this purpose. a newcomer brought up the long climb is held in observation, supported by kahu biotech, while the accumulated load clears. the clear-out is not fast. the kahu give it the time it takes. nothing of <span class="proper">tora vyl drak</span> is shared with a newcomer until they have come back to themselves.
+the descent is reversible only in the early stages and only by moving above the spore line. the kahu's quarantine protocol at <a class="wiki-link" href="/places/the-gate">the gate</a> exists for exactly this purpose. a newcomer brought up <a class="wiki-link" href="/places/the-long-climb">the long climb</a> is held in observation, supported by kahu biotech, while the accumulated load clears. the clear-out is not fast. the kahu give it the time it takes. nothing of <span class="proper"><a class="wiki-link" href="/places/tora-vyl-drak">tora vyl drak</a></span> is shared with a newcomer until they have come back to themselves.
 
 newcomers who arrive too late, whose descent has gone too deep, do not recover. the kahu do not abandon them, but the question of what to do with them is one of the order's hardest. the precise practice varies and is not codified.
 

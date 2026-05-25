@@ -9,11 +9,11 @@ open_canon:
   - the precise date the age of endura is considered to have begun
 ---
 
-the age of endura is the modern era of the kahu. it began in approximately 3925 ad, when the age of bloom, the twelve-hundred-year golden age of kahu civilization, gave way to a longer and quieter time of strain. the kahu of the present, in 4625 ad, live seven hundred years into the age of endura.
+the age of endura is the modern era of the <a class="wiki-link" href="/concepts/kahu">kahu</a>. it began in approximately 3925 ad, when the <a class="wiki-link" href="/eras/age-of-bloom">age of bloom</a>, the twelve-hundred-year golden age of kahu civilization, gave way to a longer and quieter time of strain. the kahu of the present, in 4625 ad, live seven hundred years into the age of endura.
 
 the bloom did not end in catastrophe. it ended in the slow accumulation of questions the kahu's earlier institutions had not been built to answer. resource allocation strains, philosophical schisms taking root, the social structures of a population at carrying capacity for the kind of life it actually wanted. the kahu of the bloom inherited a sanctuary, a language, a council, a biotech tradition, and a stable food economy. the kahu of the endura inherit the same things, and the responsibility for what those things have not yet been able to do.
 
-the central events of the age of endura, on the public record, are the caldera shudder of approximately 4525 ad and the schism that the shudder accelerated. both are ongoing in their consequences. the geothermal grid is repaired. the disagreement about the proper duration of a kahu life is not.
+the central events of the age of endura, on the public record, are <a class="wiki-link" href="/events/the-caldera-shudder">the caldera shudder</a> of approximately 4525 ad and <a class="wiki-link" href="/events/the-schism">the schism</a> that the shudder accelerated. both are ongoing in their consequences. the geothermal grid is repaired. the disagreement about the proper duration of a kahu life is not.
 
 the name <span class="kt">endura</span> means endurance in kahu-tok. the era is named for what it requires. the kahu do not interpret the endura as decline. they interpret it as the period during which what the bloom built must be maintained, defended, and where necessary changed. enduring is not stillness. it is the work of holding a community together across the kind of stretch of time the kahu now expect to face.
 
