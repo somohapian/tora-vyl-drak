@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import '../styles/entries.css';
 import '../styles/sidebar.css';
+import '../styles/infobox.css';
 import Sidebar from '../components/Sidebar.astro';
 
 interface Props {
@@ -84,7 +85,9 @@ const year = new Date().getFullYear();
       <main>
         <slot />
       </main>
-      <aside class="page-right-rail" aria-hidden="true"></aside>
+      <aside class="page-right-rail">
+        <slot name="right-rail" />
+      </aside>
     </div>
 
     <footer class="site-footer">

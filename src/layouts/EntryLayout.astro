@@ -2,10 +2,13 @@
 import Layout from './Layout.astro';
 import SeeAlso from '../components/SeeAlso.astro';
 import CategoryStrip from '../components/CategoryStrip.astro';
+import Infobox from '../components/Infobox.astro';
 
 interface Props {
   title: string;
   kahu_tok?: string;
+  status?: string;
+  summary?: string;
   meta?: { label: string; value: string }[];
   open_canon?: string[];
   collection: string;
@@ -23,11 +26,42 @@ const COLLECTION_LABELS: Record<string, string> = {
   language: 'language',
 };
 
-const { title, kahu_tok, meta = [], open_canon = [], collection, slug } = Astro.props;
+const {
+  title,
+  kahu_tok,
+  status,
+  summary,
+  meta = [],
+  open_canon = [],
+  collection,
+  slug,
+} = Astro.props;
 const categoryLabel = COLLECTION_LABELS[collection] ?? collection;
+
+// the infobox shows status as a badge and summary as its own block,
+// so drop those labels from the meta rows to avoid duplication in the
+// right rail. The inline dl (mobile) keeps them.
+const dedupeInfoboxMeta = (rows: { label: string; value: string }[]) => {
+  const drop = new Set<string>();
+  if (status) drop.add('status');
+  if (summary) drop.add('definition'); // language entries: definition is the summary
+  return drop.size === 0 ? rows : rows.filter((m) => !drop.has(m.label.toLowerCase()));
+};
+const infoboxMeta = dedupeInfoboxMeta(meta);
 ---
 
 <Layout title={title}>
+  <Infobox
+    slot="right-rail"
+    title={title}
+    kahu_tok={kahu_tok}
+    collection={collection}
+    status={status}
+    summary={summary}
+    meta={infoboxMeta}
+    open_canon={open_canon}
+  />
+
   <article class="entry">
     <nav class="entry-breadcrumb" aria-label="breadcrumb">
       <a href="/">archive</a>
@@ -43,7 +77,7 @@ const categoryLabel = COLLECTION_LABELS[collection] ?? collection;
     </header>
 
     {meta.length > 0 && (
-      <dl class="entry-meta">
+      <dl class="entry-meta entry-meta--inline">
         {meta.map((m) => (
           <div class="entry-meta-row">
             <dt>{m.label}</dt>

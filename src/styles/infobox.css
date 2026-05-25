@@ -1,0 +1,223 @@
+/* ============================================================
+   tora vyl drak — right-rail entry infobox (Wikipedia-classic)
+   ============================================================ */
+
+.entry-infobox {
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+  width: 100%;
+  max-width: 18rem;
+  margin: 0;
+  padding: 1rem 1.1rem 1.1rem;
+  background: #faf4e6;
+  border: 1px solid var(--rule);
+  font-family: var(--serif-body);
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  /* dense typography */
+  font-feature-settings: "kern", "liga", "onum";
+  /* never grow taller than the viewport — scroll internally if it does */
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+}
+
+.entry-infobox-header {
+  padding-bottom: 0.55rem;
+  margin-bottom: 0.65rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.entry-infobox-category {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ash);
+  margin: 0 0 0.35rem;
+  max-width: none;
+}
+.entry-infobox-category a {
+  color: var(--ash);
+  text-decoration: none;
+}
+.entry-infobox-category a:hover {
+  color: var(--ember-deep);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.entry-infobox-title {
+  font-family: var(--serif-display);
+  font-size: 1.45rem;
+  font-weight: 500;
+  font-variation-settings: "SOFT" 40, "opsz" 96;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+  color: var(--ink);
+  margin: 0;
+}
+
+.entry-infobox-kahu-tok {
+  margin: 0.3rem 0 0;
+  font-size: 0.88rem;
+  max-width: none;
+}
+
+.entry-infobox-status {
+  margin: 0.55rem 0 0;
+  max-width: none;
+}
+
+.entry-infobox-badge {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--parchment);
+  color: var(--ink-soft);
+}
+
+/* status pill color variants — subtle */
+.entry-infobox-badge.is-living,
+.entry-infobox-badge.is-active {
+  border-color: rgba(74, 122, 64, 0.5);
+  color: #3f6638;
+  background: rgba(74, 122, 64, 0.08);
+}
+.entry-infobox-badge.is-historical {
+  border-color: var(--ash-light);
+  color: var(--ash);
+  background: rgba(140, 133, 122, 0.08);
+}
+.entry-infobox-badge.is-legendary {
+  border-color: rgba(168, 70, 43, 0.5);
+  color: var(--ember-deep);
+  background: rgba(168, 70, 43, 0.08);
+}
+.entry-infobox-badge.is-destroyed,
+.entry-infobox-badge.is-dissolved {
+  border-color: rgba(122, 47, 26, 0.4);
+  color: var(--ember-deep);
+  background: rgba(122, 47, 26, 0.06);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+.entry-infobox-badge.is-unknown {
+  border-color: var(--rule);
+  color: var(--ash);
+  font-style: italic;
+}
+
+.entry-infobox-summary {
+  margin: 0 0 0.75rem;
+  font-style: italic;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  max-width: none;
+  /* clamp to ~3 lines to keep the box tight */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.entry-infobox-meta {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 0.7rem;
+  row-gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  font-size: 0.84rem;
+}
+
+.entry-infobox-row {
+  display: contents;
+}
+
+.entry-infobox-meta dt {
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  color: var(--ash);
+  font-weight: 500;
+}
+
+.entry-infobox-meta dd {
+  margin: 0;
+  color: var(--ink);
+  word-break: break-word;
+}
+
+.entry-infobox-meta dd a {
+  color: var(--ember);
+  text-decoration: none;
+}
+.entry-infobox-meta dd a:hover {
+  color: var(--ember-deep);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.entry-infobox-open-canon {
+  margin-top: 0.9rem;
+  padding-top: 0.7rem;
+  border-top: 1px dashed var(--rule);
+  font-size: 0.78rem;
+  color: var(--ash);
+}
+
+.entry-infobox-open-canon h3 {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ash);
+  margin: 0 0 0.4rem;
+}
+
+.entry-infobox-open-canon ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.entry-infobox-open-canon li {
+  margin: 0;
+  padding-left: 0.7rem;
+  position: relative;
+  line-height: 1.4;
+}
+.entry-infobox-open-canon li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--ash-light);
+}
+
+/* ----- coexistence with the inline .entry-meta dl in the main column -----
+   The infobox shows the same structured fields, so on wide viewports where
+   the right rail is visible we hide the inline dl to avoid duplication.
+   Below the right-rail breakpoint the inline dl carries the data. */
+@media (min-width: 1280px) {
+  .entry-meta--inline { display: none; }
+}
+
+/* When there's no right rail (narrower viewports), don't render the
+   infobox either — the right-rail aside is already display:none, but
+   belt-and-suspenders in case the slot host ever changes. */
+@media (max-width: 1279px) {
+  .page-right-rail .entry-infobox { display: none; }
+}

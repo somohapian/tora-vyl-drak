@@ -1,0 +1,74 @@
+---
+interface Props {
+  title: string;
+  kahu_tok?: string;
+  collection: string;
+  status?: string;
+  summary?: string;
+  meta?: { label: string; value: string }[];
+  open_canon?: string[];
+}
+
+const COLLECTION_LABELS: Record<string, string> = {
+  people: 'people',
+  places: 'places',
+  events: 'events',
+  eras: 'eras',
+  concepts: 'concepts',
+  organizations: 'organizations',
+  objects: 'objects',
+  language: 'language',
+};
+
+const {
+  title,
+  kahu_tok,
+  collection,
+  status,
+  summary,
+  meta = [],
+  open_canon = [],
+} = Astro.props;
+
+const categoryLabel = COLLECTION_LABELS[collection] ?? collection;
+const statusSlug = status ? status.toLowerCase().replace(/[^a-z0-9]+/g, '-') : '';
+---
+
+<aside class="entry-infobox" aria-label={`infobox for ${title}`}>
+  <header class="entry-infobox-header">
+    <p class="entry-infobox-category">
+      <a href={`/${collection}`}>{categoryLabel}</a>
+    </p>
+    <h2 class="entry-infobox-title">{title}</h2>
+    {kahu_tok && (
+      <p class="entry-infobox-kahu-tok"><span class="kt">{kahu_tok}</span></p>
+    )}
+    {status && (
+      <p class="entry-infobox-status">
+        <span class={`entry-infobox-badge is-${statusSlug}`}>{status}</span>
+      </p>
+    )}
+  </header>
+
+  {summary && <p class="entry-infobox-summary">{summary}</p>}
+
+  {meta.length > 0 && (
+    <dl class="entry-infobox-meta">
+      {meta.map((m) => (
+        <div class="entry-infobox-row">
+          <dt>{m.label}</dt>
+          <dd set:html={m.value} />
+        </div>
+      ))}
+    </dl>
+  )}
+
+  {open_canon.length > 0 && (
+    <section class="entry-infobox-open-canon" aria-label="open canon">
+      <h3>open canon</h3>
+      <ul>
+        {open_canon.map((q) => <li>{q}</li>)}
+      </ul>
+    </section>
+  )}
+</aside>
