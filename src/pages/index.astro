@@ -2,6 +2,17 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
+const CATEGORIES = [
+  { slug: 'people', label: 'people', blurb: 'founders, figures, the named' },
+  { slug: 'places', label: 'places', blurb: 'the caldera and the world below' },
+  { slug: 'events', label: 'events', blurb: 'the fracture, the leveling, the schism' },
+  { slug: 'eras', label: 'eras', blurb: 'tapestry, bloom, endura' },
+  { slug: 'concepts', label: 'concepts', blurb: 'peli-shen, warden, the cascade' },
+  { slug: 'organizations', label: 'organizations', blurb: 'zou-esh, the council, the tenders' },
+  { slug: 'objects', label: 'objects', blurb: 'the zou-kit and beyond' },
+  { slug: 'language', label: 'language', blurb: 'kahu-tok and the bixel 1000' },
+] as const;
+
 const RECENT_SLUGS: Array<[string, string]> = [
   ['places', 'the-hearth'],
   ['places', 'the-wilds'],
@@ -14,18 +25,17 @@ const RECENT_SLUGS: Array<[string, string]> = [
   ['people', 'the-longs'],
 ];
 
-const all = await Promise.all([
-  getCollection('places'),
-  getCollection('eras'),
-  getCollection('concepts'),
-  getCollection('events'),
-  getCollection('organizations'),
-  getCollection('people'),
-  getCollection('objects'),
-  getCollection('language'),
-]);
-const flat = all.flat();
+const collections = await Promise.all(
+  CATEGORIES.map((c) => getCollection(c.slug)),
+);
+
+const flat = collections.flat();
 const lookup = new Map(flat.map((e) => [`${e.collection}/${e.slug}`, e]));
+
+const portals = CATEGORIES.map((c, i) => ({
+  ...c,
+  count: collections[i].length,
+}));
 
 const recent = RECENT_SLUGS
   .map(([col, slug]) => lookup.get(`${col}/${slug}`))
@@ -37,92 +47,282 @@ const recent = RECENT_SLUGS
     kahu_tok: 'kahu_tok' in e.data ? e.data.kahu_tok : undefined,
     summary: 'summary' in e.data ? e.data.summary : (e.data as { definition?: string }).definition ?? '',
   }));
+
+// Featured entry: pick the most-recently-added entry (first of RECENT_SLUGS),
+// which gives us a deterministic, rotating-with-content choice.
+const featured = recent[0];
 ---
 
 <Layout>
-  <h1>an archive of <span class="proper">tora vyl drak</span></h1>
+  <section class="wiki-hero">
+    <h1 class="wiki-hero-title">
+      <span class="proper">tora vyl drak</span>
+    </h1>
+    <p class="wiki-hero-subtitle">
+      the kahu vyl encyclopedia — a hand-written archive of a sanctuary inside a caldera, twenty-five centuries after the sky fell.
+    </p>
+    <hr class="kahu-rule" />
+  </section>
 
-  <p class="lede">
-    a sanctuary built inside a volcanic caldera, high in the bones of the cascade range, twenty-five hundred years after the sky fell. its people, its places, its language, and the long quiet history that shaped them.
-  </p>
+  {featured && (
+    <section class="wiki-featured" aria-labelledby="featured-heading">
+      <p class="wiki-section-eyebrow" id="featured-heading">featured entry</p>
+      <a class="wiki-featured-card" href={`/${featured.collection}/${featured.slug}`}>
+        <div class="wiki-featured-head">
+          <span class="wiki-featured-name">{featured.name}</span>
+          {featured.kahu_tok && <span class="kt wiki-featured-kt">{featured.kahu_tok}</span>}
+          <span class="wiki-featured-category">{featured.collection}</span>
+        </div>
+        {featured.summary && <p class="wiki-featured-summary">{featured.summary}</p>}
+        <span class="wiki-featured-cta">read the entry →</span>
+      </a>
+    </section>
+  )}
 
-  <hr class="kahu-rule" />
-
-  <p>
-    in the year 4625 of the old calendar, the <span class="proper">kahu</span> live inside an eighteen mile caldera in the cascade range. they call their home <span class="proper">tora vyl drak</span>, literally <em>hope, call, last</em>: the hope of the last call. the name was earned. in the year 2075, a seven kilometer asteroid on a collision course with earth was struck by the combined nuclear arsenals of the world's superpowers in a final attempt to redirect it. the strike broke the asteroid in two. it did not turn it. a three kilometer fragment came down in the atlantic and erased europe and the eastern seaboard. a four kilometer fragment struck the juan de fuca plate off the cascadia coast, triggered a megathrust earthquake that flooded the willamette valley, and the plasma trail of its passage generated a global emp that ended the age of electricity. half the world died in the first hours. nine in ten of the survivors died in the hyper-winter that followed.
-  </p>
-
-  <p>
-    then came the slow part. the fallout poisoned what the impacts had spared, and over the centuries a fungal organism spread across the wounded surface of the world: <span class="kt">peli-shen</span>, <em>danger-life</em>. <span class="kt">peli-shen</span> is not a fast death. its airborne spores accumulate in the body as heavy metals do, and the first thing to go is the mind. survivors below the spore line grew slower, then strange, then unwell, then gone. the kahu call this long descent the creeping dark. the fungus thrives below five thousand feet and falters above it. the caldera floor sits at six thousand. a margin, not a generous one.
-  </p>
-
-  <p>
-    inside the rim, the <span class="proper">kahu</span> are roughly two hundred and seventy-eight thousand people, woven into a tapestry of smaller kahu, tending each other and the systems that keep them alive. within the community there are vocations. the warden-tenders care for the living systems, including the viral and bacterial agents that make daily life possible. the <span class="proper">zou-esh</span>, the small and devoted order of scholar-warriors who survive the training, leave the sanctuary on long missions: searching for survivors, gathering supplies, recording what the world below the rim has become. across the centuries, the survivors the zou-esh have brought home are the threads from which the tapestry is woven.
-  </p>
-
-  <p>
-    this is the encyclopedia of that world. it is being written, slowly, by hand. the voice here is objective, a record. stories told from inside the world live elsewhere.
-  </p>
-
-  <h2>browse</h2>
-
-  <div class="browse">
-    <a href="/people">
-      <span class="label">people</span>
-      <span class="meta">founders, figures, the named</span>
-    </a>
-    <a href="/places">
-      <span class="label">places</span>
-      <span class="meta">the caldera and beyond</span>
-    </a>
-    <a href="/events">
-      <span class="label">events</span>
-      <span class="meta">the fracture, the leveling, the schism</span>
-    </a>
-    <a href="/eras">
-      <span class="label">eras</span>
-      <span class="meta">tapestry, bloom, endura</span>
-    </a>
-    <a href="/concepts">
-      <span class="label">concepts</span>
-      <span class="meta">peli-shen, warden, the cascade</span>
-    </a>
-    <a href="/language">
-      <span class="label">language</span>
-      <span class="meta">kahu-tok and the bixel 1000</span>
-    </a>
-    <a href="/organizations">
-      <span class="label">organizations</span>
-      <span class="meta">zou-esh, the council, the tenders</span>
-    </a>
-    <a href="/objects">
-      <span class="label">objects</span>
-      <span class="meta">the zou-kit and beyond</span>
-    </a>
-  </div>
-
-  <h2>recently added</h2>
-
-  <ul class="recently-added">
-    {recent.map((r) => (
-      <li>
-        <a href={`/${r.collection}/${r.slug}`}>
-          <span class="recently-added-name">{r.name}</span>
-          {r.kahu_tok && <span class="kt recently-added-kt">{r.kahu_tok}</span>}
-          <span class="recently-added-collection">{r.collection}</span>
+  <section class="wiki-portals" aria-labelledby="portals-heading">
+    <p class="wiki-section-eyebrow" id="portals-heading">explore by category</p>
+    <div class="wiki-portal-grid">
+      {portals.map((p) => (
+        <a class={`wiki-portal-card portal-${p.slug}`} href={`/${p.slug}`}>
+          <span class="wiki-portal-swatch" aria-hidden="true"></span>
+          <span class="wiki-portal-label">{p.label}</span>
+          <span class="wiki-portal-blurb">{p.blurb}</span>
+          <span class="wiki-portal-count">
+            {p.count} {p.count === 1 ? 'entry' : 'entries'}
+          </span>
         </a>
-        {r.summary && <p class="recently-added-summary">{r.summary}</p>}
-      </li>
-    ))}
-  </ul>
+      ))}
+    </div>
+  </section>
 
-  <h2>about this archive</h2>
+  <aside class="wiki-wander" aria-labelledby="wander-heading">
+    <p class="wiki-section-eyebrow" id="wander-heading">how to wander this wiki</p>
+    <p>
+      the left rail lists every entry by category — open a group to skim its members. inside an entry, hover any in-text link to peek at where it leads, and check <em>mentioned by</em> at the foot of the page to follow the thread backwards. the underlined ember marks proper nouns, and <span class="kt">monospaced italic</span> marks <span class="kt">kahu-tok</span>.
+    </p>
+  </aside>
 
-  <p>
-    this site is a work in progress. entries are being moved here from the master notes one at a time, with care. cross-links between entries are live where you see them. the ember-colored underlines mark proper nouns under the <span class="kt">kahu-tok</span> writing convention, and words set in <span class="kt">monospaced italic</span> are kahu-tok terms.
-  </p>
-
-  <p>
-    if you find this place: welcome. <span class="kt">micasu</span>.
-  </p>
+  {recent.length > 0 && (
+    <footer class="wiki-recent-footer" aria-labelledby="recent-heading">
+      <p class="wiki-section-eyebrow" id="recent-heading">recently added</p>
+      <ul class="wiki-recent-list">
+        {recent.map((r) => (
+          <li>
+            <a href={`/${r.collection}/${r.slug}`}>
+              <span class="wiki-recent-name">{r.name}</span>
+              <span class="wiki-recent-collection">{r.collection}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </footer>
+  )}
 </Layout>
+
+<style>
+  .wiki-hero {
+    margin-top: 1rem;
+  }
+  .wiki-hero-title {
+    font-family: var(--serif-display);
+    font-size: clamp(2.4rem, 5vw, 3.4rem);
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.05;
+  }
+  .wiki-hero-subtitle {
+    font-family: var(--serif-body);
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--ink-soft);
+    max-width: var(--measure);
+    margin: 0.75rem 0 0;
+  }
+
+  .wiki-section-eyebrow {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--ash);
+    margin: 0 0 0.75rem;
+  }
+
+  /* ----- featured entry ----- */
+  .wiki-featured {
+    margin: 2.5rem 0 0;
+  }
+  .wiki-featured-card {
+    display: block;
+    padding: 1.4rem 1.5rem 1.25rem;
+    background: var(--parchment);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--ember);
+    text-decoration: none;
+    color: var(--ink);
+    transition: background 160ms ease, border-color 160ms ease;
+  }
+  .wiki-featured-card:hover {
+    background: var(--parchment-deep);
+  }
+  .wiki-featured-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 0.9rem;
+  }
+  .wiki-featured-name {
+    font-family: var(--serif-display);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: lowercase;
+  }
+  .wiki-featured-kt {
+    font-size: 0.9rem;
+  }
+  .wiki-featured-category {
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ash);
+  }
+  .wiki-featured-summary {
+    font-family: var(--serif-body);
+    font-size: 1rem;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    margin: 0.75rem 0 0;
+    max-width: var(--measure);
+  }
+  .wiki-featured-cta {
+    display: inline-block;
+    margin-top: 0.85rem;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ember);
+  }
+
+  /* ----- category portals ----- */
+  .wiki-portals {
+    margin: 2.5rem 0 0;
+  }
+  .wiki-portal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
+  .wiki-portal-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.1rem 1.1rem 1rem 1.6rem;
+    background: var(--parchment);
+    text-decoration: none;
+    color: var(--ink);
+    transition: background 160ms ease;
+  }
+  .wiki-portal-card:hover {
+    background: var(--parchment-deep);
+  }
+  .wiki-portal-swatch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 6px;
+    background: var(--ash);
+  }
+  /* category-typed swatch colors — solid blocks, no images. */
+  .portal-people .wiki-portal-swatch       { background: #8a6a3a; }
+  .portal-places .wiki-portal-swatch       { background: #4a6a55; }
+  .portal-events .wiki-portal-swatch       { background: #a75a3a; }
+  .portal-eras .wiki-portal-swatch         { background: #7a5a8a; }
+  .portal-concepts .wiki-portal-swatch     { background: #5a6a8a; }
+  .portal-organizations .wiki-portal-swatch { background: #6a5a45; }
+  .portal-objects .wiki-portal-swatch      { background: #8a7a4a; }
+  .portal-language .wiki-portal-swatch     { background: #4a5a6a; }
+
+  .wiki-portal-label {
+    font-family: var(--serif-display);
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-transform: lowercase;
+  }
+  .wiki-portal-blurb {
+    font-family: var(--serif-body);
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    line-height: 1.4;
+  }
+  .wiki-portal-count {
+    margin-top: 0.25rem;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ash);
+  }
+
+  /* ----- wander callout ----- */
+  .wiki-wander {
+    margin: 2.5rem 0 0;
+    padding: 1.25rem 1.4rem;
+    background: rgba(180, 165, 140, 0.07);
+    border-left: 2px solid var(--rule);
+  }
+  .wiki-wander p {
+    font-family: var(--serif-body);
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    margin: 0;
+    max-width: var(--measure);
+  }
+
+  /* ----- small recently-added footer block ----- */
+  .wiki-recent-footer {
+    margin: 3rem 0 0;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+  .wiki-recent-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+  }
+  .wiki-recent-list li { margin: 0; }
+  .wiki-recent-list a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--ink-soft);
+    padding: 0.15rem 0;
+  }
+  .wiki-recent-list a:hover {
+    color: var(--ember);
+  }
+  .wiki-recent-name {
+    font-family: var(--serif-display);
+    font-size: 0.95rem;
+    text-transform: lowercase;
+  }
+  .wiki-recent-collection {
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ash);
+  }
+</style>
