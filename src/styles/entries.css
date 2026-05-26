@@ -33,6 +33,9 @@
 }
 
 /* ----- wiki-link: subtle anchor for cross-references in entry bodies ----- */
+/* internal links wear a thin dotted ember underline — a quiet "this is a
+   cross-reference inside the archive" signal. external links (below) get a
+   solid underline plus a small outward arrow so the two never blur together. */
 .entry-body a.wiki-link {
   color: var(--ember, #a8462b);
   text-decoration: underline;
@@ -55,6 +58,30 @@
 .entry-body a.wiki-link .kt,
 .entry-body .kt a.wiki-link {
   color: inherit;
+}
+
+/* ----- external links: solid underline + small outward arrow ----- */
+.entry-body a[href^="http"]:not(.wiki-link),
+.entry-body a[href^="//"]:not(.wiki-link) {
+  color: var(--ember, #a8462b);
+  text-decoration: underline;
+  text-decoration-color: var(--ember, #a8462b);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-style: solid;
+}
+.entry-body a[href^="http"]:not(.wiki-link)::after,
+.entry-body a[href^="//"]:not(.wiki-link)::after {
+  content: " \2197"; /* north-east arrow */
+  font-size: 0.78em;
+  color: var(--ash, #8c857a);
+  margin-left: 0.1em;
+  text-decoration: none;
+  display: inline-block;
+}
+.entry-body a[href^="http"]:not(.wiki-link):hover,
+.entry-body a[href^="//"]:not(.wiki-link):hover {
+  color: var(--ember-deep, #7a2f1a);
 }
 
 .entry-header {
