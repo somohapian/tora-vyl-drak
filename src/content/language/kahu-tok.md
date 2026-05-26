@@ -1,0 +1,30 @@
+---
+word: kahu-tok
+pronunciation: kah-hoo tohk
+part_of_speech: noun
+definition: the kahu language. literally kahu-talk.
+etymology: >-
+  compound of kahu (community) and tok (talk, speech). engineered by bixel
+  during the early age of tapestry.
+source: bixel 1000 engineered core
+entered: 'founding generation of kahu-tok, age of tapestry'
+related:
+  - kahu
+  - tok-peles
+  - bixel
+open_canon:
+  - >-
+    whether tok appears in independent or other compound forms beyond kahu-tok
+    and tok-peles
+  - >-
+    the formal kahu-tok term, if any, for the discipline of linguistics or the
+    study of the language itself
+---
+
+<span class="kt">kahu-tok</span> is the kahu's name for their own language. the compound reads kahu-talk in literal kahu-tok order. the engineered replacement language for tok-peles, the bastard tongue of the bunker era. designed by bixel during the early age of tapestry.
+
+the word's structure illustrates the language's basic compounding pattern. <span class="kt">kahu</span> is the foundational community noun. <span class="kt">tok</span> is the root for talk or speech. the compound names the speech as belonging to the community. importance-first order places the community first; what kind of speech is being named follows. the language belongs to the kahu before it does anything else.
+
+<span class="kt">kahu-tok</span> as a word is used at every scale of reference. the language as a whole, in the abstract. the language as practiced in a specific kahu (the speech of a particular family or sub-community, with its local turns and habits). a specific utterance in the language, identified as being in kahu-tok rather than in some other tradition. context disambiguates.
+
+the precise relationship between <span class="kt">tok</span> as a freestanding root and its appearance in compounds is open canon. <span class="kt">tok-peles</span> uses the same root in the opposite compounding order, with the localizing modifier (peles, place) following <span class="kt">tok</span>. this is one of the few places in kahu-tok where the order of compounding may not strictly follow importance-first principles, possibly because <span class="kt">tok-peles</span> is partly a self-deprecating retrospective name for the bunker-era speech and partly a deliberate parallel construction.
