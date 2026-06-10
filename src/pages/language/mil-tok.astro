@@ -2,9 +2,9 @@
 import Layout from '../../layouts/Layout.astro';
 
 // the mil-tok, presented as bixel's own document: the thousand words, set down
-// in the age of tapestry for a people learning to speak as one. words that
-// postdate bixel (mara = shield, the present-day bleaching of micasu) are not
-// in her text; they belong to the living language and live in the wiki entries.
+// in the age of tapestry for a people learning to speak as one. written wholly
+// in bixel's present; nothing she could not have known (no future words, no
+// later eponyms like mara = shield) appears in her text.
 
 type Word = { w: string; d: string; e?: string; note?: string };
 type Group = { letter: string; title: string; intro?: string; words: Word[] };
@@ -175,7 +175,7 @@ const groups: Group[] = [
       { w: 'nem-giv', d: 'the naming rite of a new child' },
       { w: 'mor', d: 'to die; death' },
       { w: 'lao-zou', d: 'the elder\u2019s going; a peaceful death at the end of a long life' },
-      { w: 'micasu', d: 'welcome; the word at every threshold', note: 'from mi casa es su casa, worn smooth to a single warm word' },
+      { w: 'micasu', d: 'welcome; the word at every threshold', note: 'from mi casa es su casa, already spoken as one word at the door' },
       { w: 'zou-gud', d: 'farewell; go well' },
       { w: 'soma', d: 'body' },
     ],
@@ -626,7 +626,7 @@ const totalShown = groups.reduce((n, g) => n + g.words.length, 0);
     <section class="lexicon-coda">
       <h2>a note on the count</h2>
       <p>the mil-tok is a thousand words. some ninety are the old shared roots i only regularized; the rest are built on the principles above, three hundred and fifty working roots and the compounds, doublings, and set phrases that grow from them, the way any living contact tongue grows. this page shows the working spine of it, the roots and the compounds a learner meets first. the full thousand lives in the speaking.</p>
-      <p>the language has gone on without me. words enter it that i never set down, the way <span class="kt">mara</span> came to mean a shield long after my winter, taken from the name of the one who held the <a class="wiki-link" href="/places/the-gate">gate</a>. that is as it should be. a language no one can add to is a language no one is still speaking.</p>
+      <p>the language will go on without me. words will enter it that i never set down, taken from names and weather and work i will not be here to see, and the compounds will breed compounds until the speaking has run far past this page. that is as it should be. i did not build a finished thing. i built a beginning that could carry its own growing. a language no one can add to is a language no one is still speaking, and i would rather leave one that outruns me than one that holds still.</p>
       <p class="lexicon-sign">— <span class="proper"><a class="wiki-link" href="/people/bixel">bixel</a></span>, the tongue</p>
     </section>
   </article>
