@@ -7436,6 +7436,13 @@
     },
     {
       "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "people",
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
