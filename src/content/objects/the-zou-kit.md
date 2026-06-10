@@ -10,7 +10,7 @@ open_canon:
   - what the gloves are called and how their adhesion is described in-world (biotech or mechanical)
 ---
 
-the zou-kit is the standard field equipment of the <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a>. the kit is the outward sign of the order. it is also the technological foundation that allows the order to operate below the <a class="wiki-link" href="/language/peli-shen"><span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span></a> spore line and to defend <a class="wiki-link" href="/places/the-gate">the gate</a> against threats arriving from there. the kit is entirely living cloth and biotech. no microchips, no mechanical electronics. the bunker tradition of retro-bio-futurism in a single working outfit.
+the zou-kit is the standard field equipment of the <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a>. the kit is the outward sign of the order. it is also the technological foundation that allows the order to operate below the <span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span> spore line and to defend <a class="wiki-link" href="/places/the-gate">the gate</a> against threats arriving from there. the kit is entirely living cloth and biotech. no microchips, no mechanical electronics. the bunker tradition of retro-bio-futurism in a single working outfit.
 
 **the cloth mask.** filters <span class="kt">peli-shen</span> at concentrations encountered below five thousand feet. allows free movement in the toxic lowlands without effect. the kahu-tok name for the mask is open canon.
 

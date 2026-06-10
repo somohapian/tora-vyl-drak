@@ -10,7 +10,7 @@ open_canon:
   - the relationship between air-klin and the inoculation administered by the cat-kahu to kahu cats before missions
 ---
 
-<span class="kt">air-klin</span> is the respiratory biome inoculation administered to <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a> before deep or sustained operations below the <a class="wiki-link" href="/language/peli-shen"><span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span></a> spore line. the name in kahu-tok reads clean-air or air-clean. it is part of the zou-esh's layered defenses against the fungus that has rendered the lowlands lethal.
+<span class="kt">air-klin</span> is the respiratory biome inoculation administered to <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a> before deep or sustained operations below the <span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span> spore line. the name in kahu-tok reads clean-air or air-clean. it is part of the zou-esh's layered defenses against the fungus that has rendered the lowlands lethal.
 
 a zou-esh going below five thousand feet relies on three layers against <span class="kt">peli-shen</span>. the cloth mask filters spores at concentrations encountered in the lowlands. the <a class="wiki-link" href="/concepts/kahu">kahu</a> cat that accompanies the zou-esh handles the toxin through a hybrid system of native resistance bred over a thousand years and pre-mission inoculation by <a class="wiki-link" href="/organizations/the-cat-kahu">the cat-kahu</a>. and the zou-esh's own body is protected, internally, by air-klin.
 
