@@ -37,6 +37,13 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
+      "collection": "concepts",
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
@@ -188,6 +195,20 @@
       "name": "wata",
       "kahuTok": "",
       "summary": "water"
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
     }
   ],
   "people/hanna-miskinnis": [
@@ -217,7 +238,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     }
   ],
   "people/mara": [
@@ -234,6 +255,13 @@
       "name": "the kahu cats",
       "kahuTok": "",
       "summary": ">-"
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
     },
     {
       "collection": "concepts",
@@ -293,6 +321,13 @@
     },
     {
       "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
       "slug": "zou-esh",
       "name": "zou-esh",
       "kahuTok": "zou-esh",
@@ -343,11 +378,25 @@
       "summary": ">-"
     },
     {
+      "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
       "collection": "language",
       "slug": "ston",
       "name": "ston",
       "kahuTok": "",
       "summary": "rock, stone"
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
     }
   ],
   "people/the-bunker-survivors": [
@@ -426,7 +475,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     }
   ],
   "people/the-cat-farmers": [
@@ -514,7 +563,7 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
     },
     {
       "collection": "people",
@@ -628,6 +677,13 @@
       "name": "the five filters of uniqueness",
       "kahuTok": "",
       "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
     },
     {
       "collection": "events",
@@ -1528,7 +1584,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "people",
@@ -1863,7 +1919,7 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
     },
     {
       "collection": "people",
@@ -1877,7 +1933,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "places",
@@ -1967,14 +2023,14 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
     },
     {
       "collection": "people",
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     }
   ],
   "events/the-schism": [
@@ -1994,13 +2050,6 @@
     },
     {
       "collection": "organizations",
-      "slug": "the-council",
-      "name": "the council",
-      "kahuTok": "",
-      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
-    },
-    {
-      "collection": "organizations",
       "slug": "the-warden-tenders",
       "name": "the warden-tenders",
       "kahuTok": "",
@@ -2011,14 +2060,14 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
     },
     {
       "collection": "people",
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     }
   ],
   "eras/age-of-bloom": [
@@ -2063,6 +2112,13 @@
       "name": "the cat-kahu",
       "kahuTok": "",
       "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
     },
     {
       "collection": "people",
@@ -2547,6 +2603,20 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-rebirth-naming",
+      "name": "the rebirth naming",
+      "kahuTok": "open canon",
+      "summary": "a purist practice surrounding the release of names at death. a freed name is passed to a child born close to the death, who is felt to carry part of the one who left."
+    },
+    {
+      "collection": "concepts",
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
@@ -2970,7 +3040,7 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
     },
     {
       "collection": "people",
@@ -3005,7 +3075,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "people",
@@ -3670,7 +3740,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     }
   ],
   "concepts/the-hyper-winter": [
@@ -3766,6 +3836,38 @@
       "summary": "the active volcanic cone within the caldera. heart-stone. sacred. the source of the residual heat that keeps the kahu alive."
     }
   ],
+  "concepts/the-naming": [
+    {
+      "collection": "concepts",
+      "slug": "the-rebirth-naming",
+      "name": "the rebirth naming",
+      "kahuTok": "open canon",
+      "summary": "a purist practice surrounding the release of names at death. a freed name is passed to a child born close to the death, who is felt to carry part of the one who left."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-warden-tenders",
+      "name": "the warden-tenders",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
+    }
+  ],
+  "concepts/the-rebirth-naming": [
+    {
+      "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    }
+  ],
   "concepts/the-three-hits": [
     {
       "collection": "concepts",
@@ -3836,6 +3938,13 @@
       "name": "the dual mandate",
       "kahuTok": "the vyl and the no (open canon)",
       "summary": "the two formal halves of the zou-esh mission. the search, the sacred duty of finding survivors and scavenging vital resources, and the study, the scientific work of ecological and archaeological data-gathering."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
     },
     {
       "collection": "eras",
@@ -4062,6 +4171,13 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
+      "collection": "concepts",
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
@@ -4228,6 +4344,13 @@
       "name": "the great devaluation",
       "kahuTok": "",
       "summary": "the decades of institutional decay, information warfare, and environmental degradation that preceded the fracture. the world that broke before the world broke."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
     },
     {
       "collection": "concepts",
@@ -4712,7 +4835,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "places",
@@ -5330,7 +5453,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "people",
@@ -5866,6 +5989,13 @@
     },
     {
       "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "people",
       "slug": "ston",
       "name": "ston",
       "kahuTok": "",
@@ -6075,6 +6205,20 @@
       "name": "the mountain that breathes",
       "kahuTok": "",
       "summary": ">-"
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-rebirth-naming",
+      "name": "the rebirth naming",
+      "kahuTok": "open canon",
+      "summary": "a purist practice surrounding the release of names at death. a freed name is passed to a child born close to the death, who is felt to carry part of the one who left."
     },
     {
       "collection": "concepts",
@@ -6494,7 +6638,7 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
     },
     {
       "collection": "people",
@@ -6529,7 +6673,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "people",
@@ -6714,6 +6858,13 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
+      "collection": "concepts",
       "slug": "the-three-hits",
       "name": "the three hits",
       "kahuTok": "open canon",
@@ -6760,6 +6911,13 @@
       "name": "the cat-kahu",
       "kahuTok": "",
       "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
     },
     {
       "collection": "organizations",
@@ -6893,6 +7051,13 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
+      "collection": "concepts",
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
@@ -6998,6 +7163,13 @@
     },
     {
       "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
       "slug": "the-pathfinders",
       "name": "the pathfinders",
       "kahuTok": "tru-tapi",
@@ -7029,7 +7201,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "places",
@@ -7339,6 +7511,20 @@
       "summary": ">-"
     },
     {
+      "collection": "concepts",
+      "slug": "the-naming",
+      "name": "the naming",
+      "kahuTok": "open canon",
+      "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
       "collection": "people",
       "slug": "ston",
       "name": "ston",
@@ -7639,7 +7825,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "people",
@@ -7956,7 +8142,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "people",
@@ -8416,7 +8602,7 @@
       "slug": "the-longs",
       "name": "the longs",
       "kahuTok": "not a kahu-tok term; the kahu have no word for them",
-      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+      "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
       "collection": "places",

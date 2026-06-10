@@ -3,11 +3,11 @@ name: hanna miskinnis
 role: pre-impact researcher, founder of the original longevity intervention
 era: pre-collapse
 born: pre-impact, exact year unknown
-died: pre-impact, exact year unknown
+died: in the fracture, november 2075
 status: historical
-summary: pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition.
+summary: pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records.
 open_canon:
-  - hanna's exact dates of birth and death
+  - hanna's exact year of birth
   - the precise mechanism of her telomere intervention
   - whether any direct written record of her work survives in tora vyl drak, and through what chain of custody
   - the institutional structure of the miskinnis research group
@@ -20,3 +20,5 @@ hanna refused to use the intervention herself. the reason she gave, in the recor
 after the fracture, after <a class="wiki-link" href="/events/the-leveling">the leveling</a>, after the longs were sealed in and the world above forgot them, hanna's name traveled differently than her work did. the longs carried the intervention. the <a class="wiki-link" href="/concepts/kahu">kahu</a> carried the refusal. when <a class="wiki-link" href="/events/the-schism">the schism</a> arose more than two thousand years later, it was hanna's refusal that the purists invoked as their founding precedent. she had named the line. they would hold it.
 
 the kahu's own longevity tradition descends from a separate and later development, the viral and bacterial agents that suppress disease across long life. that path is not telomere intervention and is not hanna's. but the kahu who hold the limit, who refuse the further step, place themselves in hanna's lineage by inheritance of conviction rather than of method.
+
+hanna did not live to see any of it. she died in the fracture itself, in november of 2075, when the comet struck the world she had tried to give a longer life. and in the present, in 4625, the ordinary kahu does not know her name. common memory thins out well before the fracture, and twenty-six centuries is far past the reach of what a living people carries in its head. hanna survives in the records the <a class="wiki-link" href="/concepts/kahu">kahu</a> keep, in the founding precedent the purists cite, and in the shape of a refusal that outlived the woman who made it. the conviction is remembered. the name, except by those who read the deep archive, is not.
