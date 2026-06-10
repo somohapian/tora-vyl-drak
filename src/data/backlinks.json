@@ -30,6 +30,13 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-deliberate-absences",
+      "name": "the deliberate absences",
+      "kahuTok": "open canon",
+      "summary": "the words kahu-tok was built without. no money, no debt, no rent, no interest, no word for own. the lexicon's argument against the sovereign individual, made by what it refuses to say."
+    },
+    {
+      "collection": "concepts",
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
@@ -86,10 +93,24 @@
     },
     {
       "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
       "summary": "welcome"
+    },
+    {
+      "collection": "language",
+      "slug": "no",
+      "name": "no",
+      "kahuTok": "",
+      "summary": "no; the answer-word and the grammatical negation."
     },
     {
       "collection": "language",
@@ -107,10 +128,24 @@
     },
     {
       "collection": "language",
+      "slug": "sav",
+      "name": "sav",
+      "kahuTok": "",
+      "summary": "to know. to hold a thing in the mind as understood."
+    },
+    {
+      "collection": "language",
       "slug": "shen",
       "name": "shen",
       "kahuTok": "",
       "summary": "life"
+    },
+    {
+      "collection": "language",
+      "slug": "somohapian",
+      "name": "somohapian",
+      "kahuTok": "",
+      "summary": "a person's life-record kept with warden; the woven memory of one kahu member, added to across a lifetime."
     },
     {
       "collection": "language",
@@ -227,6 +262,13 @@
       "name": "kia-vyl",
       "kahuTok": "",
       "summary": "live! (as a command or exhortation)"
+    },
+    {
+      "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
     },
     {
       "collection": "language",
@@ -993,6 +1035,13 @@
     },
     {
       "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
       "slug": "zou-esh",
       "name": "zou-esh",
       "kahuTok": "",
@@ -1682,6 +1731,13 @@
       "summary": "welcome"
     },
     {
+      "collection": "language",
+      "slug": "wan-slip-bak-ya-sem",
+      "name": "wan-slip-bak, ya-sem",
+      "kahuTok": "",
+      "summary": "yesterday that feels like now; a memory so near it has not yet become the past."
+    },
+    {
       "collection": "objects",
       "slug": "ston-shen",
       "name": "ston-shen",
@@ -1995,6 +2051,13 @@
       "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
     },
     {
+      "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
       "collection": "organizations",
       "slug": "the-cat-kahu",
       "name": "the cat-kahu",
@@ -2074,6 +2137,20 @@
       "name": "kahu-tok",
       "kahuTok": "",
       "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
+      "slug": "somohapian",
+      "name": "somohapian",
+      "kahuTok": "",
+      "summary": "a person's life-record kept with warden; the woven memory of one kahu member, added to across a lifetime."
     },
     {
       "collection": "language",
@@ -2400,6 +2477,13 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-deliberate-absences",
+      "name": "the deliberate absences",
+      "kahuTok": "open canon",
+      "summary": "the words kahu-tok was built without. no money, no debt, no rent, no interest, no word for own. the lexicon's argument against the sovereign individual, made by what it refuses to say."
+    },
+    {
+      "collection": "concepts",
       "slug": "the-dual-mandate",
       "name": "the dual mandate",
       "kahuTok": "the vyl and the no (open canon)",
@@ -2624,6 +2708,13 @@
     },
     {
       "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
@@ -2645,6 +2736,13 @@
     },
     {
       "collection": "language",
+      "slug": "sav",
+      "name": "sav",
+      "kahuTok": "",
+      "summary": "to know. to hold a thing in the mind as understood."
+    },
+    {
+      "collection": "language",
       "slug": "shen",
       "name": "shen",
       "kahuTok": "",
@@ -2656,6 +2754,13 @@
       "name": "silth",
       "kahuTok": "",
       "summary": "the kahu-tok root for weaving, fiber, and the shaping of living textile. it appears in kahu-silth, the order of bio-artisans who make the kahu's living garments."
+    },
+    {
+      "collection": "language",
+      "slug": "somohapian",
+      "name": "somohapian",
+      "kahuTok": "",
+      "summary": "a person's life-record kept with warden; the woven memory of one kahu member, added to across a lifetime."
     },
     {
       "collection": "language",
@@ -2698,6 +2803,13 @@
       "name": "tora",
       "kahuTok": "",
       "summary": "hope"
+    },
+    {
+      "collection": "language",
+      "slug": "wan-slip-bak-ya-sem",
+      "name": "wan-slip-bak, ya-sem",
+      "kahuTok": "",
+      "summary": "yesterday that feels like now; a memory so near it has not yet become the past."
     },
     {
       "collection": "language",
@@ -3510,6 +3622,15 @@
       "summary": "the elevation above roughly 5,000 feet that is effectively free of peli-shen. below it lies the fade band, where the fungus struggles to complete its life cycle, and below that, the lowlands where it thrives."
     }
   ],
+  "concepts/the-deliberate-absences": [
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    }
+  ],
   "concepts/the-dual-mandate": [
     {
       "collection": "organizations",
@@ -3729,6 +3850,13 @@
       "name": "shen",
       "kahuTok": "",
       "summary": "life"
+    },
+    {
+      "collection": "language",
+      "slug": "somohapian",
+      "name": "somohapian",
+      "kahuTok": "",
+      "summary": "a person's life-record kept with warden; the woven memory of one kahu member, added to across a lifetime."
     },
     {
       "collection": "objects",
@@ -4371,10 +4499,24 @@
     },
     {
       "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
       "summary": "welcome"
+    },
+    {
+      "collection": "language",
+      "slug": "no",
+      "name": "no",
+      "kahuTok": "",
+      "summary": "no; the answer-word and the grammatical negation."
     },
     {
       "collection": "language",
@@ -4389,6 +4531,13 @@
       "name": "peli-shen",
       "kahuTok": "",
       "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "language",
+      "slug": "sav",
+      "name": "sav",
+      "kahuTok": "",
+      "summary": "to know. to hold a thing in the mind as understood."
     },
     {
       "collection": "language",
@@ -5367,6 +5516,13 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-deliberate-absences",
+      "name": "the deliberate absences",
+      "kahuTok": "open canon",
+      "summary": "the words kahu-tok was built without. no money, no debt, no rent, no interest, no word for own. the lexicon's argument against the sovereign individual, made by what it refuses to say."
+    },
+    {
+      "collection": "concepts",
       "slug": "the-dual-mandate",
       "name": "the dual mandate",
       "kahuTok": "the vyl and the no (open canon)",
@@ -5479,10 +5635,24 @@
     },
     {
       "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
       "summary": "welcome"
+    },
+    {
+      "collection": "language",
+      "slug": "no",
+      "name": "no",
+      "kahuTok": "",
+      "summary": "no; the answer-word and the grammatical negation."
     },
     {
       "collection": "language",
@@ -5500,6 +5670,13 @@
     },
     {
       "collection": "language",
+      "slug": "sav",
+      "name": "sav",
+      "kahuTok": "",
+      "summary": "to know. to hold a thing in the mind as understood."
+    },
+    {
+      "collection": "language",
       "slug": "shen",
       "name": "shen",
       "kahuTok": "",
@@ -5511,6 +5688,13 @@
       "name": "silth",
       "kahuTok": "",
       "summary": "the kahu-tok root for weaving, fiber, and the shaping of living textile. it appears in kahu-silth, the order of bio-artisans who make the kahu's living garments."
+    },
+    {
+      "collection": "language",
+      "slug": "somohapian",
+      "name": "somohapian",
+      "kahuTok": "",
+      "summary": "a person's life-record kept with warden; the woven memory of one kahu member, added to across a lifetime."
     },
     {
       "collection": "language",
@@ -5560,6 +5744,13 @@
       "name": "vyl",
       "kahuTok": "",
       "summary": "call"
+    },
+    {
+      "collection": "language",
+      "slug": "wan-slip-bak-ya-sem",
+      "name": "wan-slip-bak, ya-sem",
+      "kahuTok": "",
+      "summary": "yesterday that feels like now; a memory so near it has not yet become the past."
     },
     {
       "collection": "language",
@@ -5817,6 +6008,13 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-deliberate-absences",
+      "name": "the deliberate absences",
+      "kahuTok": "open canon",
+      "summary": "the words kahu-tok was built without. no money, no debt, no rent, no interest, no word for own. the lexicon's argument against the sovereign individual, made by what it refuses to say."
+    },
+    {
+      "collection": "concepts",
       "slug": "the-dual-mandate",
       "name": "the dual mandate",
       "kahuTok": "the vyl and the no (open canon)",
@@ -6034,6 +6232,13 @@
     },
     {
       "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
@@ -6055,6 +6260,13 @@
     },
     {
       "collection": "language",
+      "slug": "sav",
+      "name": "sav",
+      "kahuTok": "",
+      "summary": "to know. to hold a thing in the mind as understood."
+    },
+    {
+      "collection": "language",
       "slug": "shen",
       "name": "shen",
       "kahuTok": "",
@@ -6066,6 +6278,13 @@
       "name": "silth",
       "kahuTok": "",
       "summary": "the kahu-tok root for weaving, fiber, and the shaping of living textile. it appears in kahu-silth, the order of bio-artisans who make the kahu's living garments."
+    },
+    {
+      "collection": "language",
+      "slug": "somohapian",
+      "name": "somohapian",
+      "kahuTok": "",
+      "summary": "a person's life-record kept with warden; the woven memory of one kahu member, added to across a lifetime."
     },
     {
       "collection": "language",
@@ -6108,6 +6327,13 @@
       "name": "tora",
       "kahuTok": "",
       "summary": "hope"
+    },
+    {
+      "collection": "language",
+      "slug": "wan-slip-bak-ya-sem",
+      "name": "wan-slip-bak, ya-sem",
+      "kahuTok": "",
+      "summary": "yesterday that feels like now; a memory so near it has not yet become the past."
     },
     {
       "collection": "language",
@@ -6471,6 +6697,120 @@
       "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
     }
   ],
+  "language/mara": [
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-kahu-cats",
+      "name": "the kahu cats",
+      "kahuTok": "",
+      "summary": ">-"
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-three-hits",
+      "name": "the three hits",
+      "kahuTok": "open canon",
+      "summary": "the zou-esh system that tracks a member's accumulated field risk or sanction across a career. the fas-big, the unsanctioned rite of challenge, carries an automatic two hits."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "language",
+      "slug": "kaelith",
+      "name": "kaelith",
+      "kahuTok": "",
+      "summary": "the kahu name for the bonded cat. the serval-cougar-descended companion species bred and held by the cat-kahu and partnered chiefly with the zou-esh."
+    },
+    {
+      "collection": "language",
+      "slug": "kia-vyl",
+      "name": "kia-vyl",
+      "kahuTok": "",
+      "summary": "live! (as a command or exhortation)"
+    },
+    {
+      "collection": "language",
+      "slug": "vyl",
+      "name": "vyl",
+      "kahuTok": "",
+      "summary": "call"
+    },
+    {
+      "collection": "objects",
+      "slug": "jefe-tri",
+      "name": "jefe-tri",
+      "kahuTok": "jefe-tri",
+      "summary": ">-"
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-cat-kahu",
+      "name": "the cat-kahu",
+      "kahuTok": "",
+      "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "people",
+      "slug": "the-cat-farmers",
+      "name": "the cat-farmers",
+      "kahuTok": "",
+      "summary": ">-"
+    },
+    {
+      "collection": "places",
+      "slug": "mara-skol",
+      "name": "mara-skol",
+      "kahuTok": "mara-skol",
+      "summary": ">-"
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    }
+  ],
   "language/micasu": [
     {
       "collection": "concepts",
@@ -6499,6 +6839,204 @@
       "name": "bixel",
       "kahuTok": "",
       "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    }
+  ],
+  "language/no": [
+    {
+      "collection": "concepts",
+      "slug": "importance-first-syntax",
+      "name": "importance-first syntax",
+      "kahuTok": "",
+      "summary": ">-"
+    },
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "kau-esh",
+      "name": "kau-esh",
+      "kahuTok": "kau-esh",
+      "summary": "the little kahu. those in zou-esh training who have not yet completed it, and those who began the training and washed out. not a slight. a recognized place in kahu life."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-deliberate-absences",
+      "name": "the deliberate absences",
+      "kahuTok": "open canon",
+      "summary": "the words kahu-tok was built without. no money, no debt, no rent, no interest, no word for own. the lexicon's argument against the sovereign individual, made by what it refuses to say."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-dual-mandate",
+      "name": "the dual mandate",
+      "kahuTok": "the vyl and the no (open canon)",
+      "summary": "the two formal halves of the zou-esh mission. the search, the sacred duty of finding survivors and scavenging vital resources, and the study, the scientific work of ecological and archaeological data-gathering."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-five-filters-of-uniqueness",
+      "name": "the five filters of uniqueness",
+      "kahuTok": "",
+      "summary": "the five conditions, geological and human, that together make tora vyl drak the only sanctuary of its kind on the post-fracture earth. the answer to why the kahu are not one of many."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-hyper-winter",
+      "name": "the hyper-winter",
+      "kahuTok": "",
+      "summary": "the years of permanent twilight and freezing temperatures that followed the fracture. the climate condition that killed nine in ten of the impact survivors."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-three-waves-of-extinction",
+      "name": "the three waves of extinction",
+      "kahuTok": "",
+      "summary": ">-"
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-trinity-lock",
+      "name": "the trinity lock",
+      "kahuTok": "",
+      "summary": ">-"
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "events",
+      "slug": "the-great-silence",
+      "name": "the great silence",
+      "kahuTok": "",
+      "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
+    },
+    {
+      "collection": "events",
+      "slug": "the-leveling",
+      "name": "the leveling",
+      "kahuTok": "",
+      "summary": "the coordinated emp counter-strike by surface survivors against the longs' arcologies. the act that sealed the longs in permanently."
+    },
+    {
+      "collection": "language",
+      "slug": "drak",
+      "name": "drak",
+      "kahuTok": "",
+      "summary": "last"
+    },
+    {
+      "collection": "language",
+      "slug": "kaelith",
+      "name": "kaelith",
+      "kahuTok": "",
+      "summary": "the kahu name for the bonded cat. the serval-cougar-descended companion species bred and held by the cat-kahu and partnered chiefly with the zou-esh."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "",
+      "summary": "a community of people. the kahu people. one word at every scale."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "language",
+      "slug": "sav",
+      "name": "sav",
+      "kahuTok": "",
+      "summary": "to know. to hold a thing in the mind as understood."
+    },
+    {
+      "collection": "language",
+      "slug": "wan-slip-bak-ya-sem",
+      "name": "wan-slip-bak, ya-sem",
+      "kahuTok": "",
+      "summary": "yesterday that feels like now; a memory so near it has not yet become the past."
+    },
+    {
+      "collection": "objects",
+      "slug": "klin-soma",
+      "name": "klin-soma",
+      "kahuTok": "klin-soma",
+      "summary": ">-"
+    },
+    {
+      "collection": "objects",
+      "slug": "soma-ropa",
+      "name": "soma-ropa",
+      "kahuTok": "soma-ropa",
+      "summary": ">-"
+    },
+    {
+      "collection": "objects",
+      "slug": "ston-shen",
+      "name": "ston-shen",
+      "kahuTok": "ston-shen",
+      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-zou-kit",
+      "name": "the zou-kit",
+      "kahuTok": "",
+      "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-pathfinders",
+      "name": "the pathfinders",
+      "kahuTok": "tru-tapi",
+      "summary": "the judicial council of the kahu. three elders, one retired zou-esh, one miskinnis purist, one master cultivator. justice is restorative and protective, and the final penalty is exile, not death."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-three-speakers",
+      "name": "the three speakers",
+      "kahuTok": "open canon",
+      "summary": "the executive triad of kahu governance. the first speaker for the people's council, the elder speaker for the watchers, and the weaver, a neutral mediator chosen jointly to articulate consensus."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
+    },
+    {
+      "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     }
   ],
   "language/peli-shen": [
@@ -6736,6 +7274,15 @@
       "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
     }
   ],
+  "language/sav": [
+    {
+      "collection": "language",
+      "slug": "no",
+      "name": "no",
+      "kahuTok": "",
+      "summary": "no; the answer-word and the grammatical negation."
+    }
+  ],
   "language/shen": [
     {
       "collection": "concepts",
@@ -6782,6 +7329,7 @@
       "summary": "the order of bio-artisans who grow, shape, and heal the kahu's living garments. biologist, healer, textile engineer, microbiome cultivator, and ritual artisan in one vocation."
     }
   ],
+  "language/somohapian": [],
   "language/ston": [
     {
       "collection": "concepts",
@@ -6826,6 +7374,13 @@
       "name": "tera",
       "kahuTok": "",
       "summary": "land, ground, earth"
+    },
+    {
+      "collection": "language",
+      "slug": "wan-slip-bak-ya-sem",
+      "name": "wan-slip-bak, ya-sem",
+      "kahuTok": "",
+      "summary": "yesterday that feels like now; a memory so near it has not yet become the past."
     },
     {
       "collection": "people",
@@ -7502,6 +8057,7 @@
       "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
     }
   ],
+  "language/wan-slip-bak-ya-sem": [],
   "language/wata": [
     {
       "collection": "places",
@@ -7640,10 +8196,24 @@
     },
     {
       "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
       "summary": "welcome"
+    },
+    {
+      "collection": "language",
+      "slug": "no",
+      "name": "no",
+      "kahuTok": "",
+      "summary": "no; the answer-word and the grammatical negation."
     },
     {
       "collection": "language",
@@ -7658,6 +8228,13 @@
       "name": "peli-shen",
       "kahuTok": "",
       "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+    },
+    {
+      "collection": "language",
+      "slug": "sav",
+      "name": "sav",
+      "kahuTok": "",
+      "summary": "to know. to hold a thing in the mind as understood."
     },
     {
       "collection": "language",

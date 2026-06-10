@@ -30,10 +30,10 @@
     },
     {
       "collection": "language",
-      "slug": "peli-shen",
-      "name": "peli-shen",
+      "slug": "mara",
+      "name": "mara",
       "kahuTok": "",
-      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
     }
   ],
   "people/hanna-miskinnis": [
@@ -1233,6 +1233,29 @@
       "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
     }
   ],
+  "concepts/the-deliberate-absences": [
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    }
+  ],
   "concepts/the-dual-mandate": [
     {
       "collection": "organizations",
@@ -2085,6 +2108,34 @@
       "name": "tonal tense",
       "kahuTok": "",
       "summary": "the system of marking time in kahu-tok by tone. a level tone is present, a rising tone is future, a falling tone is past. the same base verb carries all three."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-deliberate-absences",
+      "name": "the deliberate absences",
+      "kahuTok": "open canon",
+      "summary": "the words kahu-tok was built without. no money, no debt, no rent, no interest, no word for own. the lexicon's argument against the sovereign individual, made by what it refuses to say."
+    },
+    {
+      "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
+      "slug": "no",
+      "name": "no",
+      "kahuTok": "",
+      "summary": "no; the answer-word and the grammatical negation."
+    },
+    {
+      "collection": "language",
+      "slug": "sav",
+      "name": "sav",
+      "kahuTok": "",
+      "summary": "to know. to hold a thing in the mind as understood."
     }
   ],
   "language/kahu": [
@@ -2126,6 +2177,43 @@
   ],
   "language/kasa": [],
   "language/kia-vyl": [],
+  "language/mara": [
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    }
+  ],
   "language/micasu": [
     {
       "collection": "people",
@@ -2154,6 +2242,36 @@
       "name": "the first descent",
       "kahuTok": "",
       "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    }
+  ],
+  "language/no": [
+    {
+      "collection": "language",
+      "slug": "sav",
+      "name": "sav",
+      "kahuTok": "",
+      "summary": "to know. to hold a thing in the mind as understood."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
     },
     {
       "collection": "organizations",
@@ -2201,6 +2319,36 @@
     }
   ],
   "language/peli": [],
+  "language/sav": [
+    {
+      "collection": "language",
+      "slug": "no",
+      "name": "no",
+      "kahuTok": "",
+      "summary": "no; the answer-word and the grammatical negation."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    }
+  ],
   "language/shen": [],
   "language/silth": [
     {
@@ -2216,6 +2364,43 @@
       "name": "kahu",
       "kahuTok": "kahu",
       "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    }
+  ],
+  "language/somohapian": [
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     }
   ],
   "language/ston": [],
@@ -2240,6 +2425,29 @@
   ],
   "language/tora": [],
   "language/vyl": [],
+  "language/wan-slip-bak-ya-sem": [
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "concepts",
+      "slug": "kahu",
+      "name": "kahu",
+      "kahuTok": "kahu",
+      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+    },
+    {
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
+      "kahuTok": "",
+      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+    }
+  ],
   "language/wata": [
     {
       "collection": "places",
