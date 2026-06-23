@@ -9,7 +9,7 @@ open_canon:
   - whether the kahu carry any folk traditions or rituals around the creeping dark
 ---
 
-the creeping dark is the <a class="wiki-link" href="/concepts/kahu">kahu</a> name for the slow neurotoxic descent caused by accumulating <a class="wiki-link" href="/language/peli-shen"><span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span></a> exposure. it is what happens to the mind of a person who lives below five thousand feet.
+the creeping dark is the <a class="wiki-link" href="/concepts/kahu">kahu</a> name for the slow neurotoxic descent caused by accumulating <span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span> exposure. it is what happens to the mind of a person who lives below five thousand feet.
 
 <span class="kt">peli-shen</span> spores carry heavy-metal nanoparticles and unique mycotoxins. each breath at lowland concentration deposits a small dose into the body, and successive breaths add to it. the body cannot eliminate the load at the rate the lowlands impose. over weeks, months, and years, accumulation reaches the brain.
 

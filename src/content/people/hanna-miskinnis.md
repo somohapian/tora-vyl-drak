@@ -3,11 +3,11 @@ name: hanna miskinnis
 role: pre-impact researcher, founder of the original longevity intervention
 era: pre-collapse
 born: pre-impact, exact year unknown
-died: pre-impact, exact year unknown
+died: in the fracture, november 2075
 status: historical
-summary: pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition.
+summary: pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records.
 open_canon:
-  - hanna's exact dates of birth and death
+  - hanna's exact year of birth
   - the precise mechanism of her telomere intervention
   - whether any direct written record of her work survives in tora vyl drak, and through what chain of custody
   - the institutional structure of the miskinnis research group

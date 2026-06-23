@@ -2,7 +2,7 @@
 word: micasu
 pronunciation: mee-kah-soo
 part_of_speech: greeting
-definition: welcome
+definition: a warm greeting of welcome. in the founding era it meant simply "welcome"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense.
 etymology: from the spanish phrase "mi casa es su casa," "my house is your house." compressed across generations of use into a single kahu-tok word.
 source: spanish, via the bunker populations the zou-esh brought home
 entered: approximately 2900 ad
