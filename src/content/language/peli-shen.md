@@ -17,7 +17,7 @@ open_canon:
 
 <span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span> is the kahu-tok word for the radiotrophic fungus that has rendered the post-fracture lowlands lethal. the literal reading of the compound is "danger-life," from <span class="kt">peli</span> (danger) and <span class="kt">shen</span> (life).
 
-the importance-first construction of the word is exact to the <a class="wiki-link" href="/concepts/kahu">kahu</a>'s relationship with the organism. <span class="kt">peli-shen</span> is alive. that is the second thing about it. the first thing is that it is dangerous. naming the danger before the life is the kahu refusal to ever soften, by linguistic order, what <span class="kt">peli-shen</span> means.
+the word is built in importance-first order. <span class="kt">peli-shen</span> is alive, but the danger is named first and the life second.
 
 the word is used both for the fungus as a biological organism and, in shortened form, as a warning. a <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a> in the field who needs to alert a partner to spore presence will say <span class="kt">!peli-shen</span> or, more sharply, <span class="kt">!peli</span> alone. context and tone disambiguate.
 

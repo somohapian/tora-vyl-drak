@@ -21,9 +21,9 @@ open_canon:
     study of the language itself
 ---
 
-<span class="kt">kahu-tok</span> is the kahu's name for their own language. the compound reads kahu-talk in literal kahu-tok order. the engineered replacement language for tok-peles, the bastard tongue of the bunker era. designed by bixel during the early age of tapestry.
+<span class="kt">kahu-tok</span> is the kahu's name for their own language. the compound reads kahu-talk in literal kahu-tok order. it is the engineered replacement language for tok-peles, the bastard tongue of the bunker era, designed by bixel during the early age of tapestry.
 
-the word's structure illustrates the language's basic compounding pattern. <span class="kt">kahu</span> is the foundational community noun. <span class="kt">tok</span> is the root for talk or speech. the compound names the speech as belonging to the community. importance-first order places the community first; what kind of speech is being named follows. the language belongs to the kahu before it does anything else.
+the word's structure illustrates the language's basic compounding pattern. <span class="kt">kahu</span> is the foundational community noun. <span class="kt">tok</span> is the root for talk or speech. the compound names the speech as belonging to the community. importance-first order places the community first; what kind of speech is being named follows.
 
 <span class="kt">kahu-tok</span> as a word is used at every scale of reference. the language as a whole, in the abstract. the language as practiced in a specific kahu (the speech of a particular family or sub-community, with its local turns and habits). a specific utterance in the language, identified as being in kahu-tok rather than in some other tradition. context disambiguates.
 

@@ -20,4 +20,4 @@ operationally, the cat-kahu pair cats with zou-esh students as part of the long 
 
 the cat-kahu have specialized livestock operations on the wrap-around that supply meat to feed the cats. this is part of why the wrap-around is their territory; the meat economy of the cats requires land. the broader nu-tera agricultural belt is grain and vegetable; the wrap-around is hardy livestock for the cats.
 
-the cat-kahu are kahu. they are one of the vocations through which the kahu live, the vocation that holds the relationship between humans and the species that has accompanied them most closely.
+the cat-kahu are kahu. they are one of the vocations through which the kahu live, responsible for the relationship between humans and the kahu cats.

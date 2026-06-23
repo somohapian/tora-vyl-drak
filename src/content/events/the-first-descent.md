@@ -1,21 +1,21 @@
 ---
 name: the first descent
-year: 2283 ad
+year: c. 2112-2122 ad
 era: end of dark century, beginning of age of tapestry
-summary: the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization.
+summary: the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization.
 open_canon:
-  - the specific year and season the first descent occurred
-  - the size and composition of the first descent group
+  - the exact years and order in which the founding groups arrived
+  - the size and composition of each group
   - the named figures, if any, who led or organized the descent
   - the immediate organizational structures of the first kahu generation
 ---
 
-the first descent is the event by which the <a class="wiki-link" href="/concepts/kahu">kahu</a> became the kahu.
+the first descent is the event that founded the <a class="wiki-link" href="/concepts/kahu">kahu</a> civilization.
 
-for one hundred and fifty years after <a class="wiki-link" href="/events/the-great-eruption">the great eruption</a> of 2133 ad formed the caldera, the bunker survivors of <a class="wiki-link" href="/concepts/the-cascade">the cascade</a> arc had watched the basin from the surrounding peaks. they had monitored its cooling. they had measured the slow return of soil chemistry and atmospheric conditions to something that could support life. they had spoken the bastard tongue, eaten the chemosynthetic <span class="kt"><a class="wiki-link" href="/objects/ston-shen">ston-shen</a></span> paste, raised generations on the assumption that the caldera might eventually be habitable. by 2283 ad, the assumption was confirmed.
+<a class="wiki-link" href="/events/the-great-eruption">the great eruption</a> of 2075 formed the caldera within weeks of <a class="wiki-link" href="/events/the-fracture">the fracture</a>. for roughly the next four decades, the surviving groups of <a class="wiki-link" href="/concepts/the-cascade">the cascade</a> region observed the basin from the surrounding peaks and bunkers, monitoring its cooling, soil chemistry, and atmospheric conditions while they spoke the bastard tongue and lived on the chemosynthetic <span class="kt"><a class="wiki-link" href="/objects/ston-shen">ston-shen</a></span> paste. by around 2112 the basin could support life.
 
-the descent itself was the moment when the assumption became a community. survivors from multiple bunker locations, mostly in the idaho rockies and the blue mountains of eastern oregon, came down out of their high refuges and into the sterile basin. the caldera floor was warm, geothermally heated by the residual magma chamber beneath. the soil was rich, post-eruption ash that had absorbed snowmelt and begun to weather. there was no <a class="wiki-link" href="/language/peli-shen"><span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span></a> at the elevation. there was, finally, room.
+the descent was not a single event. it was a staggered arrival of the surviving groups across roughly a decade. the chinese carrier reached the caldera first, around 2112. the cheyenne and government bunkers followed, around 2117, and then the southern caravan, the billionaire bunker, and the northern caravan. each group came in above the <span class="kt"><a class="wiki-link" href="/concepts/peli-shen">peli-shen</a></span> spore line onto a warm, geothermally heated floor with rich post-eruption soil. the scattered prepper and rural-community bunkers of the highlands were not among the founding groups; their survivors came into the kahu individually over the centuries that followed.
 
-the first descent did not happen in a single day. it was a process of weeks and months as different groups confirmed each other's findings and committed to the move. once enough kahu were on the floor of the caldera, building chambers along the rim of <a class="wiki-link" href="/places/the-hearth">the hearth</a>, the bastard tongue began to give way. within a generation, kahu-tok would emerge as the engineered replacement language. within two generations, the institutional structures of <a class="wiki-link" href="/organizations/the-council">the council</a>, <a class="wiki-link" href="/organizations/the-warden-tenders">the warden-tenders</a>' precursors, and the messenger-scouts who would become the <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a> were all visible.
+a couple of years after the last group arrived, the six main groups formed the original council of six, around 2122. this was the kahu's first government and the formal founding of the civilization. once the groups were settled on the floor and building chambers along the rim of <a class="wiki-link" href="/places/the-hearth">the hearth</a>, the bastard tongue began to give way. within a generation, kahu-tok emerged as the engineered replacement language, and the precursors of <a class="wiki-link" href="/organizations/the-warden-tenders">the warden-tenders</a> and the messenger-scouts who would become the <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a> took shape.
 
-the first descent ends <a class="wiki-link" href="/eras/the-dark-century">the dark century</a> and begins the <a class="wiki-link" href="/eras/age-of-tapestry">age of tapestry</a>. the kahu date the founding of their civilization to this moment.
+the first descent ends <a class="wiki-link" href="/eras/the-dark-century">the dark century</a> and begins the <a class="wiki-link" href="/eras/age-of-tapestry">age of tapestry</a>. the kahu date the founding of their civilization to the seating of the council of six.

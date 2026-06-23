@@ -20,9 +20,9 @@ open_canon:
     drak as referring to the longs
 ---
 
-<span class="kt">drak</span> is the kahu-tok word for last. it is one of the foundational roots of the bixel 1000. its placement in the construction <span class="proper">tora vyl drak</span> is the trailing modifier in importance-first order: hope, call, last. the last call. drak qualifies the call as the final one, the ultimate attempt, the terminal opportunity.
+<span class="kt">drak</span> is the kahu-tok word for last. it is one of the foundational roots of the bixel 1000. its placement in the construction <span class="proper">tora vyl drak</span> is the trailing modifier in importance-first order: hope, call, last. drak qualifies the call as the final one.
 
-earlier glossaries of kahu-tok in some kahu archival sources incorrectly listed <span class="kt">drak</span> as referring to the longs. this is a documented error in the kahu's own record-keeping, not a meaning of the word. the kahu have no working knowledge of the longs and no kahu-tok word for them; the kahu language does not name them. the word <span class="kt">drak</span> means last. its meaning is the modifier sense, the qualifier of finality.
+earlier glossaries of kahu-tok in some kahu archival sources incorrectly listed <span class="kt">drak</span> as referring to the longs. this is a documented error in the kahu's own record-keeping, not a meaning of the word. the kahu have no working knowledge of the longs and no kahu-tok word for them; the kahu language does not name them. the word <span class="kt">drak</span> means last, in the modifier sense.
 
 distant survivor pockets in the russian far east, who knew the kahu only through legend during the dark century, rendered the place name in a folk etymology as <span class="proper">tura vyl drak</span> with <span class="kt">drak</span> mistranslated as "dragon." the folk reading produced "the last dragon's hope" or "the valley of the second sun." the mistranslation is a documented outside-world reading and is not canonical kahu-tok. the kahu's own use of <span class="kt">drak</span> means last, in all contexts.
 

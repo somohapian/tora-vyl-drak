@@ -1,5 +1,49 @@
 {
+  "people/akika": [
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "language",
+      "slug": "toska",
+      "name": "toska",
+      "kahuTok": "",
+      "summary": "deep sorrow; grief; anguished longing."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
+    }
+  ],
   "people/bixel": [
+    {
+      "collection": "people",
+      "slug": "akika",
+      "name": "akika",
+      "kahuTok": "",
+      "summary": "bixel's partner, killed by the russian state before the fracture. the origin of the deep-grief vocabulary of kahu-tok."
+    },
+    {
+      "collection": "people",
+      "slug": "yelena-cruz",
+      "name": "yelena cruz",
+      "kahuTok": "",
+      "summary": "bixel's student, who completed and formalized kahu-tok after bixel's death. not remembered in the kahu's later account of the language."
+    },
     {
       "collection": "concepts",
       "slug": "kahu",
@@ -15,25 +59,48 @@
       "summary": "welcome"
     },
     {
+      "collection": "people",
+      "slug": "edi",
+      "name": "edi",
+      "kahuTok": "",
+      "summary": "head of the zou-esh in the mid-bloom who ended the kahu's first government by administrative capture, and was deposed and exiled."
+    }
+  ],
+  "people/edi": [
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
       "collection": "eras",
-      "slug": "age-of-tapestry",
-      "name": "age of tapestry",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
       "kahuTok": "",
-      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
     },
     {
-      "collection": "language",
-      "slug": "kahu",
-      "name": "kahu",
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
       "kahuTok": "",
-      "summary": "a community of people. the kahu people. one word at every scale."
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
     },
     {
-      "collection": "language",
-      "slug": "peli-shen",
-      "name": "peli-shen",
+      "collection": "events",
+      "slug": "the-seizure",
+      "name": "the seizure",
       "kahuTok": "",
-      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
+      "summary": "the mid-bloom episode in which the head of the zou-esh captured the sanctuary and ended the kahu's first government, and the resistance that deposed and exiled him."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
     }
   ],
   "people/hanna-miskinnis": [
@@ -75,6 +142,13 @@
   ],
   "people/mara": [
     {
+      "collection": "people",
+      "slug": "edi",
+      "name": "edi",
+      "kahuTok": "",
+      "summary": "head of the zou-esh in the mid-bloom who ended the kahu's first government by administrative capture, and was deposed and exiled."
+    },
+    {
       "collection": "concepts",
       "slug": "kahu",
       "name": "kahu",
@@ -101,36 +175,29 @@
       "name": "the long climb",
       "kahuTok": "",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
-    },
-    {
-      "collection": "organizations",
-      "slug": "zou-esh",
-      "name": "zou-esh",
-      "kahuTok": "zou-esh",
-      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
     }
   ],
-  "people/ston": [
+  "people/the-bunker-survivors": [
     {
-      "collection": "concepts",
-      "slug": "kahu",
-      "name": "kahu",
-      "kahuTok": "kahu",
-      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+      "collection": "people",
+      "slug": "the-longs",
+      "name": "the longs",
+      "kahuTok": "not a kahu-tok term; the kahu have no word for them",
+      "summary": "the immortal elite who took the longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. unknown to the kahu."
     },
     {
-      "collection": "objects",
-      "slug": "ston-shen",
-      "name": "ston-shen",
-      "kahuTok": "ston-shen",
-      "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
-    },
-    {
-      "collection": "eras",
-      "slug": "the-dark-century",
-      "name": "the dark century",
+      "collection": "events",
+      "slug": "the-first-descent",
+      "name": "the first descent",
       "kahuTok": "",
-      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+      "summary": "the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
     },
     {
       "collection": "organizations",
@@ -140,6 +207,7 @@
       "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
     }
   ],
+  "people/the-cat-farmers": [],
   "people/the-longs": [
     {
       "collection": "people",
@@ -177,6 +245,44 @@
       "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
     }
   ],
+  "people/the-yamantau-descendants": [],
+  "people/yelena-cruz": [
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. the centuries of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-bastard-tongue",
+      "name": "the bastard tongue",
+      "kahuTok": "tok-peles",
+      "summary": ">-"
+    },
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-bixel-1000",
+      "name": "the bixel 1000",
+      "kahuTok": "bixel-tausen, by some readings",
+      "summary": ">-"
+    }
+  ],
   "places/hart-ston": [
     {
       "collection": "events",
@@ -190,14 +296,14 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "eras",
       "slug": "age-of-tapestry",
       "name": "age of tapestry",
       "kahuTok": "",
-      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+      "summary": "the founding era of the kahu civilization. the great coalescence. the centuries of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
     },
     {
       "collection": "concepts",
@@ -211,7 +317,7 @@
       "slug": "the-first-descent",
       "name": "the first descent",
       "kahuTok": "",
-      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+      "summary": "the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization."
     }
   ],
   "places/hart-wata": [
@@ -227,7 +333,7 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "places",
@@ -271,14 +377,14 @@
       "slug": "the-council",
       "name": "the council",
       "kahuTok": "",
-      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
     },
     {
       "collection": "places",
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "events",
@@ -288,6 +394,7 @@
       "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
     }
   ],
+  "places/mara-skol": [],
   "places/nu-tera": [
     {
       "collection": "places",
@@ -301,7 +408,7 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "concepts",
@@ -338,14 +445,14 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "eras",
       "slug": "age-of-tapestry",
       "name": "age of tapestry",
       "kahuTok": "",
-      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+      "summary": "the founding era of the kahu civilization. the great coalescence. the centuries of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
     },
     {
       "collection": "concepts",
@@ -375,7 +482,7 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "events",
@@ -419,7 +526,7 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "people",
@@ -436,6 +543,7 @@
       "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
     }
   ],
+  "places/the-great-western-sea": [],
   "places/the-hearth": [
     {
       "collection": "places",
@@ -449,7 +557,7 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "organizations",
@@ -507,9 +615,10 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     }
   ],
+  "places/the-stone-climb": [],
   "places/the-wilds": [
     {
       "collection": "places",
@@ -523,7 +632,7 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "places",
@@ -547,6 +656,7 @@
       "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
     }
   ],
+  "places/the-wrap-around": [],
   "places/tora-vyl-drak": [
     {
       "collection": "places",
@@ -611,14 +721,14 @@
       "slug": "the-council",
       "name": "the council",
       "kahuTok": "",
-      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
     },
     {
       "collection": "places",
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     }
   ],
   "events/the-first-descent": [
@@ -627,7 +737,7 @@
       "slug": "age-of-tapestry",
       "name": "age of tapestry",
       "kahuTok": "",
-      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+      "summary": "the founding era of the kahu civilization. the great coalescence. the centuries of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
     },
     {
       "collection": "objects",
@@ -641,7 +751,14 @@
       "slug": "the-dark-century",
       "name": "the dark century",
       "kahuTok": "",
-      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+      "summary": "the roughly forty-five years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+    },
+    {
+      "collection": "events",
+      "slug": "the-fracture",
+      "name": "the fracture",
+      "kahuTok": "",
+      "summary": "the comet strike that ended the pre-collapse world. two fragments, two continents, a global emp, and the beginning of the dark century."
     },
     {
       "collection": "events",
@@ -649,13 +766,6 @@
       "name": "the great eruption",
       "kahuTok": "",
       "summary": "the vei-8 super-eruption of the cascade volcanic arc that formed the kahu vyl caldera. delayed consequence of the 2075 cascadia impact. the geological event that made tora vyl drak possible."
-    },
-    {
-      "collection": "events",
-      "slug": "the-leveling",
-      "name": "the leveling",
-      "kahuTok": "",
-      "summary": "the coordinated emp counter-strike by surface survivors against the longs' arcologies. the act that sealed the longs in permanently."
     }
   ],
   "events/the-fracture": [
@@ -685,7 +795,7 @@
       "slug": "the-dark-century",
       "name": "the dark century",
       "kahuTok": "",
-      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+      "summary": "the roughly forty-five years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
     },
     {
       "collection": "concepts",
@@ -715,7 +825,7 @@
       "slug": "the-first-descent",
       "name": "the first descent",
       "kahuTok": "",
-      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+      "summary": "the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization."
     },
     {
       "collection": "places",
@@ -766,7 +876,7 @@
       "slug": "the-dark-century",
       "name": "the dark century",
       "kahuTok": "",
-      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+      "summary": "the roughly forty-five years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
     }
   ],
   "events/the-leveling": [
@@ -782,7 +892,7 @@
       "slug": "the-first-descent",
       "name": "the first descent",
       "kahuTok": "",
-      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+      "summary": "the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization."
     },
     {
       "collection": "events",
@@ -826,7 +936,7 @@
       "slug": "the-council",
       "name": "the council",
       "kahuTok": "",
-      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
     },
     {
       "collection": "people",
@@ -843,6 +953,43 @@
       "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
     }
   ],
+  "events/the-seizure": [
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "people",
+      "slug": "edi",
+      "name": "edi",
+      "kahuTok": "",
+      "summary": "head of the zou-esh in the mid-bloom who ended the kahu's first government by administrative capture, and was deposed and exiled."
+    },
+    {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    }
+  ],
   "eras/age-of-bloom": [
     {
       "collection": "eras",
@@ -850,6 +997,20 @@
       "name": "age of endura",
       "kahuTok": "",
       "summary": "the modern era of the kahu. the long time of troubles, the schism, and the questions the golden age did not have to answer."
+    },
+    {
+      "collection": "people",
+      "slug": "edi",
+      "name": "edi",
+      "kahuTok": "",
+      "summary": "head of the zou-esh in the mid-bloom who ended the kahu's first government by administrative capture, and was deposed and exiled."
+    },
+    {
+      "collection": "events",
+      "slug": "the-seizure",
+      "name": "the seizure",
+      "kahuTok": "",
+      "summary": "the mid-bloom episode in which the head of the zou-esh captured the sanctuary and ended the kahu's first government, and the resistance that deposed and exiled him."
     },
     {
       "collection": "concepts",
@@ -863,21 +1024,7 @@
       "slug": "age-of-tapestry",
       "name": "age of tapestry",
       "kahuTok": "",
-      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
-    },
-    {
-      "collection": "concepts",
-      "slug": "kahu",
-      "name": "kahu",
-      "kahuTok": "kahu",
-      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
-    },
-    {
-      "collection": "people",
-      "slug": "mara",
-      "name": "mara",
-      "kahuTok": "",
-      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+      "summary": "the founding era of the kahu civilization. the great coalescence. the centuries of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
     }
   ],
   "eras/age-of-endura": [
@@ -923,7 +1070,14 @@
       "slug": "the-first-descent",
       "name": "the first descent",
       "kahuTok": "",
-      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+      "summary": "the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization."
+    },
+    {
+      "collection": "people",
+      "slug": "yelena-cruz",
+      "name": "yelena cruz",
+      "kahuTok": "",
+      "summary": "bixel's student, who completed and formalized kahu-tok after bixel's death. not remembered in the kahu's later account of the language."
     },
     {
       "collection": "eras",
@@ -938,13 +1092,6 @@
       "name": "bixel",
       "kahuTok": "",
       "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
-    },
-    {
-      "collection": "places",
-      "slug": "hart-ston",
-      "name": "hart-ston",
-      "kahuTok": "hart-ston",
-      "summary": "the active volcanic cone within the caldera. heart-stone. sacred. the source of the residual heat that keeps the kahu alive."
     }
   ],
   "eras/the-dark-century": [
@@ -960,7 +1107,7 @@
       "slug": "the-first-descent",
       "name": "the first descent",
       "kahuTok": "",
-      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+      "summary": "the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization."
     },
     {
       "collection": "events",
@@ -984,6 +1131,7 @@
       "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
     }
   ],
+  "concepts/importance-first-syntax": [],
   "concepts/kahu": [
     {
       "collection": "people",
@@ -1058,6 +1206,31 @@
       "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
     }
   ],
+  "concepts/the-bastard-tongue": [
+    {
+      "collection": "people",
+      "slug": "yelena-cruz",
+      "name": "yelena cruz",
+      "kahuTok": "",
+      "summary": "bixel's student, who completed and formalized kahu-tok after bixel's death. not remembered in the kahu's later account of the language."
+    }
+  ],
+  "concepts/the-bixel-1000": [
+    {
+      "collection": "language",
+      "slug": "toska",
+      "name": "toska",
+      "kahuTok": "",
+      "summary": "deep sorrow; grief; anguished longing."
+    },
+    {
+      "collection": "people",
+      "slug": "yelena-cruz",
+      "name": "yelena cruz",
+      "kahuTok": "",
+      "summary": "bixel's student, who completed and formalized kahu-tok after bixel's death. not remembered in the kahu's later account of the language."
+    }
+  ],
   "concepts/the-cascade": [
     {
       "collection": "concepts",
@@ -1085,7 +1258,7 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     },
     {
       "collection": "concepts",
@@ -1152,7 +1325,7 @@
       "slug": "age-of-tapestry",
       "name": "age of tapestry",
       "kahuTok": "",
-      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+      "summary": "the founding era of the kahu civilization. the great coalescence. the centuries of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
     },
     {
       "collection": "places",
@@ -1196,7 +1369,7 @@
       "slug": "the-council",
       "name": "the council",
       "kahuTok": "",
-      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
     },
     {
       "collection": "events",
@@ -1219,7 +1392,7 @@
       "slug": "the-dark-century",
       "name": "the dark century",
       "kahuTok": "",
-      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+      "summary": "the roughly forty-five years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
     },
     {
       "collection": "events",
@@ -1243,6 +1416,11 @@
       "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
     }
   ],
+  "concepts/the-kahu-cat-partnership": [],
+  "concepts/the-kahu-cats": [],
+  "concepts/the-mountain-that-breathes": [],
+  "concepts/the-three-waves-of-extinction": [],
+  "concepts/the-trinity-lock": [],
   "concepts/warden": [
     {
       "collection": "eras",
@@ -1256,7 +1434,7 @@
       "slug": "the-council",
       "name": "the council",
       "kahuTok": "",
-      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
     },
     {
       "collection": "organizations",
@@ -1314,16 +1492,67 @@
       "slug": "the-council",
       "name": "the council",
       "kahuTok": "",
-      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    }
+  ],
+  "organizations/the-council-of-six": [
+    {
+      "collection": "organizations",
+      "slug": "the-council",
+      "name": "the council",
+      "kahuTok": "",
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-bloom",
+      "name": "age of bloom",
+      "kahuTok": "",
+      "summary": "the twelve-hundred-year golden age of kahu civilization. the era during which warden was realized, biotech matured, and the kahu way of life reached its utopian apex."
+    },
+    {
+      "collection": "eras",
+      "slug": "age-of-tapestry",
+      "name": "age of tapestry",
+      "kahuTok": "",
+      "summary": "the founding era of the kahu civilization. the great coalescence. the centuries of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "people",
+      "slug": "edi",
+      "name": "edi",
+      "kahuTok": "",
+      "summary": "head of the zou-esh in the mid-bloom who ended the kahu's first government by administrative capture, and was deposed and exiled."
     }
   ],
   "organizations/the-council": [
+    {
+      "collection": "organizations",
+      "slug": "the-council-of-six",
+      "name": "the council of six",
+      "kahuTok": "",
+      "summary": "the kahu's first government. the founding council of the six main groups, later expanded to seven when the zou-esh were granted a seat. ended by the seizure around 3250."
+    },
     {
       "collection": "organizations",
       "slug": "the-warden-tenders",
       "name": "the warden-tenders",
       "kahuTok": "",
       "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
+    },
+    {
+      "collection": "people",
+      "slug": "edi",
+      "name": "edi",
+      "kahuTok": "",
+      "summary": "head of the zou-esh in the mid-bloom who ended the kahu's first government by administrative capture, and was deposed and exiled."
     },
     {
       "collection": "places",
@@ -1338,20 +1567,6 @@
       "name": "the caldera shudder",
       "kahuTok": "",
       "summary": "a violent subterranean seismic warning beneath the caldera. shook the kahu sense of permanent sanctuary and accelerated the schism."
-    },
-    {
-      "collection": "events",
-      "slug": "the-schism",
-      "name": "the schism",
-      "kahuTok": "",
-      "summary": "the unfolding kahu disagreement over biological intervention and the proper duration of life. the central live conflict of the present moment."
-    },
-    {
-      "collection": "concepts",
-      "slug": "warden",
-      "name": "warden",
-      "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     }
   ],
   "organizations/the-warden-tenders": [
@@ -1360,7 +1575,7 @@
       "slug": "the-council",
       "name": "the council",
       "kahuTok": "",
-      "summary": "the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+      "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
     },
     {
       "collection": "concepts",
@@ -1400,6 +1615,13 @@
       "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
     },
     {
+      "collection": "people",
+      "slug": "edi",
+      "name": "edi",
+      "kahuTok": "",
+      "summary": "head of the zou-esh in the mid-bloom who ended the kahu's first government by administrative capture, and was deposed and exiled."
+    },
+    {
       "collection": "concepts",
       "slug": "kahu",
       "name": "kahu",
@@ -1419,13 +1641,6 @@
       "name": "peli-shen",
       "kahuTok": "",
       "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
-    },
-    {
-      "collection": "concepts",
-      "slug": "peli-shen",
-      "name": "peli-shen",
-      "kahuTok": "peli-shen",
-      "summary": "the radiotrophic fungus that has rendered the lowlands lethal. the creeping dark. the reason the kahu live above five thousand feet."
     }
   ],
   "objects/air-klin": [
@@ -1465,20 +1680,25 @@
       "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
     }
   ],
+  "objects/jefe-tri": [],
+  "objects/klin-soma": [],
+  "objects/mirar-sin-ropa": [],
+  "objects/soma-ropa": [],
+  "objects/ston-ropa": [],
   "objects/ston-shen": [
     {
       "collection": "eras",
       "slug": "the-dark-century",
       "name": "the dark century",
       "kahuTok": "",
-      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+      "summary": "the roughly forty-five years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
     },
     {
       "collection": "events",
       "slug": "the-first-descent",
       "name": "the first descent",
       "kahuTok": "",
-      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+      "summary": "the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization."
     },
     {
       "collection": "concepts",
@@ -1495,13 +1715,15 @@
       "summary": "the radiotrophic fungus that has rendered the lowlands lethal. literally danger-life."
     },
     {
-      "collection": "people",
-      "slug": "ston",
-      "name": "ston",
-      "kahuTok": "",
-      "summary": "figure named in the kahu record. canon is incomplete; this entry will be expanded as records are recovered."
+      "collection": "places",
+      "slug": "sun-tera",
+      "name": "sun-tera",
+      "kahuTok": "sun-tera",
+      "summary": "the south quadrant of the caldera. the breadbasket. sun-land. the kahu's primary agricultural zone inside the caldera proper."
     }
   ],
+  "objects/the-cloth-mask": [],
+  "objects/the-gloves": [],
   "objects/the-zou-kit": [
     {
       "collection": "objects",
@@ -1539,13 +1761,39 @@
       "summary": "the kahu order responsible for the breeding, training, and stewardship of the kahu cats. a small lineage-based organization on the wrap-around of the nu-tera plateau, the active biological designers of the cat species."
     }
   ],
+  "language/drak": [],
+  "language/hart": [],
+  "language/hot": [],
+  "language/kahu-tok": [
+    {
+      "collection": "language",
+      "slug": "toska",
+      "name": "toska",
+      "kahuTok": "",
+      "summary": "deep sorrow; grief; anguished longing."
+    },
+    {
+      "collection": "people",
+      "slug": "akika",
+      "name": "akika",
+      "kahuTok": "",
+      "summary": "bixel's partner, killed by the russian state before the fracture. the origin of the deep-grief vocabulary of kahu-tok."
+    },
+    {
+      "collection": "people",
+      "slug": "yelena-cruz",
+      "name": "yelena cruz",
+      "kahuTok": "",
+      "summary": "bixel's student, who completed and formalized kahu-tok after bixel's death. not remembered in the kahu's later account of the language."
+    }
+  ],
   "language/kahu": [
     {
       "collection": "eras",
       "slug": "age-of-tapestry",
       "name": "age of tapestry",
       "kahuTok": "",
-      "summary": "the founding era of the kahu civilization. the great coalescence. four hundred years of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+      "summary": "the founding era of the kahu civilization. the great coalescence. the centuries of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
     },
     {
       "collection": "concepts",
@@ -1573,9 +1821,11 @@
       "slug": "the-dark-century",
       "name": "the dark century",
       "kahuTok": "",
-      "summary": "the two hundred and eight years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
+      "summary": "the roughly forty-five years between the fracture and the first descent. the hyper-winter, the bunker survival, the bastard tongue, and the long watch. the era before the kahu."
     }
   ],
+  "language/kasa": [],
+  "language/kia-vyl": [],
   "language/micasu": [
     {
       "collection": "people",
@@ -1603,7 +1853,7 @@
       "slug": "the-first-descent",
       "name": "the first descent",
       "kahuTok": "",
-      "summary": "the moment the bunker survivors of the cascade arc descended from their high refuges into the cooled floor of the kahu vyl caldera. the founding of the kahu civilization."
+      "summary": "the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization."
     },
     {
       "collection": "organizations",
@@ -1643,13 +1893,52 @@
       "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
     },
     {
-      "collection": "concepts",
-      "slug": "kahu",
-      "name": "kahu",
-      "kahuTok": "kahu",
-      "summary": "the kahu people and the kahu principle. one word at every scale of community. the unit of human life. the central commitment of the world."
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
     }
   ],
+  "language/peli": [],
+  "language/shen": [],
+  "language/ston": [],
+  "language/sun": [],
+  "language/tera": [],
+  "language/tok-peles": [],
+  "language/tora": [],
+  "language/toska": [
+    {
+      "collection": "people",
+      "slug": "akika",
+      "name": "akika",
+      "kahuTok": "",
+      "summary": "bixel's partner, killed by the russian state before the fracture. the origin of the deep-grief vocabulary of kahu-tok."
+    },
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-bixel-1000",
+      "name": "the bixel 1000",
+      "kahuTok": "bixel-tausen, by some readings",
+      "summary": ">-"
+    }
+  ],
+  "language/vyl": [],
+  "language/wata": [],
   "language/zou-esh": [
     {
       "collection": "organizations",
@@ -1677,7 +1966,7 @@
       "slug": "tora-vyl-drak",
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
-      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent in 2283 ad."
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     }
   ]
 }

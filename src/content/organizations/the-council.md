@@ -1,7 +1,7 @@
 ---
 name: the council
 status: active
-summary: the central institutional structure of kahu governance. the body that deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system.
+summary: the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system.
 open_canon:
   - the precise composition and selection process for council members
   - the term length, rotation pattern, and accountability structure of the council
@@ -11,6 +11,8 @@ open_canon:
 ---
 
 the council is the central institutional structure of <a class="wiki-link" href="/concepts/kahu">kahu</a> governance. it is the body that deliberates on caldera-wide questions and integrates the recommendations of <a class="wiki-link" href="/concepts/warden">warden</a> into kahu decision-making.
+
+the present council is the kahu's second government. the first, the <a class="wiki-link" href="/organizations/the-council-of-six">council of six</a> and later seven, ran from the founding until the middle of the bloom, when <a class="wiki-link" href="/people/edi">edi</a>, the head of the zou-esh, captured its powers (see <a class="wiki-link" href="/events/the-seizure">the seizure</a>). the resistance that deposed edi built the present body in its place, bicameral by design so that no single figure or order could take the sanctuary again. it divides into two chambers, the people's council and the council of watchers, and has held its shape since.
 
 the council does not rule in the sense that a pre-collapse state ruled. the kahu's governance is mostly at scale; daily life is managed at the level of the small kahu (family unit), the larger kahu (sub-community), and the working kahu of vocational groups. most decisions a kahu makes in a day are made at these scales without reference to any central body. the council exists for the decisions that cannot be made at smaller scales: caldera-wide resource allocation, infrastructure investment, the integration of warden's modeling outputs into actual practice, the response to events that affect the entire community (<a class="wiki-link" href="/events/the-caldera-shudder">the caldera shudder</a> being the most recent example), and the formal mediation of disagreements that cannot be resolved within the kahu they arose in.
 
