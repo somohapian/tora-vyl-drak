@@ -2887,6 +2887,22 @@
   "language/ston": [],
   "language/sun": [],
   "language/tera": [],
+  "language/tok-kahu": [
+    {
+      "collection": "language",
+      "slug": "kahu-tok",
+      "name": "kahu-tok",
+      "kahuTok": "",
+      "summary": "the kahu language. literally kahu-talk."
+    },
+    {
+      "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    }
+  ],
   "language/tok-peles": [
     {
       "collection": "language",

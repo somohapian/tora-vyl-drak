@@ -207,6 +207,13 @@
     },
     {
       "collection": "language",
+      "slug": "tok-kahu",
+      "name": "tok-kahu",
+      "kahuTok": "",
+      "summary": "the family of words. the archive's dictionary of kahu-tok, in which every word of the language holds its own entry."
+    },
+    {
+      "collection": "language",
       "slug": "tonal-tense",
       "name": "tonal tense",
       "kahuTok": "",
@@ -6408,6 +6415,13 @@
     },
     {
       "collection": "language",
+      "slug": "tok-kahu",
+      "name": "tok-kahu",
+      "kahuTok": "",
+      "summary": "the family of words. the archive's dictionary of kahu-tok, in which every word of the language holds its own entry."
+    },
+    {
+      "collection": "language",
       "slug": "tok-peles",
       "name": "tok-peles",
       "kahuTok": "",
@@ -8252,6 +8266,7 @@
     }
   ],
   "language/tera": [],
+  "language/tok-kahu": [],
   "language/tok-peles": [
     {
       "collection": "concepts",

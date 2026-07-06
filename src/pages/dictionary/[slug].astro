@@ -1,0 +1,210 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { buildDictionary, compoundsOf, conceptEntries } from '../../data/lexicon.mjs';
+
+// one page per word of kahu-tok: the tok-kahu's entries. terse on purpose;
+// a dictionary is rows, and the archive's full articles live in the
+// language collection, linked when they exist.
+
+export async function getStaticPaths() {
+  const dict = buildDictionary();
+  return dict.map((record) => ({
+    params: { slug: record.slug },
+    props: { record },
+  }));
+}
+
+const { record } = Astro.props;
+const dict = buildDictionary();
+
+const langEntries = await getCollection('language');
+const langSlugs = new Set(langEntries.map((e) => e.slug));
+const entryHref = langSlugs.has(record.slug)
+  ? `/language/${record.slug}`
+  : (conceptEntries[record.slug] ?? null);
+
+const compounds = compoundsOf(record.slug, dict);
+const parts = record.slug.includes('-')
+  ? record.slug.split('-').filter((p) => dict.some((r) => r.slug === p))
+  : [];
+const fromMilTok = (record.provenance ?? '').includes('mil-tok');
+const description = `${record.word}: ${record.senses[0].gloss}`;
+---
+
+<Layout title={`${record.word} · tok-kahu`} description={description}>
+  <article class="entry-body dict-entry">
+    <nav class="entry-breadcrumb" aria-label="breadcrumb">
+      <a href="/">archive</a>
+      <span class="entry-breadcrumb-sep">/</span>
+      <a href="/dictionary">dictionary</a>
+      <span class="entry-breadcrumb-sep">/</span>
+      <span class="entry-breadcrumb-current">{record.word}</span>
+    </nav>
+
+    <h1 class="kt dict-headword">{record.word}</h1>
+    <p class="dict-provenance">{record.provenance}</p>
+    <hr class="kahu-rule" />
+
+    <ol class="dict-senses" class:list={{ single: record.senses.length === 1 }}>
+      {record.senses.map((s) => (
+        <li>
+          <p class="dict-sense-gloss">{s.gloss}</p>
+          {s.domain && <p class="dict-sense-domain">{s.domain}</p>}
+          {s.note && <p class="dict-sense-note">{s.note}</p>}
+        </li>
+      ))}
+    </ol>
+
+    {record.etym && (
+      <aside class="dict-etym">
+        <h2>the record's note</h2>
+        <p>{record.etym}</p>
+      </aside>
+    )}
+
+    {parts.length > 0 && (
+      <p class="dict-parts">
+        built from{' '}
+        {parts.map((p, i) => (
+          <>
+            {i > 0 && ' and '}
+            <a class="wiki-link" href={`/dictionary/${p}`}><span class="kt">{p}</span></a>
+          </>
+        ))}
+        , importance first.
+      </p>
+    )}
+
+    {compounds.length > 0 && (
+      <section class="dict-compounds">
+        <h2>the root appears in</h2>
+        <ul>
+          {compounds.map((c) => (
+            <li>
+              <a href={`/dictionary/${c.slug}`}>
+                <span class="kt">{c.word}</span>
+                <span class="dict-compound-gloss">{c.senses[0].gloss}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <footer class="dict-links">
+      {entryHref && (
+        <p><a class="wiki-link" href={entryHref}>the archive's full entry for this word</a></p>
+      )}
+      {fromMilTok && (
+        <p><a class="wiki-link" href={`/language/mil-tok#${record.slug}`}>this word in bixel's mil-tok</a></p>
+      )}
+      <p><a class="wiki-link" href="/dictionary">back to the tok-kahu</a></p>
+    </footer>
+  </article>
+</Layout>
+
+<style>
+  .dict-entry { max-width: 40rem; }
+  .dict-headword {
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    font-weight: 500;
+    margin: 0;
+  }
+  .dict-provenance {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ash, #8c857a);
+    margin: 0.5rem 0 0;
+  }
+  .dict-senses {
+    margin: 1.5rem 0 0;
+    padding-left: 1.4rem;
+  }
+  .dict-senses.single {
+    list-style: none;
+    padding-left: 0;
+  }
+  .dict-senses li { margin-bottom: 1.1rem; }
+  .dict-sense-gloss {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  .dict-sense-domain {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ash, #8c857a);
+    margin: 0.25rem 0 0;
+  }
+  .dict-sense-note {
+    font-style: italic;
+    color: var(--ink-soft, #6b6357);
+    font-size: 0.95rem;
+    margin: 0.4rem 0 0;
+  }
+  .dict-etym {
+    margin-top: 2rem;
+    padding: 1.1rem 1.3rem;
+    background: var(--paper-deeper, rgba(180, 165, 140, 0.08));
+    border-left: 2px solid var(--rule, #d8cfc2);
+  }
+  .dict-etym h2 {
+    font-size: 0.9rem;
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    color: var(--ash, #8c857a);
+    margin: 0 0 0.5rem;
+  }
+  .dict-etym p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .dict-parts {
+    margin-top: 1.75rem;
+    font-size: 0.95rem;
+    color: var(--ink-soft, #6b6357);
+  }
+  .dict-compounds { margin-top: 2rem; }
+  .dict-compounds h2 {
+    font-size: 0.9rem;
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    color: var(--ash, #8c857a);
+    margin: 0 0 0.5rem;
+  }
+  .dict-compounds ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .dict-compounds li { margin: 0; }
+  .dict-compounds a {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    gap: 0.4rem 1.2rem;
+    align-items: baseline;
+    padding: 0.35rem 0.25rem;
+    text-decoration: none;
+    color: var(--ink, #2d2820);
+    border-bottom: 1px solid var(--rule-faint, #ece5d8);
+  }
+  .dict-compounds a:hover { background: var(--parchment-deep, rgba(180, 165, 140, 0.12)); }
+  .dict-compound-gloss {
+    font-size: 0.9rem;
+    color: var(--ink-soft, #6b6357);
+  }
+  .dict-links {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule, #d8cfc2);
+    font-size: 0.92rem;
+  }
+  .dict-links p { margin: 0 0 0.4rem; }
+  @media (max-width: 38rem) {
+    .dict-compounds a { grid-template-columns: 1fr; gap: 0.1rem; }
+  }
+</style>

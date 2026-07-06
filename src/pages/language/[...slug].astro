@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import EntryLayout from '../../layouts/EntryLayout.astro';
+import { buildDictionary } from '../../data/lexicon.mjs';
 
 export async function getStaticPaths() {
   const entries = await getCollection('language');
@@ -13,6 +14,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const d = entry.data;
+const inDictionary = buildDictionary().some((r) => r.slug === entry.slug);
 
 const meta = [
   d.part_of_speech && { label: 'part of speech', value: d.part_of_speech },
@@ -21,6 +23,7 @@ const meta = [
   d.source && { label: 'source', value: d.source },
   d.entered && { label: 'entered the lexicon', value: d.entered },
   d.recorded && { label: 'in the record since', value: d.recorded },
+  inDictionary && { label: 'dictionary', value: `<a class="wiki-link" href="/dictionary/${entry.slug}">this word in the tok-kahu</a>` },
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 

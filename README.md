@@ -21,6 +21,10 @@ Every entry follows the same shape, in this order:
 
 Optional frontmatter across all collections: `recorded` ("in the record since"), rendered in the infobox. Pages in an in-world first-person voice (the mil-tok) carry the primary-source banner (`entry-primary-source`) and are not the archive speaking.
 
+## The language, held twice
+
+The mil-tok (`/language/mil-tok`) is bixel's primary document; the tok-kahu (`/dictionary`) is the archive's dictionary with one page per word. Both render from the same data: `src/data/mil-tok-data.mjs` (bixel's rows, verbatim) plus `src/data/lexicon.mjs` (supplemental words, etymology notes, slugs, senses). To add or fix a word, edit the data files, never the pages. A word graduates to a full article by adding a file in `src/content/language/`; the dictionary links it automatically by slug.
+
 ## Local development
 
 ```

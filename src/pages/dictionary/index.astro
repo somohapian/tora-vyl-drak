@@ -1,0 +1,170 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { buildDictionary } from '../../data/lexicon.mjs';
+
+// the tok-kahu: the dictionary of kahu-tok. every word its own page.
+// bixel's mil-tok remains the primary document; this is the archive speaking.
+
+const dict = buildDictionary();
+const letters = [...new Set(dict.map((r) => r.slug[0]))].sort();
+const byLetter = letters.map((l) => ({
+  letter: l,
+  records: dict.filter((r) => r.slug[0] === l),
+}));
+---
+
+<Layout
+  title="tok-kahu, the dictionary"
+  description="the tok-kahu: the family of words. the archive's dictionary of kahu-tok, every word its own entry."
+>
+  <article class="entry-body dict">
+    <nav class="entry-breadcrumb" aria-label="breadcrumb">
+      <a href="/">archive</a>
+      <span class="entry-breadcrumb-sep">/</span>
+      <span class="entry-breadcrumb-current">dictionary</span>
+    </nav>
+
+    <h1>tok-kahu</h1>
+    <p class="lede">the family of words: the archive's dictionary of <a class="wiki-link" href="/language/kahu-tok"><span class="kt">kahu-tok</span></a>, {dict.length} words, each its own entry. <a class="wiki-link" href="/language/mil-tok">the mil-tok</a> is bixel's own document and stays whole; the tok-kahu is the archive speaking, one word at a time.</p>
+    <hr class="kahu-rule" />
+
+    <div class="dict-tools">
+      <input
+        type="search"
+        class="dict-filter"
+        placeholder="filter the words…"
+        autocomplete="off"
+        spellcheck="false"
+        data-dict-filter
+      />
+      <nav class="dict-letters" aria-label="jump to letter">
+        {letters.map((l) => <a href={`#letter-${l}`}>{l}</a>)}
+      </nav>
+    </div>
+
+    {byLetter.map(({ letter, records }) => (
+      <section class="dict-section" id={`letter-${letter}`}>
+        <h2 class="dict-letter">{letter}</h2>
+        <ul class="dict-list">
+          {records.map((r) => (
+            <li data-word={r.word.toLowerCase()} data-gloss={r.senses.map((s) => s.gloss).join(' ').toLowerCase()}>
+              <a href={`/dictionary/${r.slug}`}>
+                <span class="dict-word kt">{r.word}</span>
+                <span class="dict-gloss">{r.senses[0].gloss}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <p class="dict-empty" data-dict-empty hidden>the record holds no word matching that. the language will go on without it, or it is not yet written down.</p>
+  </article>
+</Layout>
+
+<script>
+  const input = document.querySelector('[data-dict-filter]') as HTMLInputElement | null;
+  const empty = document.querySelector('[data-dict-empty]') as HTMLElement | null;
+  if (input) {
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      let shown = 0;
+      document.querySelectorAll<HTMLElement>('.dict-list li').forEach((li) => {
+        const hit = !q || (li.dataset.word ?? '').includes(q) || (li.dataset.gloss ?? '').includes(q);
+        li.hidden = !hit;
+        if (hit) shown++;
+      });
+      document.querySelectorAll<HTMLElement>('.dict-section').forEach((sec) => {
+        sec.hidden = !sec.querySelector('li:not([hidden])');
+      });
+      if (empty) empty.hidden = shown > 0;
+    });
+  }
+</script>
+
+<style>
+  .dict { max-width: 46rem; }
+  .dict h1 {
+    font-family: var(--serif-display);
+    font-weight: 500;
+  }
+  .dict-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    align-items: baseline;
+    margin: 1.5rem 0 0.5rem;
+  }
+  .dict-filter {
+    flex: 1 1 14rem;
+    font-family: var(--mono);
+    font-size: 0.9rem;
+    padding: 0.45rem 0.7rem;
+    background: var(--parchment, #f5efe4);
+    border: 1px solid var(--rule, #d8cfc2);
+    color: var(--ink, #2d2820);
+  }
+  .dict-filter:focus {
+    outline: none;
+    border-color: var(--ember, #b85c2e);
+  }
+  .dict-letters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+  }
+  .dict-letters a {
+    color: var(--ash, #8c857a);
+    text-decoration: none;
+    border: 1px solid var(--rule, #d8cfc2);
+    border-radius: 3px;
+    padding: 0.05em 0.45em;
+    text-transform: uppercase;
+  }
+  .dict-letters a:hover {
+    color: var(--ember, #b85c2e);
+    border-color: var(--ember, #b85c2e);
+  }
+  .dict-section { margin-top: 2rem; }
+  .dict-letter {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ember, #b85c2e);
+    border-bottom: 1px solid var(--rule, #d8cfc2);
+    padding-bottom: 0.3rem;
+  }
+  .dict-list {
+    list-style: none;
+    margin: 0.5rem 0 0;
+    padding: 0;
+  }
+  .dict-list li { margin: 0; }
+  .dict-list a {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    gap: 0.4rem 1.2rem;
+    align-items: baseline;
+    padding: 0.4rem 0.25rem;
+    text-decoration: none;
+    color: var(--ink, #2d2820);
+    border-bottom: 1px solid var(--rule-faint, #ece5d8);
+  }
+  .dict-list a:hover { background: var(--parchment-deep, rgba(180, 165, 140, 0.12)); }
+  .dict-word { font-style: italic; }
+  .dict-gloss {
+    font-size: 0.92rem;
+    color: var(--ink-soft, #6b6357);
+  }
+  .dict-empty {
+    margin-top: 2rem;
+    font-style: italic;
+    color: var(--ash, #8c857a);
+  }
+  @media (max-width: 38rem) {
+    .dict-list a { grid-template-columns: 1fr; gap: 0.1rem; }
+  }
+</style>
