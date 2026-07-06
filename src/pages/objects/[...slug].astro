@@ -16,6 +16,7 @@ const d = entry.data;
 
 const meta = [
   d.category && { label: 'category', value: d.category },
+  d.recorded && { label: 'in the record since', value: d.recorded },
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 

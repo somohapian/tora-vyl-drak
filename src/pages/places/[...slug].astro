@@ -18,6 +18,7 @@ const meta = [
   d.region && { label: 'region', value: d.region },
   d.elevation && { label: 'elevation', value: d.elevation },
   d.status && { label: 'status', value: d.status },
+  d.recorded && { label: 'in the record since', value: d.recorded },
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 

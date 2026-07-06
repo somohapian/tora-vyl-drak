@@ -8,6 +8,7 @@ source: the old tongue, respelled per the loanword doctrine of the cruz redactio
 entered: founding generation of kahu-tok, age of tapestry
 related:
   - kahu-tok
+recorded: 4625, the present endura
 open_canon:
   - whether any kahu below the council of the tapestry seat a formal konsil of their own, and what they call it
 ---

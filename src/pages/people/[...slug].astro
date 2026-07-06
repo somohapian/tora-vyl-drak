@@ -20,6 +20,7 @@ const meta = [
   d.born && { label: 'born', value: d.born },
   d.died && { label: 'died', value: d.died },
   d.status && { label: 'status', value: d.status },
+  d.recorded && { label: 'in the record since', value: d.recorded },
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 

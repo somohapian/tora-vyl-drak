@@ -2,6 +2,7 @@
 name: the provisioning of tora vyl drak
 category: subsistence
 summary: how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway.
+recorded: 4625, the present endura
 open_canon:
   - the size and rotation policy of the deep reserves
   - the full inventory of specialty cultures and seed lines the biotech depends on

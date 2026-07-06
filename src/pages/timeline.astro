@@ -1,0 +1,203 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+// /timeline: every dated event and era on one axis, 2025 to 4625, with era
+// bands. data comes straight from frontmatter; the first four-digit number in
+// an event's year string places it. fuzzy dates stay fuzzy on purpose: the
+// archive shows the year label exactly as the record gives it.
+
+const eras = await getCollection('eras');
+const events = await getCollection('events');
+
+const firstYear = (s: string | undefined): number | null => {
+  if (!s) return null;
+  const m = s.match(/\d{4}/);
+  return m ? parseInt(m[0], 10) : null;
+};
+
+type Band = {
+  slug: string;
+  name: string;
+  start: number;
+  end: number;
+  label: string;
+  summary: string;
+};
+
+const bands: Band[] = eras
+  .map((e) => {
+    const start = firstYear(e.data.year_start) ?? 0;
+    const end = firstYear(e.data.year_end) ?? 4625;
+    return {
+      slug: e.slug,
+      name: e.data.name,
+      start,
+      end,
+      label: `${e.data.year_start ?? ''}${e.data.year_end ? ' to ' + e.data.year_end : ''}`,
+      summary: e.data.summary,
+    };
+  })
+  .sort((a, b) => a.start - b.start);
+
+// the years before the record: the badlands prehistory band.
+const prehistory: Band = {
+  slug: '',
+  name: 'before the record',
+  start: 2025,
+  end: 2075,
+  label: '2025 to 2075 ad',
+  summary:
+    'the world before the sky fell, and the badlands years. treated in a separate record and claimed as this world’s prehistory; the record inside the caldera begins with the descent.',
+};
+
+const datedEvents = events
+  .map((e) => ({
+    slug: e.slug,
+    name: e.data.name,
+    year: firstYear(e.data.year),
+    yearLabel: e.data.year ?? '',
+    summary: e.data.summary,
+  }))
+  .filter((e) => e.year !== null)
+  .sort((a, b) => (a.year! - b.year!));
+
+const allBands = [prehistory, ...bands];
+const eventsFor = (band: Band) =>
+  datedEvents.filter((e) => e.year! >= band.start && e.year! < band.end);
+// events that land exactly on a band boundary belong to the era they open or
+// close; the fracture (2075) opens the dark century, so >= start wins.
+---
+
+<Layout
+  title="timeline"
+  description="every dated event and era of the record on one axis, 2025 to 4625."
+>
+  <article class="entry-body timeline">
+    <nav class="entry-breadcrumb" aria-label="breadcrumb">
+      <a href="/">archive</a>
+      <span class="entry-breadcrumb-sep">/</span>
+      <span class="entry-breadcrumb-current">timeline</span>
+    </nav>
+
+    <h1>timeline</h1>
+    <p class="lede">the record on one axis, 2025 to 4625. dates are given in the old reckoning; the kahu count their own years from the seating of the council of six.</p>
+    <hr class="kahu-rule" />
+
+    <div class="timeline-axis">
+      {allBands.map((band) => (
+        <section class="timeline-band">
+          <header class="timeline-band-head">
+            {band.slug ? (
+              <h2><a class="wiki-link" href={`/eras/${band.slug}`}>{band.name}</a></h2>
+            ) : (
+              <h2>{band.name}</h2>
+            )}
+            <span class="timeline-band-span">{band.label}</span>
+          </header>
+          <p class="timeline-band-summary">{band.summary}</p>
+          {eventsFor(band).length > 0 && (
+            <ul class="timeline-events">
+              {eventsFor(band).map((ev) => (
+                <li>
+                  <span class="timeline-year">{ev.yearLabel}</span>
+                  <span class="timeline-event">
+                    <a class="wiki-link" href={`/events/${ev.slug}`}>{ev.name}</a>
+                    <span class="timeline-event-summary">{ev.summary}</span>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      ))}
+    </div>
+  </article>
+</Layout>
+
+<style>
+  .timeline {
+    max-width: 46rem;
+  }
+  .timeline h1 {
+    font-family: var(--serif-display);
+    font-weight: 500;
+  }
+  .timeline-axis {
+    border-left: 2px solid var(--rule, #d8cfc2);
+    margin-top: 2rem;
+    padding-left: 0;
+  }
+  .timeline-band {
+    padding: 1.5rem 0 1.75rem 1.75rem;
+    position: relative;
+  }
+  .timeline-band + .timeline-band {
+    border-top: 1px dashed var(--rule, #d8cfc2);
+  }
+  .timeline-band-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1rem;
+  }
+  .timeline-band-head::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    margin-top: 0.45em;
+    width: 10px;
+    height: 10px;
+    background: var(--ember, #b85c2e);
+    border-radius: 50%;
+  }
+  .timeline-band-head h2 {
+    margin: 0;
+    font-size: 1.35rem;
+  }
+  .timeline-band-span {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ash, #8c857a);
+  }
+  .timeline-band-summary {
+    font-style: italic;
+    color: var(--ink-soft, #6b6357);
+    font-size: 0.95rem;
+    margin: 0.5rem 0 0;
+    max-width: var(--measure);
+  }
+  .timeline-events {
+    list-style: none;
+    margin: 1.25rem 0 0;
+    padding: 0;
+  }
+  .timeline-events li {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    gap: 0.35rem 1.25rem;
+    padding: 0.6rem 0;
+    border-top: 1px solid var(--rule-faint, #ece5d8);
+    align-items: baseline;
+  }
+  .timeline-year {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--ash, #8c857a);
+  }
+  .timeline-event-summary {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--ink-soft, #6b6357);
+    margin-top: 0.2rem;
+    line-height: 1.5;
+  }
+  @media (max-width: 38rem) {
+    .timeline-events li {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+    }
+  }
+</style>

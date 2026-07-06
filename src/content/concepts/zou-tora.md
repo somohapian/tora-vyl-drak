@@ -3,6 +3,7 @@ name: zou-tora
 kahu_tok: zou-tora
 category: zou-esh doctrine
 summary: the hope-journey. the summer field season, when the order goes beyond the gate.
+recorded: 4625, the present endura
 open_canon:
   - the formal opening and closing rites of the field season, if any
   - how many missions run in a typical zou-tora, and how the council of watchers apportions them

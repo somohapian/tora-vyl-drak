@@ -17,6 +17,7 @@ const d = entry.data;
 const meta = [
   d.founded && { label: 'founded', value: d.founded },
   d.status && { label: 'status', value: d.status },
+  d.recorded && { label: 'in the record since', value: d.recorded },
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 

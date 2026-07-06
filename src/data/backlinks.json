@@ -925,6 +925,13 @@
       "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
     },
     {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
       "collection": "places",
       "slug": "nu-tera",
       "name": "nu-tera",
@@ -5124,6 +5131,13 @@
       "summary": "the elevation above roughly 5,000 feet that is effectively free of peli-shen. below it lies the fade band, where the fungus struggles to complete its life cycle, and below that, the lowlands where it thrives."
     },
     {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
       "collection": "eras",
       "slug": "age-of-bloom",
       "name": "age of bloom",
@@ -5451,6 +5465,13 @@
       "name": "the wrap-around",
       "kahuTok": "",
       "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     }
   ],
   "objects/air-klin": [
@@ -8995,6 +9016,13 @@
       "summary": "the elevation above roughly 5,000 feet that is effectively free of peli-shen. below it lies the fade band, where the fungus struggles to complete its life cycle, and below that, the lowlands where it thrives."
     },
     {
+      "collection": "concepts",
+      "slug": "warden",
+      "name": "warden",
+      "kahuTok": "",
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+    },
+    {
       "collection": "eras",
       "slug": "age-of-bloom",
       "name": "age of bloom",
@@ -9322,6 +9350,13 @@
       "name": "the wrap-around",
       "kahuTok": "",
       "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     }
   ],
   "language/zou-nu": [

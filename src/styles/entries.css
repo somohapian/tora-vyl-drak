@@ -209,6 +209,44 @@
   margin-bottom: 0;
 }
 
+/* ----- in-world citations: superscript footnotes citing the archive's own
+   sources (the mil-tok, the cruz redaction, warden-memo extracts, zou-esh
+   field records, nem-giv liturgy). a paper trail is the single strongest
+   "this world is real" signal. ----- */
+.entry-body sup.cite {
+  font-size: 0.68em;
+  line-height: 0;
+}
+.entry-body sup.cite a {
+  color: var(--ember, #a8462b);
+  text-decoration: none;
+  font-family: var(--mono, 'JetBrains Mono', monospace);
+}
+.entry-body sup.cite a:hover {
+  text-decoration: underline;
+}
+.entry-sources {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule, #d8cfc2);
+}
+.entry-sources h2 {
+  font-size: 1rem;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  color: var(--ash, #8c857a);
+  margin: 0 0 0.75rem 0;
+}
+.entry-sources ol {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+  color: var(--ink-soft, #6b6357);
+}
+.entry-sources li {
+  margin-bottom: 0.35rem;
+}
+
 /* ----- primary-source banner: quiet ruled banner above the lede of any page
    in an in-world first-person voice (the mil-tok, future field reports). ----- */
 .entry-primary-source {

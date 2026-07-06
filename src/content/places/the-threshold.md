@@ -4,6 +4,7 @@ region: eastern quadrant of the caldera floor
 elevation: caldera floor, approximately 6,000 ft
 status: active
 summary: the eastern quadrant of the caldera floor, the transitional country where the stone climb tops the inner face. the caldera's front door.
+recorded: 4625, the present endura
 open_canon:
   - the kahu-tok name for the threshold as a quadrant
   - the population of the threshold and its principal settlements, if any

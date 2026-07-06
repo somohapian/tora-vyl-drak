@@ -9,6 +9,7 @@ entered: order usage, date of first attestation open canon
 related:
   - zou-esh
   - zou
+recorded: 4625, the present endura
 open_canon:
   - the date of the word's first attested use in the order's records
 ---

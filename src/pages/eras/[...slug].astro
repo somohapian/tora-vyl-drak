@@ -17,6 +17,7 @@ const d = entry.data;
 const span = d.year_start && d.year_end ? `${d.year_start} to ${d.year_end}` : (d.year_start || d.year_end || '');
 const meta = [
   span && { label: 'span', value: span },
+  d.recorded && { label: 'in the record since', value: d.recorded },
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 

@@ -51,6 +51,23 @@ const year = new Date().getFullYear();
     <link rel="canonical" href={Astro.url.href} />
     <script src="/search.js" defer></script>
     <script src="/hover-card.js" defer></script>
+    <script>
+      // random entry: the most encyclopedia-feeling feature per line of code.
+      // reuses the search index; falls back to the plain href if fetch fails.
+      document.addEventListener('click', async (e) => {
+        const a = (e.target as HTMLElement).closest('a[data-random-entry]');
+        if (!a) return;
+        e.preventDefault();
+        try {
+          const res = await fetch('/search-index.json');
+          const idx: { url: string }[] = await res.json();
+          const pick = idx[Math.floor(Math.random() * idx.length)];
+          if (pick && pick.url) window.location.href = pick.url;
+        } catch {
+          window.location.href = '/';
+        }
+      });
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -66,6 +83,8 @@ const year = new Date().getFullYear();
         <a href="/organizations">organizations</a>
         <a href="/objects">objects</a>
         <a href="/language">language</a>
+        <a href="/timeline">timeline</a>
+        <a href="/search-index.json" data-random-entry title="a random entry from the archive">random</a>
       </nav>
       <form class="site-search" role="search" data-wiki-search>
         <label for="wiki-search" class="sr-only">search the archive</label>
@@ -93,7 +112,7 @@ const year = new Date().getFullYear();
     </div>
 
     <footer class="site-footer">
-      <p><a href="/about">about this archive</a></p>
+      <p><a href="/about">about this archive</a> · <a href="/timeline">timeline</a></p>
       <p class="copyright">
         © {year} jay metcalf. all rights reserved.
       </p>

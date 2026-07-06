@@ -17,6 +17,7 @@ const d = entry.data;
 const meta = [
   d.year && { label: 'year', value: d.year },
   d.era && { label: 'era', value: d.era },
+  d.recorded && { label: 'in the record since', value: d.recorded },
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 

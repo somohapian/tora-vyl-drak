@@ -20,6 +20,7 @@ const meta = [
   d.pronunciation && { label: 'pronunciation', value: d.pronunciation },
   d.source && { label: 'source', value: d.source },
   d.entered && { label: 'entered the lexicon', value: d.entered },
+  d.recorded && { label: 'in the record since', value: d.recorded },
 ].filter(Boolean) as { label: string; value: string }[];
 ---
 
