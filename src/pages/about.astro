@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// about this archive: the page that converts every stylistic quirk into
+// worldbuilding. copy is canon-grade from the patch 2 tranche 1 punch list;
+// change it there before changing it here.
+---
+
+<Layout
+  title="about this archive"
+  description="how the tora vyl drak encyclopedia is compiled, and the conventions of the kahu archive."
+>
+  <article class="entry-body about-archive">
+    <h1>about this archive</h1>
+    <hr class="kahu-rule" />
+
+    <p>this encyclopedia is compiled from extracts of the <span class="kt">warden-memo</span> and from documents held in the kahu archive, arranged by an archivist of the <a class="wiki-link" href="/eras/age-of-endura">age of endura</a>. it is a record, not a chronicle: where the record is silent, the archive says so.</p>
+
+    <p>conventions of the archive. the text is rendered in the unicase convention of the kahu script, which has one case and no silent letters. proper nouns, which the script marks by underline, are left unmarked here. dates are given in the old reckoning (ad) for the reader's convenience; the kahu count their own years from the seating of the council of six, and the present year, 4625 ad, is 2503 by the kahu count. entries end with what is not yet settled in the record, under the heading open canon. where living tradition disagrees with the record, the disagreement is reported under contested traditions. documents in the voice of their makers are marked as primary sources and are not the archive speaking.</p>
+
+    <p>the archive does not resolve what the kahu have not resolved.</p>
+  </article>
+</Layout>
+
+<style>
+  .about-archive {
+    max-width: 44rem;
+  }
+  .about-archive h1 {
+    font-family: var(--serif-display);
+    font-weight: 500;
+  }
+</style>

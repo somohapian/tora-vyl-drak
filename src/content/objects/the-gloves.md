@@ -5,7 +5,6 @@ summary: >-
   the adhering gloves of the zou-esh kit. provide controlled retention of the
   jefe-tri bow and its broken-down components across complex movements.
 open_canon:
-  - the kahu-tok name for the gloves
   - 'the precise nature of the adhesion mechanism (biotech, mechanical, or both)'
   - >-
     whether the adhesion is permanent or activated by intent, and the protocol
@@ -16,7 +15,7 @@ open_canon:
     abrasion, environmental)
 ---
 
-the gloves are the hand equipment of the zou-esh's kit. their distinguishing function is that they adhere to the zou-esh's weapon, the <span class="kt">jefe-tri</span> bow and its broken-down close-quarters components, allowing controlled retention through complex movements and clean transitions from one configuration to another without the zou-esh losing hold of any piece.
+the gloves are the hand equipment of the zou-esh's kit. the kahu-tok name for the gloves is the <span class="kt">hand-ropa</span>, the hand-clothes. their distinguishing function is that they adhere to the zou-esh's weapon, the <span class="kt">jefe-tri</span> bow and its broken-down close-quarters components, allowing controlled retention through complex movements and clean transitions from one configuration to another without the zou-esh losing hold of any piece.
 
 the adhesion is what makes the trinity lock practical in combat. a zou-esh activating the trinity lock to convert the bow into its close-quarters configuration is performing a rapid sequence of movements that releases and rearranges multiple components. without the gloves, the components could easily fall, scatter, or be dropped during the transition. with the gloves, the zou-esh's hands remain in contact with the relevant components throughout the entire sequence, and the new configuration arrives in hand, ready to use.
 

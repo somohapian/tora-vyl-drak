@@ -4,6 +4,12 @@ region: west quadrant of the caldera
 elevation: caldera floor, approximately 6,000 ft
 status: active
 summary: the west quadrant of the caldera. holds the geothermal grid, the principal settlement of hot-kasa, and most of the kahu's industrial and infrastructure systems.
+contested_traditions:
+  - >-
+    the oldest tellers still call the quadrant the warmth, a name the record
+    shows was common through the endura's early centuries before hearth
+    displaced it. nothing turned on the change; the kahu simply came to prefer
+    the word with a fire in it.
 open_canon:
   - the kahu-tok name for the hearth as a region (if distinct from hot-kasa)
   - the specific layout of geothermal infrastructure within the hearth

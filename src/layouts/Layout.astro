@@ -13,12 +13,12 @@ interface Props {
 
 const {
   title = 'tora vyl drak',
-  description = 'the kahu vyl encyclopedia. a living archive of tora vyl drak — its people, places, language, and lore.',
+  description = 'the record of the world after the sky fell. year 4625, the age of endura. the kahu vyl encyclopedia: people, places, language, and lore.',
 } = Astro.props;
 
 const fullTitle = title === 'tora vyl drak'
-  ? 'tora vyl drak — the kahu vyl encyclopedia'
-  : `${title} — tora vyl drak`;
+  ? 'tora vyl drak · the kahu vyl encyclopedia'
+  : `${title} · tora vyl drak`;
 
 const year = new Date().getFullYear();
 ---
@@ -93,6 +93,7 @@ const year = new Date().getFullYear();
     </div>
 
     <footer class="site-footer">
+      <p><a href="/about">about this archive</a></p>
       <p class="copyright">
         © {year} jay metcalf. all rights reserved.
       </p>

@@ -21,7 +21,7 @@
       "slug": "importance-first-syntax",
       "name": "importance-first syntax",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the foundational syntactic principle of kahu-tok. the most important element of a sentence leads. emphasis is visible from the first word."
     },
     {
       "collection": "concepts",
@@ -35,14 +35,14 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "concepts",
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "concepts",
@@ -63,7 +63,7 @@
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "eras",
@@ -95,6 +95,13 @@
     },
     {
       "collection": "language",
+      "slug": "kaelith",
+      "name": "kaelith",
+      "kahuTok": "",
+      "summary": "the kahu name for the bonded cat. the serval-cougar-descended companion species bred and held by the cat-kahu and partnered chiefly with the zou-esh."
+    },
+    {
+      "collection": "language",
       "slug": "kahu",
       "name": "kahu",
       "kahuTok": "",
@@ -116,6 +123,13 @@
     },
     {
       "collection": "language",
+      "slug": "konsil",
+      "name": "konsil",
+      "kahuTok": "",
+      "summary": "the seated body that decides."
+    },
+    {
+      "collection": "language",
       "slug": "mara",
       "name": "mara",
       "kahuTok": "",
@@ -126,7 +140,7 @@
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
-      "summary": "a warm greeting of welcome. in the founding era it meant simply \"welcome\"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense."
+      "summary": "a warm greeting of welcome. by the middle age of tapestry the record shows micasu as a single word meaning welcome; by the bloom it had drifted to the full sense it carries now, what is mine is already yours."
     },
     {
       "collection": "language",
@@ -193,6 +207,13 @@
     },
     {
       "collection": "language",
+      "slug": "tonal-tense",
+      "name": "tonal tense",
+      "kahuTok": "",
+      "summary": "the marking of time in kahu-tok. bixel's particles carry time in writing and formal use; in speech the worn-down particles survive as tones, a rising pitch for the future and a falling pitch for the past."
+    },
+    {
+      "collection": "language",
       "slug": "tora",
       "name": "tora",
       "kahuTok": "",
@@ -210,7 +231,7 @@
       "slug": "vyl",
       "name": "vyl",
       "kahuTok": "",
-      "summary": "call"
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "language",
@@ -249,6 +270,13 @@
     },
     {
       "collection": "people",
+      "slug": "the-yamantau-descendants",
+      "name": "the yamantau descendants",
+      "kahuTok": "",
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
+    },
+    {
+      "collection": "people",
       "slug": "yelena-cruz",
       "name": "yelena cruz",
       "kahuTok": "",
@@ -283,6 +311,13 @@
       "name": "the council of six",
       "kahuTok": "",
       "summary": "the kahu's first government. the founding council of the six main groups, later expanded to seven when the zou-esh were granted a seat. ended by the seizure around 3250."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council-of-the-tapestry",
+      "name": "the council of the tapestry",
+      "kahuTok": "tapi-konsil",
+      "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
       "collection": "organizations",
@@ -342,7 +377,7 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -398,14 +433,14 @@
       "slug": "vyl",
       "name": "vyl",
       "kahuTok": "",
-      "summary": "call"
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "objects",
       "slug": "jefe-tri",
       "name": "jefe-tri",
       "kahuTok": "jefe-tri",
-      "summary": ">-"
+      "summary": "the personalized bow of the zou-esh. broken-down through the trinity lock into a close-quarters weapon. designed and recrafted by each zou-esh across the years of training."
     },
     {
       "collection": "organizations",
@@ -440,14 +475,14 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "places",
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -467,7 +502,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     }
   ],
@@ -477,7 +512,7 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "concepts",
@@ -519,7 +554,7 @@
       "slug": "tok-peles",
       "name": "tok-peles",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "place-talk. the bastard tongue. the simplified english-creole patois of the bunker survivors during the dark century."
     },
     {
       "collection": "objects",
@@ -542,7 +577,7 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "language",
@@ -621,14 +656,14 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture. her name survives in the present in one place only, the purist tradition, which keeps it as a founding vow; outside that lineage she is the unnamed refusal of the deep records."
     },
     {
       "collection": "people",
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     }
   ],
   "people/the-yamantau-descendants": [
@@ -637,7 +672,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     }
   ],
   "people/yelena-cruz": [
@@ -646,7 +681,7 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "eras",
@@ -654,6 +689,13 @@
       "name": "age of tapestry",
       "kahuTok": "",
       "summary": "the founding era of the kahu civilization. the great coalescence. the centuries of language-building, institution-building, and the messenger missions that drew distant survivors to tora vyl drak."
+    },
+    {
+      "collection": "language",
+      "slug": "tonal-tense",
+      "name": "tonal tense",
+      "kahuTok": "",
+      "summary": "the marking of time in kahu-tok. bixel's particles carry time in writing and formal use; in speech the worn-down particles survive as tones, a rising pitch for the future and a falling pitch for the past."
     },
     {
       "collection": "people",
@@ -669,7 +711,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "eras",
@@ -704,10 +746,17 @@
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     }
   ],
   "places/hart-wata": [
+    {
+      "collection": "concepts",
+      "slug": "the-provisioning-of-tora-vyl-drak",
+      "name": "the provisioning of tora vyl drak",
+      "kahuTok": "",
+      "summary": "how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway."
+    },
     {
       "collection": "language",
       "slug": "hart",
@@ -798,7 +847,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -813,7 +862,7 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
     },
     {
       "collection": "places",
@@ -845,7 +894,7 @@
       "slug": "the-kahu-cat-partnership",
       "name": "the kahu cat partnership",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the working relationship between a zou-esh and their cat across the full arc of training, active service, and post-active life. one of the deepest institutional patterns in the kahu order."
     },
     {
       "collection": "language",
@@ -853,6 +902,13 @@
       "name": "zou-esh",
       "kahuTok": "",
       "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
+    },
+    {
+      "collection": "language",
+      "slug": "zou-nu",
+      "name": "zou-nu",
+      "kahuTok": "",
+      "summary": "new-goer. a first-year at mara-skol."
     },
     {
       "collection": "organizations",
@@ -881,6 +937,13 @@
       "name": "the gate",
       "kahuTok": "",
       "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     }
   ],
   "places/nu-tera": [
@@ -917,7 +980,7 @@
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
-      "summary": "a warm greeting of welcome. in the founding era it meant simply \"welcome\"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense."
+      "summary": "a warm greeting of welcome. by the middle age of tapestry the record shows micasu as a single word meaning welcome; by the bloom it had drifted to the full sense it carries now, what is mine is already yours."
     },
     {
       "collection": "language",
@@ -942,6 +1005,13 @@
     },
     {
       "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "people",
       "slug": "mara",
       "name": "mara",
       "kahuTok": "",
@@ -952,14 +1022,14 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "places",
@@ -973,7 +1043,7 @@
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -993,7 +1063,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -1001,7 +1071,7 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
     },
     {
       "collection": "places",
@@ -1015,7 +1085,7 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
     },
     {
       "collection": "places",
@@ -1023,6 +1093,13 @@
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
       "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
+    },
+    {
+      "collection": "places",
+      "slug": "ven-kasa",
+      "name": "ven-kasa",
+      "kahuTok": "ven-kasa",
+      "summary": "the come-house. the arrival hall and quarantine houses nearest the gate on nu-tera, where newcomers live their first seasons."
     }
   ],
   "places/ol-tri-shen": [
@@ -1056,6 +1133,13 @@
     }
   ],
   "places/sun-tera": [
+    {
+      "collection": "concepts",
+      "slug": "the-provisioning-of-tora-vyl-drak",
+      "name": "the provisioning of tora vyl drak",
+      "kahuTok": "",
+      "summary": "how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway."
+    },
     {
       "collection": "eras",
       "slug": "age-of-tapestry",
@@ -1161,7 +1245,14 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
+    },
+    {
+      "collection": "concepts",
+      "slug": "zou-tora",
+      "name": "zou-tora",
+      "kahuTok": "zou-tora",
+      "summary": "the hope-journey. the summer field season, when the order goes beyond the gate."
     },
     {
       "collection": "eras",
@@ -1210,7 +1301,7 @@
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
@@ -1245,28 +1336,28 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "people",
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "places",
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -1279,7 +1370,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -1288,6 +1379,13 @@
       "name": "tora vyl drak",
       "kahuTok": "tora vyl drak",
       "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
+    },
+    {
+      "collection": "places",
+      "slug": "ven-kasa",
+      "name": "ven-kasa",
+      "kahuTok": "ven-kasa",
+      "summary": "the come-house. the arrival hall and quarantine houses nearest the gate on nu-tera, where newcomers live their first seasons."
     }
   ],
   "places/the-great-western-sea": [
@@ -1314,6 +1412,13 @@
     }
   ],
   "places/the-hearth": [
+    {
+      "collection": "concepts",
+      "slug": "the-provisioning-of-tora-vyl-drak",
+      "name": "the provisioning of tora vyl drak",
+      "kahuTok": "",
+      "summary": "how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway."
+    },
     {
       "collection": "eras",
       "slug": "age-of-tapestry",
@@ -1387,6 +1492,13 @@
       "summary": "the two formal halves of the zou-esh mission. the search, the sacred duty of finding survivors and scavenging vital resources, and the study, the scientific work of ecological and archaeological data-gathering."
     },
     {
+      "collection": "language",
+      "slug": "ol-hart",
+      "name": "ol-hart",
+      "kahuTok": "",
+      "summary": "old-heart. the vital things of the world before, brought home."
+    },
+    {
       "collection": "organizations",
       "slug": "zou-esh",
       "name": "zou-esh",
@@ -1405,14 +1517,21 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "places",
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
+    },
+    {
+      "collection": "places",
+      "slug": "nu-tera",
+      "name": "nu-tera",
+      "kahuTok": "nu-tera",
+      "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
     },
     {
       "collection": "places",
@@ -1426,7 +1545,7 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
     }
   ],
   "places/the-stone-climb": [
@@ -1441,8 +1560,66 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "the-threshold",
+      "name": "the threshold",
+      "kahuTok": "",
+      "summary": "the eastern quadrant of the caldera floor, the transitional country where the stone climb tops the inner face. the caldera's front door."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
+    }
+  ],
+  "places/the-threshold": [
+    {
+      "collection": "concepts",
+      "slug": "the-goldilocks-filter",
+      "name": "the goldilocks filter",
+      "kahuTok": "open canon",
+      "summary": "the band of elevation high enough that peli-shen cannot complete its life cycle and low enough that human life remains viable. the narrow altitude window the kahu survive inside."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-last-walk",
+      "name": "the last walk",
+      "kahuTok": "open canon",
+      "summary": "the kahu's gravest penalty. exile beyond the rim, escorted by zou-esh, with tools, seeds, and knowledge. the kahu do not impose death. they send a person out."
+    },
+    {
+      "collection": "language",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council-of-the-tapestry",
+      "name": "the council of the tapestry",
+      "kahuTok": "tapi-konsil",
+      "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-pathfinders",
+      "name": "the pathfinders",
+      "kahuTok": "tru-tapi",
+      "summary": "the judicial council of the kahu. three elders, one retired zou-esh, one miskinnis purist, one master cultivator. justice is restorative and protective, and the final penalty is exile, not death."
+    },
+    {
+      "collection": "places",
+      "slug": "the-gate",
+      "name": "the gate",
+      "kahuTok": "",
+      "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
     },
     {
       "collection": "places",
@@ -1458,7 +1635,7 @@
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "language",
@@ -1493,7 +1670,7 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
     },
     {
       "collection": "places",
@@ -1504,6 +1681,13 @@
     }
   ],
   "places/the-wrap-around": [
+    {
+      "collection": "concepts",
+      "slug": "the-provisioning-of-tora-vyl-drak",
+      "name": "the provisioning of tora vyl drak",
+      "kahuTok": "",
+      "summary": "how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway."
+    },
     {
       "collection": "organizations",
       "slug": "the-cat-kahu",
@@ -1517,6 +1701,13 @@
       "name": "nu-tera",
       "kahuTok": "nu-tera",
       "summary": "the agricultural plateau wrapping the southern caldera. home, quarantine point, and farmland for roughly 30,000 kahu. the new-land."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     }
   ],
   "places/tora-vyl-drak": [
@@ -1525,7 +1716,7 @@
       "slug": "importance-first-syntax",
       "name": "importance-first syntax",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the foundational syntactic principle of kahu-tok. the most important element of a sentence leads. emphasis is visible from the first word."
     },
     {
       "collection": "concepts",
@@ -1574,7 +1765,7 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -1637,7 +1828,7 @@
       "slug": "vyl",
       "name": "vyl",
       "kahuTok": "",
-      "summary": "call"
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "language",
@@ -1657,7 +1848,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -1693,7 +1884,7 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
@@ -1707,7 +1898,7 @@
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "places",
@@ -1763,7 +1954,7 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
@@ -1776,7 +1967,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -1784,7 +1975,7 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
     },
     {
       "collection": "places",
@@ -1798,7 +1989,23 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
+    }
+  ],
+  "places/ven-kasa": [
+    {
+      "collection": "language",
+      "slug": "kasa",
+      "name": "kasa",
+      "kahuTok": "",
+      "summary": "house, home, dwelling"
+    },
+    {
+      "collection": "language",
+      "slug": "micasu",
+      "name": "micasu",
+      "kahuTok": "",
+      "summary": "a warm greeting of welcome. by the middle age of tapestry the record shows micasu as a single word meaning welcome; by the bloom it had drifted to the full sense it carries now, what is mine is already yours."
     }
   ],
   "events/the-caldera-shudder": [
@@ -1811,10 +2018,17 @@
     },
     {
       "collection": "concepts",
+      "slug": "the-provisioning-of-tora-vyl-drak",
+      "name": "the provisioning of tora vyl drak",
+      "kahuTok": "",
+      "summary": "how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway."
+    },
+    {
+      "collection": "concepts",
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "eras",
@@ -1865,7 +2079,7 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "concepts",
@@ -1894,13 +2108,6 @@
       "name": "the leveling",
       "kahuTok": "",
       "summary": "the coordinated emp counter-strike by surface survivors against the longs' arcologies. the act that sealed the longs in permanently."
-    },
-    {
-      "collection": "language",
-      "slug": "micasu",
-      "name": "micasu",
-      "kahuTok": "",
-      "summary": "a warm greeting of welcome. in the founding era it meant simply \"welcome\"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense."
     },
     {
       "collection": "language",
@@ -1935,7 +2142,7 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "places",
@@ -1993,21 +2200,21 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "concepts",
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu framework for understanding how the human population collapsed across the dark century. impact, famine, poisoning."
     },
     {
       "collection": "concepts",
@@ -2070,7 +2277,7 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture. her name survives in the present in one place only, the purist tradition, which keeps it as a founding vow; outside that lineage she is the unnamed refusal of the deep records."
     },
     {
       "collection": "people",
@@ -2084,7 +2291,7 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     }
   ],
   "events/the-great-eruption": [
@@ -2114,7 +2321,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "events",
@@ -2167,7 +2374,7 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture. her name survives in the present in one place only, the purist tradition, which keeps it as a founding vow; outside that lineage she is the unnamed refusal of the deep records."
     },
     {
       "collection": "people",
@@ -2204,7 +2411,7 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture. her name survives in the present in one place only, the purist tradition, which keeps it as a founding vow; outside that lineage she is the unnamed refusal of the deep records."
     },
     {
       "collection": "people",
@@ -2238,6 +2445,13 @@
     },
     {
       "collection": "organizations",
+      "slug": "the-council-of-the-tapestry",
+      "name": "the council of the tapestry",
+      "kahuTok": "tapi-konsil",
+      "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
+    },
+    {
+      "collection": "organizations",
       "slug": "zou-esh",
       "name": "zou-esh",
       "kahuTok": "zou-esh",
@@ -2264,14 +2478,14 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "eras",
@@ -2300,6 +2514,13 @@
       "name": "mara",
       "kahuTok": "",
       "summary": "a shield. by extension, that which defends. taken from the name of mara, who died defending the gate."
+    },
+    {
+      "collection": "language",
+      "slug": "tonal-tense",
+      "name": "tonal tense",
+      "kahuTok": "",
+      "summary": "the marking of time in kahu-tok. bixel's particles carry time in writing and formal use; in speech the worn-down particles survive as tones, a rising pitch for the future and a falling pitch for the past."
     },
     {
       "collection": "organizations",
@@ -2334,7 +2555,7 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "places",
@@ -2359,14 +2580,14 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "concepts",
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "concepts",
@@ -2380,7 +2601,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "events",
@@ -2412,6 +2633,13 @@
     },
     {
       "collection": "language",
+      "slug": "micasu",
+      "name": "micasu",
+      "kahuTok": "",
+      "summary": "a warm greeting of welcome. by the middle age of tapestry the record shows micasu as a single word meaning welcome; by the bloom it had drifted to the full sense it carries now, what is mine is already yours."
+    },
+    {
+      "collection": "language",
       "slug": "somohapian",
       "name": "somohapian",
       "kahuTok": "",
@@ -2422,7 +2650,7 @@
       "slug": "tok-peles",
       "name": "tok-peles",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "place-talk. the bastard tongue. the simplified english-creole patois of the bunker survivors during the dark century."
     },
     {
       "collection": "organizations",
@@ -2430,6 +2658,13 @@
       "name": "the council of six",
       "kahuTok": "",
       "summary": "the kahu's first government. the founding council of the six main groups, later expanded to seven when the zou-esh were granted a seat. ended by the seizure around 3250."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council-of-the-tapestry",
+      "name": "the council of the tapestry",
+      "kahuTok": "tapi-konsil",
+      "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
       "collection": "organizations",
@@ -2450,14 +2685,14 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "people",
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "people",
@@ -2478,7 +2713,7 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
     },
     {
       "collection": "places",
@@ -2494,7 +2729,7 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "concepts",
@@ -2508,28 +2743,28 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "concepts",
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu framework for understanding how the human population collapsed across the dark century. impact, famine, poisoning."
     },
     {
       "collection": "concepts",
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "events",
@@ -2613,7 +2848,7 @@
       "slug": "tok-peles",
       "name": "tok-peles",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "place-talk. the bastard tongue. the simplified english-creole patois of the bunker survivors during the dark century."
     },
     {
       "collection": "language",
@@ -2634,14 +2869,14 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "people",
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     }
   ],
   "concepts/fas-big": [
@@ -2666,14 +2901,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
-    },
-    {
-      "collection": "language",
-      "slug": "tonal-tense",
-      "name": "tonal tense",
-      "kahuTok": "",
-      "summary": "the system of marking time in kahu-tok by tone. a level tone is present, a rising tone is future, a falling tone is past. the same base verb carries all three."
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "people",
@@ -2696,7 +2924,7 @@
       "slug": "importance-first-syntax",
       "name": "importance-first syntax",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the foundational syntactic principle of kahu-tok. the most important element of a sentence leads. emphasis is visible from the first word."
     },
     {
       "collection": "concepts",
@@ -2717,14 +2945,14 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "concepts",
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "concepts",
@@ -2787,14 +3015,14 @@
       "slug": "the-kahu-cat-partnership",
       "name": "the kahu cat partnership",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the working relationship between a zou-esh and their cat across the full arc of training, active service, and post-active life. one of the deepest institutional patterns in the kahu order."
     },
     {
       "collection": "concepts",
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -2808,7 +3036,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "concepts",
@@ -2816,6 +3044,13 @@
       "name": "the naming",
       "kahuTok": "open canon",
       "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-provisioning-of-tora-vyl-drak",
+      "name": "the provisioning of tora vyl drak",
+      "kahuTok": "",
+      "summary": "how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway."
     },
     {
       "collection": "concepts",
@@ -2829,14 +3064,14 @@
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu framework for understanding how the human population collapsed across the dark century. impact, famine, poisoning."
     },
     {
       "collection": "concepts",
       "slug": "the-trinity-lock",
       "name": "the trinity lock",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the personalized three-stage mechanism that opens a zou-esh's jefe-tri bow into its broken-down close-quarters configuration. unique to each zou-esh. trained on for years before the weapon itself is designed."
     },
     {
       "collection": "concepts",
@@ -2850,7 +3085,7 @@
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "eras",
@@ -2994,6 +3229,13 @@
     },
     {
       "collection": "language",
+      "slug": "konsil",
+      "name": "konsil",
+      "kahuTok": "",
+      "summary": "the seated body that decides."
+    },
+    {
+      "collection": "language",
       "slug": "mara",
       "name": "mara",
       "kahuTok": "",
@@ -3004,7 +3246,7 @@
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
-      "summary": "a warm greeting of welcome. in the founding era it meant simply \"welcome\"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense."
+      "summary": "a warm greeting of welcome. by the middle age of tapestry the record shows micasu as a single word meaning welcome; by the bloom it had drifted to the full sense it carries now, what is mine is already yours."
     },
     {
       "collection": "language",
@@ -3067,14 +3309,7 @@
       "slug": "tok-peles",
       "name": "tok-peles",
       "kahuTok": "",
-      "summary": ">-"
-    },
-    {
-      "collection": "language",
-      "slug": "tonal-tense",
-      "name": "tonal tense",
-      "kahuTok": "",
-      "summary": "the system of marking time in kahu-tok by tone. a level tone is present, a rising tone is future, a falling tone is past. the same base verb carries all three."
+      "summary": "place-talk. the bastard tongue. the simplified english-creole patois of the bunker survivors during the dark century."
     },
     {
       "collection": "language",
@@ -3082,6 +3317,13 @@
       "name": "tora",
       "kahuTok": "",
       "summary": "hope"
+    },
+    {
+      "collection": "language",
+      "slug": "vyl",
+      "name": "vyl",
+      "kahuTok": "",
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "language",
@@ -3116,14 +3358,14 @@
       "slug": "jefe-tri",
       "name": "jefe-tri",
       "kahuTok": "jefe-tri",
-      "summary": ">-"
+      "summary": "the personalized bow of the zou-esh. broken-down through the trinity lock into a close-quarters weapon. designed and recrafted by each zou-esh across the years of training."
     },
     {
       "collection": "objects",
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
@@ -3137,14 +3379,14 @@
       "slug": "mirar-sin-ropa",
       "name": "mirar-sin-ropa",
       "kahuTok": "mirar-sin-ropa",
-      "summary": ">-"
+      "summary": "the passive camouflage cloak of the zou-esh. see-without-clothes. lets a stationary zou-esh disappear into terrain."
     },
     {
       "collection": "objects",
       "slug": "ston-ropa",
       "name": "ston-ropa",
       "kahuTok": "ston-ropa",
-      "summary": ">-"
+      "summary": "the shear-thickening cloth that forms zou-esh shirts and pants. rock-clothes. looks like ordinary clothing. hardens to rock under sudden impact."
     },
     {
       "collection": "objects",
@@ -3158,14 +3400,14 @@
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
       "slug": "the-gloves",
       "name": "the gloves",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the adhering gloves of the zou-esh kit. provide controlled retention of the jefe-tri bow and its broken-down components across complex movements."
     },
     {
       "collection": "objects",
@@ -3199,7 +3441,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -3256,7 +3498,7 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture. her name survives in the present in one place only, the purist tradition, which keeps it as a founding vow; outside that lineage she is the unnamed refusal of the deep records."
     },
     {
       "collection": "people",
@@ -3270,14 +3512,14 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "people",
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
@@ -3291,7 +3533,7 @@
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "people",
@@ -3333,7 +3575,7 @@
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -3368,7 +3610,7 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
@@ -3381,7 +3623,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -3389,7 +3631,14 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "the-threshold",
+      "name": "the threshold",
+      "kahuTok": "",
+      "summary": "the eastern quadrant of the caldera floor, the transitional country where the stone climb tops the inner face. the caldera's front door."
     },
     {
       "collection": "places",
@@ -3403,7 +3652,7 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
     },
     {
       "collection": "places",
@@ -3422,6 +3671,13 @@
       "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
     },
     {
+      "collection": "language",
+      "slug": "zou-nu",
+      "name": "zou-nu",
+      "kahuTok": "",
+      "summary": "new-goer. a first-year at mara-skol."
+    },
+    {
       "collection": "organizations",
       "slug": "zou-esh",
       "name": "zou-esh",
@@ -3435,7 +3691,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "concepts",
@@ -3484,21 +3740,21 @@
       "slug": "the-kahu-cat-partnership",
       "name": "the kahu cat partnership",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the working relationship between a zou-esh and their cat across the full arc of training, active service, and post-active life. one of the deepest institutional patterns in the kahu order."
     },
     {
       "collection": "concepts",
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu framework for understanding how the human population collapsed across the dark century. impact, famine, poisoning."
     },
     {
       "collection": "concepts",
@@ -3527,13 +3783,6 @@
       "name": "the great silence",
       "kahuTok": "",
       "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
-    },
-    {
-      "collection": "language",
-      "slug": "kaelith",
-      "name": "kaelith",
-      "kahuTok": "",
-      "summary": "the kahu name for the bonded cat. the serval-cougar-descended companion species bred and held by the cat-kahu and partnered chiefly with the zou-esh."
     },
     {
       "collection": "language",
@@ -3568,14 +3817,14 @@
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
@@ -3603,7 +3852,7 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "places",
@@ -3624,13 +3873,13 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -3647,7 +3896,7 @@
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "eras",
@@ -3682,7 +3931,7 @@
       "slug": "tok-peles",
       "name": "tok-peles",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "place-talk. the bastard tongue. the simplified english-creole patois of the bunker survivors during the dark century."
     },
     {
       "collection": "people",
@@ -3696,7 +3945,7 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "people",
@@ -3786,13 +4035,6 @@
     },
     {
       "collection": "language",
-      "slug": "vyl",
-      "name": "vyl",
-      "kahuTok": "",
-      "summary": "call"
-    },
-    {
-      "collection": "language",
       "slug": "wata",
       "name": "wata",
       "kahuTok": "",
@@ -3819,7 +4061,7 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "concepts",
@@ -3833,7 +4075,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "eras",
@@ -3875,27 +4117,27 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "people",
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "places",
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -3939,6 +4181,20 @@
     }
   ],
   "concepts/the-dual-mandate": [
+    {
+      "collection": "concepts",
+      "slug": "zou-tora",
+      "name": "zou-tora",
+      "kahuTok": "zou-tora",
+      "summary": "the hope-journey. the summer field season, when the order goes beyond the gate."
+    },
+    {
+      "collection": "language",
+      "slug": "ol-hart",
+      "name": "ol-hart",
+      "kahuTok": "",
+      "summary": "old-heart. the vital things of the world before, brought home."
+    },
     {
       "collection": "organizations",
       "slug": "zou-esh",
@@ -3986,7 +4242,7 @@
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu framework for understanding how the human population collapsed across the dark century. impact, famine, poisoning."
     },
     {
       "collection": "eras",
@@ -4017,14 +4273,14 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "places",
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
     }
   ],
   "concepts/the-last-walk": [
@@ -4056,7 +4312,7 @@
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     }
   ],
   "concepts/the-naming": [
@@ -4082,6 +4338,7 @@
       "summary": "head of the zou-esh in the mid-bloom who ended the kahu's first government by administrative capture, and was deposed and exiled."
     }
   ],
+  "concepts/the-provisioning-of-tora-vyl-drak": [],
   "concepts/the-rebirth-naming": [
     {
       "collection": "concepts",
@@ -4107,14 +4364,14 @@
       "slug": "jefe-tri",
       "name": "jefe-tri",
       "kahuTok": "jefe-tri",
-      "summary": ">-"
+      "summary": "the personalized bow of the zou-esh. broken-down through the trinity lock into a close-quarters weapon. designed and recrafted by each zou-esh across the years of training."
     },
     {
       "collection": "objects",
       "slug": "the-gloves",
       "name": "the gloves",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the adhering gloves of the zou-esh kit. provide controlled retention of the jefe-tri bow and its broken-down components across complex movements."
     },
     {
       "collection": "objects",
@@ -4124,11 +4381,18 @@
       "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
     },
     {
+      "collection": "people",
+      "slug": "mara",
+      "name": "mara",
+      "kahuTok": "",
+      "summary": "the most famous and most prolific zou-esh on record. died defending the gate. the figure history coalesced around."
+    },
+    {
       "collection": "places",
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     }
   ],
   "concepts/the-white-zone": [],
@@ -4190,6 +4454,13 @@
       "summary": "the kahu order responsible for the living systems of tora vyl drak. the apothecary-priest hybrid order that maintains the agent stack, the geothermal grid interfaces, and warden itself."
     },
     {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
+    },
+    {
       "collection": "places",
       "slug": "hot-kasa",
       "name": "hot-kasa",
@@ -4204,6 +4475,7 @@
       "summary": "the west quadrant of the caldera. holds the geothermal grid, the principal settlement of hot-kasa, and most of the kahu's industrial and infrastructure systems."
     }
   ],
+  "concepts/zou-tora": [],
   "organizations/the-cat-kahu": [
     {
       "collection": "concepts",
@@ -4224,14 +4496,14 @@
       "slug": "the-kahu-cat-partnership",
       "name": "the kahu cat partnership",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the working relationship between a zou-esh and their cat across the full arc of training, active service, and post-active life. one of the deepest institutional patterns in the kahu order."
     },
     {
       "collection": "concepts",
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "language",
@@ -4259,14 +4531,14 @@
       "slug": "ston-ropa",
       "name": "ston-ropa",
       "kahuTok": "ston-ropa",
-      "summary": ">-"
+      "summary": "the shear-thickening cloth that forms zou-esh shirts and pants. rock-clothes. looks like ordinary clothing. hardens to rock under sudden impact."
     },
     {
       "collection": "objects",
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
@@ -4301,7 +4573,7 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "places",
@@ -4329,7 +4601,14 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
+    },
+    {
+      "collection": "places",
+      "slug": "tora-vyl-drak",
+      "name": "tora vyl drak",
+      "kahuTok": "tora vyl drak",
+      "summary": "the eighteen-mile volcanic caldera that has been the kahu sanctuary since the first descent, around 2120 ad."
     }
   ],
   "organizations/the-council-of-six": [
@@ -4346,6 +4625,13 @@
       "name": "the council",
       "kahuTok": "",
       "summary": "the kahu's present, second government. the bicameral council built after the seizure, which deliberates on caldera-wide questions and integrates the recommendations of the warden modeling system."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council-of-the-tapestry",
+      "name": "the council of the tapestry",
+      "kahuTok": "tapi-konsil",
+      "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     }
   ],
   "organizations/the-council-of-the-tapestry": [
@@ -4355,6 +4641,13 @@
       "name": "kau-esh",
       "kahuTok": "kau-esh",
       "summary": "the little kahu. those in zou-esh training who have not yet completed it, and those who began the training and washed out. not a slight. a recognized place in kahu life."
+    },
+    {
+      "collection": "language",
+      "slug": "konsil",
+      "name": "konsil",
+      "kahuTok": "",
+      "summary": "the seated body that decides."
     },
     {
       "collection": "organizations",
@@ -4369,6 +4662,13 @@
       "name": "the three speakers",
       "kahuTok": "open canon",
       "summary": "the executive triad of kahu governance. the first speaker for the people's council, the elder speaker for the watchers, and the weaver, a neutral mediator chosen jointly to articulate consensus."
+    },
+    {
+      "collection": "organizations",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "zou-esh",
+      "summary": "the scholar-warrior order of the kahu. defenders of the gate, finders of survivors, the order that crosses thresholds."
     }
   ],
   "organizations/the-council": [
@@ -4391,7 +4691,7 @@
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "eras",
@@ -4436,6 +4736,13 @@
       "summary": "the mid-bloom episode in which the head of the zou-esh captured the sanctuary and ended the kahu's first government, and the resistance that deposed and exiled him."
     },
     {
+      "collection": "language",
+      "slug": "konsil",
+      "name": "konsil",
+      "kahuTok": "",
+      "summary": "the seated body that decides."
+    },
+    {
       "collection": "organizations",
       "slug": "the-council-of-six",
       "name": "the council of six",
@@ -4446,7 +4753,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -4534,7 +4841,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     }
   ],
@@ -4550,7 +4857,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     }
   ],
@@ -4567,7 +4874,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "concepts",
@@ -4588,7 +4895,7 @@
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "eras",
@@ -4644,35 +4951,35 @@
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
       "slug": "mirar-sin-ropa",
       "name": "mirar-sin-ropa",
       "kahuTok": "mirar-sin-ropa",
-      "summary": ">-"
+      "summary": "the passive camouflage cloak of the zou-esh. see-without-clothes. lets a stationary zou-esh disappear into terrain."
     },
     {
       "collection": "objects",
       "slug": "ston-ropa",
       "name": "ston-ropa",
       "kahuTok": "ston-ropa",
-      "summary": ">-"
+      "summary": "the shear-thickening cloth that forms zou-esh shirts and pants. rock-clothes. looks like ordinary clothing. hardens to rock under sudden impact."
     },
     {
       "collection": "objects",
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
       "slug": "the-gloves",
       "name": "the gloves",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the adhering gloves of the zou-esh kit. provide controlled retention of the jefe-tri bow and its broken-down components across complex movements."
     },
     {
       "collection": "organizations",
@@ -4772,14 +5079,14 @@
       "slug": "the-kahu-cat-partnership",
       "name": "the kahu cat partnership",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the working relationship between a zou-esh and their cat across the full arc of training, active service, and post-active life. one of the deepest institutional patterns in the kahu order."
     },
     {
       "collection": "concepts",
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -4793,7 +5100,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "concepts",
@@ -4807,7 +5114,7 @@
       "slug": "the-trinity-lock",
       "name": "the trinity lock",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the personalized three-stage mechanism that opens a zou-esh's jefe-tri bow into its broken-down close-quarters configuration. unique to each zou-esh. trained on for years before the weapon itself is designed."
     },
     {
       "collection": "concepts",
@@ -4867,17 +5174,17 @@
     },
     {
       "collection": "language",
-      "slug": "micasu",
-      "name": "micasu",
-      "kahuTok": "",
-      "summary": "a warm greeting of welcome. in the founding era it meant simply \"welcome\"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense."
-    },
-    {
-      "collection": "language",
       "slug": "no",
       "name": "no",
       "kahuTok": "",
       "summary": "no; the answer-word and the grammatical negation."
+    },
+    {
+      "collection": "language",
+      "slug": "ol-hart",
+      "name": "ol-hart",
+      "kahuTok": "",
+      "summary": "old-heart. the vital things of the world before, brought home."
     },
     {
       "collection": "language",
@@ -4926,14 +5233,14 @@
       "slug": "jefe-tri",
       "name": "jefe-tri",
       "kahuTok": "jefe-tri",
-      "summary": ">-"
+      "summary": "the personalized bow of the zou-esh. broken-down through the trinity lock into a close-quarters weapon. designed and recrafted by each zou-esh across the years of training."
     },
     {
       "collection": "objects",
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
@@ -4947,21 +5254,21 @@
       "slug": "mirar-sin-ropa",
       "name": "mirar-sin-ropa",
       "kahuTok": "mirar-sin-ropa",
-      "summary": ">-"
+      "summary": "the passive camouflage cloak of the zou-esh. see-without-clothes. lets a stationary zou-esh disappear into terrain."
     },
     {
       "collection": "objects",
       "slug": "soma-ropa",
       "name": "soma-ropa",
       "kahuTok": "soma-ropa",
-      "summary": ">-"
+      "summary": "the layered suit of the zou-esh as a whole. body-clothes. encompasses the klin-soma undersuit, the ston-ropa armor cloth, and the mirar-sin-ropa camouflage cloak."
     },
     {
       "collection": "objects",
       "slug": "ston-ropa",
       "name": "ston-ropa",
       "kahuTok": "ston-ropa",
-      "summary": ">-"
+      "summary": "the shear-thickening cloth that forms zou-esh shirts and pants. rock-clothes. looks like ordinary clothing. hardens to rock under sudden impact."
     },
     {
       "collection": "objects",
@@ -4975,14 +5282,14 @@
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
       "slug": "the-gloves",
       "name": "the gloves",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the adhering gloves of the zou-esh kit. provide controlled retention of the jefe-tri bow and its broken-down components across complex movements."
     },
     {
       "collection": "objects",
@@ -5016,7 +5323,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -5066,14 +5373,14 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "people",
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
@@ -5087,7 +5394,7 @@
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -5115,14 +5422,21 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "the-threshold",
+      "name": "the threshold",
+      "kahuTok": "",
+      "summary": "the eastern quadrant of the caldera floor, the transitional country where the stone climb tops the inner face. the caldera's front door."
     },
     {
       "collection": "places",
@@ -5136,7 +5450,7 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
     }
   ],
   "objects/air-klin": [
@@ -5152,7 +5466,7 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "language",
@@ -5166,7 +5480,7 @@
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
@@ -5182,7 +5496,14 @@
       "slug": "the-trinity-lock",
       "name": "the trinity lock",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the personalized three-stage mechanism that opens a zou-esh's jefe-tri bow into its broken-down close-quarters configuration. unique to each zou-esh. trained on for years before the weapon itself is designed."
+    },
+    {
+      "collection": "language",
+      "slug": "konsil",
+      "name": "konsil",
+      "kahuTok": "",
+      "summary": "the seated body that decides."
     },
     {
       "collection": "language",
@@ -5196,7 +5517,7 @@
       "slug": "the-gloves",
       "name": "the gloves",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the adhering gloves of the zou-esh kit. provide controlled retention of the jefe-tri bow and its broken-down components across complex movements."
     },
     {
       "collection": "objects",
@@ -5217,7 +5538,7 @@
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     }
   ],
   "objects/klin-soma": [
@@ -5226,7 +5547,7 @@
       "slug": "soma-ropa",
       "name": "soma-ropa",
       "kahuTok": "soma-ropa",
-      "summary": ">-"
+      "summary": "the layered suit of the zou-esh as a whole. body-clothes. encompasses the klin-soma undersuit, the ston-ropa armor cloth, and the mirar-sin-ropa camouflage cloak."
     },
     {
       "collection": "objects",
@@ -5258,7 +5579,7 @@
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
@@ -5272,7 +5593,7 @@
       "slug": "soma-ropa",
       "name": "soma-ropa",
       "kahuTok": "soma-ropa",
-      "summary": ">-"
+      "summary": "the layered suit of the zou-esh as a whole. body-clothes. encompasses the klin-soma undersuit, the ston-ropa armor cloth, and the mirar-sin-ropa camouflage cloak."
     },
     {
       "collection": "objects",
@@ -5311,7 +5632,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "language",
@@ -5325,7 +5646,7 @@
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
@@ -5339,21 +5660,21 @@
       "slug": "mirar-sin-ropa",
       "name": "mirar-sin-ropa",
       "kahuTok": "mirar-sin-ropa",
-      "summary": ">-"
+      "summary": "the passive camouflage cloak of the zou-esh. see-without-clothes. lets a stationary zou-esh disappear into terrain."
     },
     {
       "collection": "objects",
       "slug": "soma-ropa",
       "name": "soma-ropa",
       "kahuTok": "soma-ropa",
-      "summary": ">-"
+      "summary": "the layered suit of the zou-esh as a whole. body-clothes. encompasses the klin-soma undersuit, the ston-ropa armor cloth, and the mirar-sin-ropa camouflage cloak."
     },
     {
       "collection": "objects",
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
@@ -5383,7 +5704,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "eras",
@@ -5425,14 +5746,14 @@
       "slug": "ston-ropa",
       "name": "ston-ropa",
       "kahuTok": "ston-ropa",
-      "summary": ">-"
+      "summary": "the shear-thickening cloth that forms zou-esh shirts and pants. rock-clothes. looks like ordinary clothing. hardens to rock under sudden impact."
     },
     {
       "collection": "people",
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     }
   ],
   "objects/the-cloth-mask": [
@@ -5495,7 +5816,7 @@
       "slug": "importance-first-syntax",
       "name": "importance-first syntax",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the foundational syntactic principle of kahu-tok. the most important element of a sentence leads. emphasis is visible from the first word."
     },
     {
       "collection": "concepts",
@@ -5544,7 +5865,7 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -5558,7 +5879,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "eras",
@@ -5614,7 +5935,7 @@
       "slug": "vyl",
       "name": "vyl",
       "kahuTok": "",
-      "summary": "call"
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "language",
@@ -5634,7 +5955,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -5670,7 +5991,7 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
@@ -5684,7 +6005,7 @@
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "places",
@@ -5740,7 +6061,7 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
@@ -5753,7 +6074,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -5761,7 +6082,7 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
     },
     {
       "collection": "places",
@@ -5775,7 +6096,7 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
     },
     {
       "collection": "places",
@@ -5804,6 +6125,13 @@
   ],
   "language/kaelith": [
     {
+      "collection": "concepts",
+      "slug": "the-provisioning-of-tora-vyl-drak",
+      "name": "the provisioning of tora vyl drak",
+      "kahuTok": "",
+      "summary": "how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway."
+    },
+    {
       "collection": "organizations",
       "slug": "the-cat-kahu",
       "name": "the cat-kahu",
@@ -5817,7 +6145,7 @@
       "slug": "importance-first-syntax",
       "name": "importance-first syntax",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the foundational syntactic principle of kahu-tok. the most important element of a sentence leads. emphasis is visible from the first word."
     },
     {
       "collection": "concepts",
@@ -5838,14 +6166,14 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "concepts",
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "concepts",
@@ -5887,7 +6215,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "concepts",
@@ -5901,7 +6229,7 @@
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "eras",
@@ -5985,7 +6313,7 @@
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
-      "summary": "a warm greeting of welcome. in the founding era it meant simply \"welcome\"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense."
+      "summary": "a warm greeting of welcome. by the middle age of tapestry the record shows micasu as a single word meaning welcome; by the bloom it had drifted to the full sense it carries now, what is mine is already yours."
     },
     {
       "collection": "language",
@@ -6062,14 +6390,14 @@
       "slug": "tok-peles",
       "name": "tok-peles",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "place-talk. the bastard tongue. the simplified english-creole patois of the bunker survivors during the dark century."
     },
     {
       "collection": "language",
       "slug": "tonal-tense",
       "name": "tonal tense",
       "kahuTok": "",
-      "summary": "the system of marking time in kahu-tok by tone. a level tone is present, a rising tone is future, a falling tone is past. the same base verb carries all three."
+      "summary": "the marking of time in kahu-tok. bixel's particles carry time in writing and formal use; in speech the worn-down particles survive as tones, a rising pitch for the future and a falling pitch for the past."
     },
     {
       "collection": "language",
@@ -6090,7 +6418,7 @@
       "slug": "vyl",
       "name": "vyl",
       "kahuTok": "",
-      "summary": "call"
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "language",
@@ -6125,7 +6453,7 @@
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
@@ -6139,21 +6467,21 @@
       "slug": "mirar-sin-ropa",
       "name": "mirar-sin-ropa",
       "kahuTok": "mirar-sin-ropa",
-      "summary": ">-"
+      "summary": "the passive camouflage cloak of the zou-esh. see-without-clothes. lets a stationary zou-esh disappear into terrain."
     },
     {
       "collection": "objects",
       "slug": "soma-ropa",
       "name": "soma-ropa",
       "kahuTok": "soma-ropa",
-      "summary": ">-"
+      "summary": "the layered suit of the zou-esh as a whole. body-clothes. encompasses the klin-soma undersuit, the ston-ropa armor cloth, and the mirar-sin-ropa camouflage cloak."
     },
     {
       "collection": "objects",
       "slug": "ston-ropa",
       "name": "ston-ropa",
       "kahuTok": "ston-ropa",
-      "summary": ">-"
+      "summary": "the shear-thickening cloth that forms zou-esh shirts and pants. rock-clothes. looks like ordinary clothing. hardens to rock under sudden impact."
     },
     {
       "collection": "objects",
@@ -6167,7 +6495,14 @@
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-gloves",
+      "name": "the gloves",
+      "kahuTok": "",
+      "summary": "the adhering gloves of the zou-esh kit. provide controlled retention of the jefe-tri bow and its broken-down components across complex movements."
     },
     {
       "collection": "objects",
@@ -6175,6 +6510,13 @@
       "name": "the zou-kit",
       "kahuTok": "",
       "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-council-of-the-tapestry",
+      "name": "the council of the tapestry",
+      "kahuTok": "tapi-konsil",
+      "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
       "collection": "organizations",
@@ -6227,6 +6569,13 @@
     },
     {
       "collection": "people",
+      "slug": "the-yamantau-descendants",
+      "name": "the yamantau descendants",
+      "kahuTok": "",
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
+    },
+    {
+      "collection": "people",
       "slug": "yelena-cruz",
       "name": "yelena cruz",
       "kahuTok": "",
@@ -6265,7 +6614,7 @@
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -6290,10 +6639,17 @@
     },
     {
       "collection": "places",
+      "slug": "the-long-climb",
+      "name": "the long climb",
+      "kahuTok": "klimb-long",
+      "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
     },
     {
       "collection": "places",
@@ -6316,7 +6672,7 @@
       "slug": "importance-first-syntax",
       "name": "importance-first syntax",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the foundational syntactic principle of kahu-tok. the most important element of a sentence leads. emphasis is visible from the first word."
     },
     {
       "collection": "concepts",
@@ -6344,14 +6700,14 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "concepts",
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "concepts",
@@ -6414,14 +6770,14 @@
       "slug": "the-kahu-cat-partnership",
       "name": "the kahu cat partnership",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the working relationship between a zou-esh and their cat across the full arc of training, active service, and post-active life. one of the deepest institutional patterns in the kahu order."
     },
     {
       "collection": "concepts",
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -6435,7 +6791,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "concepts",
@@ -6443,6 +6799,13 @@
       "name": "the naming",
       "kahuTok": "open canon",
       "summary": "the kahu custom of mononyms. one name per person, unique among the living, chosen a few days after birth at the warden-tender, and celebrated by the whole kahu."
+    },
+    {
+      "collection": "concepts",
+      "slug": "the-provisioning-of-tora-vyl-drak",
+      "name": "the provisioning of tora vyl drak",
+      "kahuTok": "",
+      "summary": "how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway."
     },
     {
       "collection": "concepts",
@@ -6456,14 +6819,14 @@
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu framework for understanding how the human population collapsed across the dark century. impact, famine, poisoning."
     },
     {
       "collection": "concepts",
       "slug": "the-trinity-lock",
       "name": "the trinity lock",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the personalized three-stage mechanism that opens a zou-esh's jefe-tri bow into its broken-down close-quarters configuration. unique to each zou-esh. trained on for years before the weapon itself is designed."
     },
     {
       "collection": "concepts",
@@ -6477,7 +6840,7 @@
       "slug": "warden",
       "name": "warden",
       "kahuTok": "",
-      "summary": "the continent-scale biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
+      "summary": "the biological supercomputer that guides kahu agriculture, infrastructure, and decision-making. realized during the age of bloom."
     },
     {
       "collection": "eras",
@@ -6614,6 +6977,13 @@
     },
     {
       "collection": "language",
+      "slug": "konsil",
+      "name": "konsil",
+      "kahuTok": "",
+      "summary": "the seated body that decides."
+    },
+    {
+      "collection": "language",
       "slug": "mara",
       "name": "mara",
       "kahuTok": "",
@@ -6624,7 +6994,7 @@
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
-      "summary": "a warm greeting of welcome. in the founding era it meant simply \"welcome\"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense."
+      "summary": "a warm greeting of welcome. by the middle age of tapestry the record shows micasu as a single word meaning welcome; by the bloom it had drifted to the full sense it carries now, what is mine is already yours."
     },
     {
       "collection": "language",
@@ -6687,14 +7057,7 @@
       "slug": "tok-peles",
       "name": "tok-peles",
       "kahuTok": "",
-      "summary": ">-"
-    },
-    {
-      "collection": "language",
-      "slug": "tonal-tense",
-      "name": "tonal tense",
-      "kahuTok": "",
-      "summary": "the system of marking time in kahu-tok by tone. a level tone is present, a rising tone is future, a falling tone is past. the same base verb carries all three."
+      "summary": "place-talk. the bastard tongue. the simplified english-creole patois of the bunker survivors during the dark century."
     },
     {
       "collection": "language",
@@ -6702,6 +7065,13 @@
       "name": "tora",
       "kahuTok": "",
       "summary": "hope"
+    },
+    {
+      "collection": "language",
+      "slug": "vyl",
+      "name": "vyl",
+      "kahuTok": "",
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "language",
@@ -6736,14 +7106,14 @@
       "slug": "jefe-tri",
       "name": "jefe-tri",
       "kahuTok": "jefe-tri",
-      "summary": ">-"
+      "summary": "the personalized bow of the zou-esh. broken-down through the trinity lock into a close-quarters weapon. designed and recrafted by each zou-esh across the years of training."
     },
     {
       "collection": "objects",
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
@@ -6757,14 +7127,14 @@
       "slug": "mirar-sin-ropa",
       "name": "mirar-sin-ropa",
       "kahuTok": "mirar-sin-ropa",
-      "summary": ">-"
+      "summary": "the passive camouflage cloak of the zou-esh. see-without-clothes. lets a stationary zou-esh disappear into terrain."
     },
     {
       "collection": "objects",
       "slug": "ston-ropa",
       "name": "ston-ropa",
       "kahuTok": "ston-ropa",
-      "summary": ">-"
+      "summary": "the shear-thickening cloth that forms zou-esh shirts and pants. rock-clothes. looks like ordinary clothing. hardens to rock under sudden impact."
     },
     {
       "collection": "objects",
@@ -6778,14 +7148,14 @@
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
       "slug": "the-gloves",
       "name": "the gloves",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the adhering gloves of the zou-esh kit. provide controlled retention of the jefe-tri bow and its broken-down components across complex movements."
     },
     {
       "collection": "objects",
@@ -6819,7 +7189,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -6876,7 +7246,7 @@
       "slug": "hanna-miskinnis",
       "name": "hanna miskinnis",
       "kahuTok": "",
-      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records."
+      "summary": "pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture. her name survives in the present in one place only, the purist tradition, which keeps it as a founding vow; outside that lineage she is the unnamed refusal of the deep records."
     },
     {
       "collection": "people",
@@ -6890,14 +7260,14 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "people",
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
@@ -6911,7 +7281,7 @@
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "people",
@@ -6953,7 +7323,7 @@
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -6988,7 +7358,7 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
@@ -7001,7 +7371,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -7009,7 +7379,14 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
+    },
+    {
+      "collection": "places",
+      "slug": "the-threshold",
+      "name": "the threshold",
+      "kahuTok": "",
+      "summary": "the eastern quadrant of the caldera floor, the transitional country where the stone climb tops the inner face. the caldera's front door."
     },
     {
       "collection": "places",
@@ -7023,7 +7400,7 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
     },
     {
       "collection": "places",
@@ -7039,7 +7416,7 @@
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
-      "summary": "a warm greeting of welcome. in the founding era it meant simply \"welcome\"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense."
+      "summary": "a warm greeting of welcome. by the middle age of tapestry the record shows micasu as a single word meaning welcome; by the bloom it had drifted to the full sense it carries now, what is mine is already yours."
     },
     {
       "collection": "language",
@@ -7055,7 +7432,7 @@
       "slug": "vyl",
       "name": "vyl",
       "kahuTok": "",
-      "summary": "call"
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "people",
@@ -7069,7 +7446,7 @@
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -7077,6 +7454,15 @@
       "name": "the gate",
       "kahuTok": "",
       "summary": "the chokepoint where the long climb meets the nu-tera plateau. the place where mara died. the home and training ground of the modern zou-esh."
+    }
+  ],
+  "language/konsil": [
+    {
+      "collection": "organizations",
+      "slug": "the-council-of-the-tapestry",
+      "name": "the council of the tapestry",
+      "kahuTok": "tapi-konsil",
+      "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     }
   ],
   "language/mara": [
@@ -7092,7 +7478,7 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -7141,14 +7527,14 @@
       "slug": "vyl",
       "name": "vyl",
       "kahuTok": "",
-      "summary": "call"
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "objects",
       "slug": "jefe-tri",
       "name": "jefe-tri",
       "kahuTok": "jefe-tri",
-      "summary": ">-"
+      "summary": "the personalized bow of the zou-esh. broken-down through the trinity lock into a close-quarters weapon. designed and recrafted by each zou-esh across the years of training."
     },
     {
       "collection": "organizations",
@@ -7190,14 +7576,14 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "places",
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -7217,7 +7603,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     }
   ],
@@ -7227,7 +7613,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "language",
@@ -7299,14 +7685,14 @@
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu framework for understanding how the human population collapsed across the dark century. impact, famine, poisoning."
     },
     {
       "collection": "concepts",
       "slug": "the-trinity-lock",
       "name": "the trinity lock",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the personalized three-stage mechanism that opens a zou-esh's jefe-tri bow into its broken-down close-quarters configuration. unique to each zou-esh. trained on for years before the weapon itself is designed."
     },
     {
       "collection": "events",
@@ -7338,13 +7724,6 @@
     },
     {
       "collection": "language",
-      "slug": "kaelith",
-      "name": "kaelith",
-      "kahuTok": "",
-      "summary": "the kahu name for the bonded cat. the serval-cougar-descended companion species bred and held by the cat-kahu and partnered chiefly with the zou-esh."
-    },
-    {
-      "collection": "language",
       "slug": "kahu",
       "name": "kahu",
       "kahuTok": "",
@@ -7366,6 +7745,13 @@
     },
     {
       "collection": "language",
+      "slug": "tonal-tense",
+      "name": "tonal tense",
+      "kahuTok": "",
+      "summary": "the marking of time in kahu-tok. bixel's particles carry time in writing and formal use; in speech the worn-down particles survive as tones, a rising pitch for the future and a falling pitch for the past."
+    },
+    {
+      "collection": "language",
       "slug": "wan-slip-bak-ya-sem",
       "name": "wan-slip-bak, ya-sem",
       "kahuTok": "",
@@ -7376,14 +7762,14 @@
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
       "slug": "soma-ropa",
       "name": "soma-ropa",
       "kahuTok": "soma-ropa",
-      "summary": ">-"
+      "summary": "the layered suit of the zou-esh as a whole. body-clothes. encompasses the klin-soma undersuit, the ston-ropa armor cloth, and the mirar-sin-ropa camouflage cloak."
     },
     {
       "collection": "objects",
@@ -7391,6 +7777,13 @@
       "name": "ston-shen",
       "kahuTok": "ston-shen",
       "summary": "the chemosynthetic lichen-bacteria paste that sustained the bunker survivors of the dark century. rock-life. the staple that kept humanity alive during the long underground."
+    },
+    {
+      "collection": "objects",
+      "slug": "the-cloth-mask",
+      "name": "the cloth mask",
+      "kahuTok": "",
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
@@ -7449,11 +7842,27 @@
       "summary": "the immortal elite who took hanna miskinnis's longevity intervention for themselves and sealed it inside arcologies. sealed in further by the leveling. forgotten by the surface. the kahu know the pre-fracture history but do not know the longs survive to the present."
     },
     {
+      "collection": "people",
+      "slug": "the-yamantau-descendants",
+      "name": "the yamantau descendants",
+      "kahuTok": "",
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
+    },
+    {
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    }
+  ],
+  "language/ol-hart": [
+    {
+      "collection": "concepts",
+      "slug": "the-dual-mandate",
+      "name": "the dual mandate",
+      "kahuTok": "the vyl and the no (open canon)",
+      "summary": "the two formal halves of the zou-esh mission. the search, the sacred duty of finding survivors and scavenging vital resources, and the study, the scientific work of ecological and archaeological data-gathering."
     }
   ],
   "language/peli-shen": [
@@ -7469,7 +7878,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "concepts",
@@ -7518,21 +7927,21 @@
       "slug": "the-kahu-cat-partnership",
       "name": "the kahu cat partnership",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the working relationship between a zou-esh and their cat across the full arc of training, active service, and post-active life. one of the deepest institutional patterns in the kahu order."
     },
     {
       "collection": "concepts",
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
       "slug": "the-three-waves-of-extinction",
       "name": "the three waves of extinction",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu framework for understanding how the human population collapsed across the dark century. impact, famine, poisoning."
     },
     {
       "collection": "concepts",
@@ -7564,13 +7973,6 @@
     },
     {
       "collection": "language",
-      "slug": "kaelith",
-      "name": "kaelith",
-      "kahuTok": "",
-      "summary": "the kahu name for the bonded cat. the serval-cougar-descended companion species bred and held by the cat-kahu and partnered chiefly with the zou-esh."
-    },
-    {
-      "collection": "language",
       "slug": "peli",
       "name": "peli",
       "kahuTok": "",
@@ -7595,14 +7997,14 @@
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
@@ -7630,7 +8032,7 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "places",
@@ -7651,13 +8053,13 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -7674,7 +8076,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "language",
@@ -7706,7 +8108,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "language",
@@ -7753,7 +8155,7 @@
       "slug": "the-bixel-1000",
       "name": "the bixel 1000",
       "kahuTok": "bixel-tausen, by some readings",
-      "summary": ">-"
+      "summary": "the engineered core of the kahu-tok language: roughly three hundred fifty working roots, ninety of them kept from the old languages, with compounds and set phrases carrying the count to the thousand. bixel's deliberate design."
     },
     {
       "collection": "concepts",
@@ -7776,7 +8178,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "events",
@@ -7811,7 +8213,7 @@
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "places",
@@ -7835,7 +8237,7 @@
       "slug": "the-bastard-tongue",
       "name": "the bastard tongue",
       "kahuTok": "tok-peles",
-      "summary": ">-"
+      "summary": "the simplified english-creole patois spoken by the bunker survivors of the dark century. predecessor language to kahu-tok. place-talk."
     },
     {
       "collection": "eras",
@@ -7859,11 +8261,18 @@
       "summary": "rock, stone"
     },
     {
+      "collection": "language",
+      "slug": "tonal-tense",
+      "name": "tonal tense",
+      "kahuTok": "",
+      "summary": "the marking of time in kahu-tok. bixel's particles carry time in writing and formal use; in speech the worn-down particles survive as tones, a rising pitch for the future and a falling pitch for the past."
+    },
+    {
       "collection": "people",
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     }
   ],
   "language/tonal-tense": [
@@ -7881,7 +8290,7 @@
       "slug": "importance-first-syntax",
       "name": "importance-first syntax",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the foundational syntactic principle of kahu-tok. the most important element of a sentence leads. emphasis is visible from the first word."
     },
     {
       "collection": "concepts",
@@ -7930,7 +8339,7 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -7986,7 +8395,7 @@
       "slug": "vyl",
       "name": "vyl",
       "kahuTok": "",
-      "summary": "call"
+      "summary": "the call, and the life-force that answers it. two senses the kahu decline to separate."
     },
     {
       "collection": "language",
@@ -8006,7 +8415,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -8042,7 +8451,7 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
@@ -8056,7 +8465,7 @@
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "places",
@@ -8112,7 +8521,7 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
@@ -8125,7 +8534,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -8133,7 +8542,7 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
     },
     {
       "collection": "places",
@@ -8147,7 +8556,7 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
     },
     {
       "collection": "places",
@@ -8172,7 +8581,7 @@
       "slug": "importance-first-syntax",
       "name": "importance-first syntax",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the foundational syntactic principle of kahu-tok. the most important element of a sentence leads. emphasis is visible from the first word."
     },
     {
       "collection": "concepts",
@@ -8228,7 +8637,7 @@
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -8242,7 +8651,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "eras",
@@ -8325,7 +8734,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -8351,6 +8760,13 @@
     },
     {
       "collection": "people",
+      "slug": "bixel",
+      "name": "bixel",
+      "kahuTok": "",
+      "summary": "post-collapse linguist who designed kahu-tok, the constructed trade language that became the kahu mother tongue."
+    },
+    {
+      "collection": "people",
       "slug": "mara",
       "name": "mara",
       "kahuTok": "",
@@ -8361,7 +8777,7 @@
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
@@ -8375,7 +8791,7 @@
       "slug": "the-yamantau-descendants",
       "name": "the yamantau descendants",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the multi-generational migration from the yamantau bunker in russia to the cascade arc. the descendants who arrived became kahu. the journey took generations."
     },
     {
       "collection": "places",
@@ -8431,7 +8847,7 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
@@ -8444,7 +8860,7 @@
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
     },
     {
@@ -8452,7 +8868,7 @@
       "slug": "the-stone-climb",
       "name": "the stone climb",
       "kahuTok": "ston-klimb",
-      "summary": ">-"
+      "summary": "the 800ft spiral walkway cut into the rock face that connects the nu-tera plateau to the caldera floor. the second of the two ascents into tora vyl drak."
     },
     {
       "collection": "places",
@@ -8466,7 +8882,7 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
     },
     {
       "collection": "places",
@@ -8534,14 +8950,14 @@
       "slug": "the-kahu-cat-partnership",
       "name": "the kahu cat partnership",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the working relationship between a zou-esh and their cat across the full arc of training, active service, and post-active life. one of the deepest institutional patterns in the kahu order."
     },
     {
       "collection": "concepts",
       "slug": "the-kahu-cats",
       "name": "the kahu cats",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the serval-cougar hybrid cats bred over a thousand years by the cat-kahu. partners to the zou-esh in the field. the only large companion species that came through the dark century with humanity."
     },
     {
       "collection": "concepts",
@@ -8555,7 +8971,7 @@
       "slug": "the-mountain-that-breathes",
       "name": "the mountain that breathes",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the kahu's geothermal plume as it appeared to distant survivor pockets across the dark century. the visible signal that drew migrations to the cascade arc."
     },
     {
       "collection": "concepts",
@@ -8569,7 +8985,7 @@
       "slug": "the-trinity-lock",
       "name": "the trinity lock",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the personalized three-stage mechanism that opens a zou-esh's jefe-tri bow into its broken-down close-quarters configuration. unique to each zou-esh. trained on for years before the weapon itself is designed."
     },
     {
       "collection": "concepts",
@@ -8629,17 +9045,17 @@
     },
     {
       "collection": "language",
-      "slug": "micasu",
-      "name": "micasu",
-      "kahuTok": "",
-      "summary": "a warm greeting of welcome. in the founding era it meant simply \"welcome\"; by the present day it has softened into something closer to a general warm greeting, like aloha, no longer strictly tied to the literal sense."
-    },
-    {
-      "collection": "language",
       "slug": "no",
       "name": "no",
       "kahuTok": "",
       "summary": "no; the answer-word and the grammatical negation."
+    },
+    {
+      "collection": "language",
+      "slug": "ol-hart",
+      "name": "ol-hart",
+      "kahuTok": "",
+      "summary": "old-heart. the vital things of the world before, brought home."
     },
     {
       "collection": "language",
@@ -8681,14 +9097,14 @@
       "slug": "jefe-tri",
       "name": "jefe-tri",
       "kahuTok": "jefe-tri",
-      "summary": ">-"
+      "summary": "the personalized bow of the zou-esh. broken-down through the trinity lock into a close-quarters weapon. designed and recrafted by each zou-esh across the years of training."
     },
     {
       "collection": "objects",
       "slug": "klin-soma",
       "name": "klin-soma",
       "kahuTok": "klin-soma",
-      "summary": ">-"
+      "summary": "the bio-monitoring undersuit worn against the skin. clean-body. tracks the zou-esh's body state continuously during operations."
     },
     {
       "collection": "objects",
@@ -8702,21 +9118,21 @@
       "slug": "mirar-sin-ropa",
       "name": "mirar-sin-ropa",
       "kahuTok": "mirar-sin-ropa",
-      "summary": ">-"
+      "summary": "the passive camouflage cloak of the zou-esh. see-without-clothes. lets a stationary zou-esh disappear into terrain."
     },
     {
       "collection": "objects",
       "slug": "soma-ropa",
       "name": "soma-ropa",
       "kahuTok": "soma-ropa",
-      "summary": ">-"
+      "summary": "the layered suit of the zou-esh as a whole. body-clothes. encompasses the klin-soma undersuit, the ston-ropa armor cloth, and the mirar-sin-ropa camouflage cloak."
     },
     {
       "collection": "objects",
       "slug": "ston-ropa",
       "name": "ston-ropa",
       "kahuTok": "ston-ropa",
-      "summary": ">-"
+      "summary": "the shear-thickening cloth that forms zou-esh shirts and pants. rock-clothes. looks like ordinary clothing. hardens to rock under sudden impact."
     },
     {
       "collection": "objects",
@@ -8730,14 +9146,14 @@
       "slug": "the-cloth-mask",
       "name": "the cloth mask",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the filtering cloth mask of the zou-esh kit. covers nose and mouth. filters peli-shen spores at lowland concentrations. the first layer of defense against the fungus."
     },
     {
       "collection": "objects",
       "slug": "the-gloves",
       "name": "the gloves",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the adhering gloves of the zou-esh kit. provide controlled retention of the jefe-tri bow and its broken-down components across complex movements."
     },
     {
       "collection": "objects",
@@ -8771,7 +9187,7 @@
       "collection": "organizations",
       "slug": "the-council-of-the-tapestry",
       "name": "the council of the tapestry",
-      "kahuTok": "open canon (tapi-council in older usage)",
+      "kahuTok": "tapi-konsil",
       "summary": "the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession."
     },
     {
@@ -8828,14 +9244,14 @@
       "slug": "the-bunker-survivors",
       "name": "the bunker survivors",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the surviving populations of the deep mountain bunkers in the idaho rockies and the blue mountains of eastern oregon who rode out the dark century underground and became the founding generation of the kahu."
     },
     {
       "collection": "people",
       "slug": "the-cat-farmers",
       "name": "the cat-farmers",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the small farming group living below the caldera who had preserved the ancestors of the kahu cats. brought into tora vyl drak by mara's diplomatic mission. absorbed into the kahu through the standard integration process."
     },
     {
       "collection": "people",
@@ -8849,7 +9265,7 @@
       "slug": "mara-skol",
       "name": "mara-skol",
       "kahuTok": "mara-skol",
-      "summary": ">-"
+      "summary": "the zou-esh training institution. mara-school. located at the gate, the place where mara died. the school is the order's living continuity with her."
     },
     {
       "collection": "places",
@@ -8877,14 +9293,21 @@
       "slug": "the-great-western-sea",
       "name": "the great western sea",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the toxic inland sea created by the 2075 cascadia impact when the pacific flooded the willamette valley. the western horizon of the kahu's world."
     },
     {
       "collection": "places",
       "slug": "the-long-climb",
       "name": "the long climb",
-      "kahuTok": "",
+      "kahuTok": "klimb-long",
       "summary": "the narrow ascent path from the lowlands to the nu-tera plateau. the only land approach to the kahu sanctuary. impassable in winter."
+    },
+    {
+      "collection": "places",
+      "slug": "the-threshold",
+      "name": "the threshold",
+      "kahuTok": "",
+      "summary": "the eastern quadrant of the caldera floor, the transitional country where the stone climb tops the inner face. the caldera's front door."
     },
     {
       "collection": "places",
@@ -8898,7 +9321,16 @@
       "slug": "the-wrap-around",
       "name": "the wrap-around",
       "kahuTok": "",
-      "summary": ">-"
+      "summary": "the northern wrap-around of the nu-tera plateau. the cat-kahu's territory. home to the kahu cats, the breeding programs, and the livestock operations that feed them."
+    }
+  ],
+  "language/zou-nu": [
+    {
+      "collection": "language",
+      "slug": "zou-esh",
+      "name": "zou-esh",
+      "kahuTok": "",
+      "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
     }
   ]
 }

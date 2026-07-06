@@ -18,7 +18,7 @@ const groups: Group[] = [
       { w: 'mi', d: 'i, me' },
       { w: 'yu', d: 'you (one)' },
       { w: 'em', d: 'he, she, it' },
-      { w: 'kai', d: 'we, the kahu speaking as one', note: 'from kai-vyl, we live' },
+      { w: 'kai', d: 'we, the kahu speaking as one', note: 'made from kia-vyl, live: the we who say live' },
       { w: 'pla', d: 'plural marker: yu-pla, em-pla' },
       { w: 'mi-pla', d: 'we-few; a team, a rope-party, a we that does not include the listener' },
       { w: 'blo', d: 'of, belonging-with (accompaniment, not ownership)' },
@@ -441,7 +441,8 @@ const groups: Group[] = [
       { w: 'gong', d: 'communal labor; the shared work-day' },
       { w: 'koru-tok', d: 'assembly; the all-talk where matters are decided' },
       { w: 'koru-pik', d: 'an election; the community choosing' },
-      { w: 'tapi-council', d: 'the government' },
+      { w: 'konsil', d: 'the seated body that decides', note: 'kept from the old tongue’s council, respelled to the script. jefe for the one who leads, konsil for the many who decide' },
+      { w: 'tapi-konsil', d: 'the government; the woven council' },
       { w: 'tru-tapi', d: 'the justice system, the truth-weave' },
       { w: 'nu-du', d: 'to make right; restitution as repair' },
       { w: 'aut-zou', d: 'exile, the last resort' },
@@ -582,6 +583,7 @@ const totalShown = groups.reduce((n, g) => n + g.words.length, 0);
   <article class="entry-body lexicon">
     <p class="lexicon-eyebrow"><a class="wiki-link" href="/language">language</a> / the mil-tok</p>
     <h1>the mil-tok</h1>
+    <p class="entry-primary-source">held in the kahu archive. a primary document, in the voice of its maker. the encyclopedia's own entries begin <a class="wiki-link" href="/language/kahu-tok">here</a>.</p>
     <p class="lede">the thousand words. the master lexicon of <a class="wiki-link" href="/language/kahu-tok">kahu-tok</a>, set down by <a class="wiki-link" href="/people/bixel">bixel</a> in the <a class="wiki-link" href="/eras/age-of-tapestry">age of tapestry</a>, for a people learning to speak as one.</p>
     <hr class="kahu-rule" />
 
@@ -591,6 +593,8 @@ const totalShown = groups.reduce((n, g) => n + g.words.length, 0);
       <p>my brief was simple and hard. a tongue a grieving adult could learn in one winter. a tongue no founder group could claim as theirs alone. and a tongue that, by its own shape, could not say certain things.</p>
 
       <p>i wrote the mil-tok four times. once in spanish, once in russian, once in mandarin, and once in english, so that each people could come to <span class="kt"><a class="wiki-link" href="/language/kahu-tok">kahu-tok</a></span> through the tongue they already grieved in. the four are one work in four mouths; none is the translation of another. what you read here is the english edition. by english i mean my english, the tongue the bunker years left us, which is not the english of the old world: it had already taken in the sacred words the pacific people carried, <span class="kt">kahu</span> and <span class="kt">aroa</span> and <span class="kt">mana</span> among them, generations before i set them down. the <span class="kt">tok-peles</span> of the mountain bunkers and the pacific sacred register are two branches of that one english, and i wrote them both as what they were to me: english.</p>
+
+      <p class="lexicon-margin">i wrote it four times. the russian first, because a maker must stand somewhere.</p>
 
       <h2>how the language is built</h2>
       <p><strong>importance first, everywhere.</strong> a sentence leads with what matters most, not with a fixed subject. so do compounds. <span class="kt">peli-shen</span> leads with the danger; <span class="kt">klimb-long</span> leads with the climb. there is no head but the heart of the thing. the name of the world is the lesson: <span class="proper">tora vyl drak</span>, hope, call, last, the hope of the last call.</p>
@@ -626,7 +630,7 @@ const totalShown = groups.reduce((n, g) => n + g.words.length, 0);
       <h2>a note on the count</h2>
       <p>the mil-tok is a thousand words. some ninety are the old shared roots i only regularized; the rest are built on the principles above, three hundred and fifty working roots and the compounds, doublings, and set phrases that grow from them, the way any living contact tongue grows. this page shows the working spine of it, the roots and the compounds a learner meets first. the full thousand lives in the speaking.</p>
       <p>the language will go on without me. words will enter it that i never set down, taken from names and weather and work i will not be here to see, and the compounds will breed compounds until the speaking has run far past this page. that is as it should be. i did not build a finished thing. i built a beginning that could carry its own growing. a language no one can add to is a language no one is still speaking, and i would rather leave one that outruns me than one that holds still.</p>
-      <p class="lexicon-sign">— <span class="proper"><a class="wiki-link" href="/people/bixel">bixel</a></span>, the tongue</p>
+      <p class="lexicon-sign"><span class="proper"><a class="wiki-link" href="/people/bixel">bixel</a></span>, the tongue</p>
     </section>
   </article>
 </Layout>
@@ -659,6 +663,14 @@ const totalShown = groups.reduce((n, g) => n + g.words.length, 0);
     color: var(--ink-soft);
     font-style: italic;
     margin-bottom: 1.1rem;
+  }
+  .lexicon-margin {
+    color: var(--ink-soft);
+    font-style: italic;
+    font-size: 0.92em;
+    border-left: 2px solid var(--rule, #d8cfc2);
+    padding-left: 1rem;
+    margin: 1.1rem 0;
   }
   .lexicon-list { margin: 0; }
   .lexicon-row {

@@ -1,5 +1,10 @@
 import { defineCollection, z } from 'astro:content';
 
+// contested traditions: the folklore device. where living tradition disagrees
+// with the record, the entry reports the disagreement and declines to
+// adjudicate past the evidence. renders as a callout styled like open canon.
+const contested = z.array(z.string()).optional();
+
 const people = defineCollection({
   type: 'content',
   schema: z.object({
@@ -11,6 +16,7 @@ const people = defineCollection({
     died: z.string().optional(),
     status: z.enum(['living', 'historical', 'legendary', 'unknown']).optional(),
     summary: z.string(),
+    contested_traditions: contested,
     open_canon: z.array(z.string()).optional(),
   }),
 });
@@ -24,6 +30,7 @@ const places = defineCollection({
     elevation: z.string().optional(),
     status: z.enum(['active', 'historical', 'destroyed', 'legendary']).optional(),
     summary: z.string(),
+    contested_traditions: contested,
     open_canon: z.array(z.string()).optional(),
   }),
 });
@@ -36,6 +43,7 @@ const events = defineCollection({
     year: z.string().optional(),
     era: z.string().optional(),
     summary: z.string(),
+    contested_traditions: contested,
     open_canon: z.array(z.string()).optional(),
   }),
 });
@@ -48,6 +56,7 @@ const eras = defineCollection({
     year_start: z.string().optional(),
     year_end: z.string().optional(),
     summary: z.string(),
+    contested_traditions: contested,
     open_canon: z.array(z.string()).optional(),
   }),
 });
@@ -59,6 +68,7 @@ const concepts = defineCollection({
     kahu_tok: z.string().optional(),
     category: z.string().optional(),
     summary: z.string(),
+    contested_traditions: contested,
     open_canon: z.array(z.string()).optional(),
   }),
 });
@@ -71,6 +81,7 @@ const organizations = defineCollection({
     founded: z.string().optional(),
     status: z.enum(['active', 'historical', 'dissolved']).optional(),
     summary: z.string(),
+    contested_traditions: contested,
     open_canon: z.array(z.string()).optional(),
   }),
 });
@@ -82,6 +93,7 @@ const objects = defineCollection({
     kahu_tok: z.string().optional(),
     category: z.string().optional(),
     summary: z.string(),
+    contested_traditions: contested,
     open_canon: z.array(z.string()).optional(),
   }),
 });
@@ -97,6 +109,7 @@ const language = defineCollection({
     source: z.string().optional(),
     entered: z.string().optional(),
     related: z.array(z.string()).optional(),
+    contested_traditions: contested,
     open_canon: z.array(z.string()).optional(),
   }),
 });

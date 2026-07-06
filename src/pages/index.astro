@@ -14,15 +14,15 @@ const CATEGORIES = [
 ] as const;
 
 const RECENT_SLUGS: Array<[string, string]> = [
+  ['concepts', 'the-provisioning-of-tora-vyl-drak'],
+  ['places', 'the-threshold'],
+  ['places', 'ven-kasa'],
+  ['language', 'konsil'],
+  ['language', 'ol-hart'],
+  ['language', 'zou-nu'],
+  ['concepts', 'zou-tora'],
   ['places', 'the-hearth'],
-  ['places', 'the-wilds'],
-  ['eras', 'age-of-tapestry'],
-  ['eras', 'the-dark-century'],
-  ['concepts', 'the-creeping-dark'],
-  ['concepts', 'the-five-filters-of-uniqueness'],
   ['events', 'the-first-descent'],
-  ['organizations', 'the-council'],
-  ['people', 'the-longs'],
 ];
 
 const collections = await Promise.all(
@@ -59,7 +59,7 @@ const featured = recent[0];
       <span class="proper">tora vyl drak</span>
     </h1>
     <p class="wiki-hero-subtitle">
-      the kahu vyl encyclopedia — a hand-written archive of a sanctuary inside a caldera, twenty-five centuries after the sky fell.
+      the record of the world after the sky fell. year 4625, the age of endura.
     </p>
     <hr class="kahu-rule" />
   </section>
@@ -98,7 +98,7 @@ const featured = recent[0];
   <aside class="wiki-wander" aria-labelledby="wander-heading">
     <p class="wiki-section-eyebrow" id="wander-heading">how to wander this wiki</p>
     <p>
-      the left rail lists every entry by category — open a group to skim its members. inside an entry, hover any in-text link to peek at where it leads, and check <em>mentioned by</em> at the foot of the page to follow the thread backwards. the underlined ember marks proper nouns, and <span class="kt">monospaced italic</span> marks <span class="kt">kahu-tok</span>.
+      the left rail lists every entry by category: open a group to skim its members. inside an entry, hover any in-text link to peek at where it leads, and check <em>mentioned by</em> at the foot of the page to follow the thread backwards. the underlined ember marks proper nouns, and <span class="kt">monospaced italic</span> marks <span class="kt">kahu-tok</span>.
     </p>
   </aside>
 
@@ -239,7 +239,7 @@ const featured = recent[0];
     width: 6px;
     background: var(--ash);
   }
-  /* category-typed swatch colors — solid blocks, no images. */
+  /* category-typed swatch colors: solid blocks, no images. */
   .portal-people .wiki-portal-swatch       { background: #8a6a3a; }
   .portal-places .wiki-portal-swatch       { background: #4a6a55; }
   .portal-events .wiki-portal-swatch       { background: #a75a3a; }

@@ -3,6 +3,19 @@ name: the first descent
 year: c. 2112-2122 ad
 era: end of dark century, beginning of age of tapestry
 summary: the staggered arrival of the surviving groups onto the cooled floor of the caldera and the seating of the first council. the founding of the kahu civilization.
+contested_traditions:
+  - >-
+    a minority chronicle tradition, the long count, holds that the descent came
+    a full one hundred sixty years later than the record states, placing it
+    near 2283 and stretching the dark years to two centuries. the archive finds
+    no support for the long count in the warden-memo or the founding documents,
+    but the tradition persists, chiefly among tellers who like their winters
+    longer.
+  - >-
+    nem-giv liturgy in some kahu preserves a founding census of exactly 278,412
+    souls, the counted. no surviving record contains the figure. the archive
+    can neither confirm a number that precise nor explain why the liturgy would
+    keep a wrong one.
 open_canon:
   - the exact years and order in which the founding groups arrived
   - the size and composition of each group

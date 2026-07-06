@@ -17,6 +17,26 @@ import path from 'node:path';
 const CONTENT = path.resolve('src/content');
 const COLLECTIONS = ['people', 'places', 'events', 'eras', 'concepts', 'organizations', 'objects', 'language'];
 
+// Extract a scalar frontmatter value, resolving YAML block scalars (>- , | etc.)
+// by folding the indented continuation lines. Mirrors see-also.mjs.
+function fmValue(fm, keys) {
+  const re = new RegExp(`^(?:${keys.join('|')}):[ \\t]*(.*)$`, 'm');
+  const m = fm.match(re);
+  if (!m) return '';
+  let v = m[1].trim();
+  if (v === '' || /^[>|][+-]?$/.test(v)) {
+    const rest = fm.slice(m.index + m[0].length).split('\n').slice(1);
+    const lines = [];
+    for (const line of rest) {
+      if (/^\s{2,}\S/.test(line)) lines.push(line.trim());
+      else if (line.trim() === '') continue;
+      else break;
+    }
+    v = lines.join(' ');
+  }
+  return v.replace(/^['"]|['"]$/g, '');
+}
+
 function readEntries() {
   const out = [];
   for (const col of COLLECTIONS) {
@@ -31,13 +51,9 @@ function readEntries() {
       if (!m) continue;
       const fm = m[1];
       const body = m[2];
-      const nameMatch = fm.match(/^(name|word):\s*(.+)$/m);
-      const summaryMatch = fm.match(/^summary:\s*([\s\S]*?)(?=\n[a-z_]+:|\n---|$)/m);
-      const definitionMatch = fm.match(/^definition:\s*([\s\S]*?)(?=\n[a-z_]+:|\n---|$)/m);
-      const kahuTokMatch = fm.match(/^kahu_tok:\s*(.+)$/m);
-      const name = nameMatch ? nameMatch[2].trim().replace(/^['"]|['"]$/g, '') : slug;
-      const summary = (summaryMatch ? summaryMatch[1] : (definitionMatch ? definitionMatch[1] : '')).trim().replace(/^['"]|['"]$/g, '');
-      const kahuTok = kahuTokMatch ? kahuTokMatch[1].trim().replace(/^['"]|['"]$/g, '') : '';
+      const name = fmValue(fm, ['name', 'word']) || slug;
+      const summary = fmValue(fm, ['summary']) || fmValue(fm, ['definition']);
+      const kahuTok = fmValue(fm, ['kahu_tok']);
       out.push({ collection: col, slug, name, summary, kahuTok, body });
     }
   }

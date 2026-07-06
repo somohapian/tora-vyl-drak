@@ -11,6 +11,7 @@ interface Props {
   status?: string;
   summary?: string;
   meta?: { label: string; value: string }[];
+  contested_traditions?: string[];
   open_canon?: string[];
   collection: string;
   slug: string;
@@ -33,6 +34,7 @@ const {
   status,
   summary,
   meta = [],
+  contested_traditions = [],
   open_canon = [],
   collection,
   slug,
@@ -91,6 +93,13 @@ const infoboxMeta = dedupeInfoboxMeta(meta);
     <div class="entry-body">
       <slot />
     </div>
+
+    {contested_traditions.length > 0 && (
+      <aside class="entry-contested">
+        <h2>contested traditions</h2>
+        {contested_traditions.map((t) => <p>{t}</p>)}
+      </aside>
+    )}
 
     {open_canon.length > 0 && (
       <aside class="entry-open-canon">

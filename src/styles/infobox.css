@@ -1,5 +1,5 @@
 /* ============================================================
-   tora vyl drak — right-rail entry infobox (Wikipedia-classic)
+   tora vyl drak - right-rail entry infobox (Wikipedia-classic)
    ============================================================ */
 
 .entry-infobox {
@@ -18,7 +18,7 @@
   color: var(--ink-soft);
   /* dense typography */
   font-feature-settings: "kern", "liga", "onum";
-  /* never grow taller than the viewport — scroll internally if it does */
+  /* never grow taller than the viewport - scroll internally if it does */
   max-height: calc(100vh - 2rem);
   overflow-y: auto;
 }
@@ -85,7 +85,7 @@
   color: var(--ink-soft);
 }
 
-/* status pill color variants — subtle */
+/* status pill color variants - subtle */
 .entry-infobox-badge.is-living,
 .entry-infobox-badge.is-active {
   border-color: rgba(74, 122, 64, 0.5);
@@ -216,7 +216,7 @@
 }
 
 /* When there's no right rail (narrower viewports), don't render the
-   infobox either — the right-rail aside is already display:none, but
+   infobox either - the right-rail aside is already display:none, but
    belt-and-suspenders in case the slot host ever changes. */
 @media (max-width: 1279px) {
   .page-right-rail .entry-infobox { display: none; }

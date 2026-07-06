@@ -1,17 +1,18 @@
 ---
 name: the council of the tapestry
-kahu_tok: open canon (tapi-council in older usage)
+kahu_tok: tapi-konsil
 founded: open canon
 status: active
 summary: the formal bicameral structure of kahu governance. an upper chamber of retired zou-esh, the council of watchers, and a lower chamber of the people's council, drawn from every major kahu and profession.
 open_canon:
-  - the kahu-tok name of the council of the tapestry as a formal body
   - the relationship between the council of the tapestry and the hearthstone council that oversees the zou-esh
   - term lengths, selection, and the precise division of authority between the two chambers
   - how the bicameral structure relates to the council referenced more generally in kahu life
 ---
 
 the council of the tapestry is the formal structure of <a class="wiki-link" href="/concepts/kahu">kahu</a> governance. where <a class="wiki-link" href="/organizations/the-council">the council</a> is the everyday name for the integrating body that deliberates on caldera-wide questions, the council of the tapestry is its formal shape: a bicameral assembly with two chambers, an executive triad, and a separate judicial body.
+
+the name was a deliberate act. the second government, built in the ruins of the <a class="wiki-link" href="/events/the-seizure">seizure</a>, reached past <a class="wiki-link" href="/people/edi">edi</a> and past <a class="wiki-link" href="/organizations/the-council-of-six">the council of six</a> to the <a class="wiki-link" href="/eras/age-of-tapestry">age of tapestry</a> itself, claiming the founding centuries as its charter: what edi broke, the weave restores. in kahu-tok the body is the <span class="kt"><a class="wiki-link" href="/language/konsil">tapi-konsil</a></span>.
 
 the upper chamber is the council of watchers. it is made up of retired <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a>, the order's members who have completed their active service and turned to the order's internal and advisory life. the watchers hold a veto on matters of long-term survival. theirs is the chamber of the long memory and the hard caution, staffed by people who have walked the lowlands and seen what the world outside the sanctuary has become. when the watchers veto, they are saying that a thing endangers the continued existence of <span class="proper"><a class="wiki-link" href="/places/tora-vyl-drak">tora vyl drak</a></span>, and that is the one ground on which their veto stands.
 

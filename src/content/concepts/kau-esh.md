@@ -6,7 +6,6 @@ summary: the little kahu. those in zou-esh training who have not yet completed i
 open_canon:
   - the precise line between a kau-esh still in training and a kau-esh who has washed out
   - whether kau-esh is a term the order uses formally or chiefly an informal one
-  - the kahu-tok sense of the kau root and its relationship to kahu
 ---
 
 the kau-esh are the little kahu. the term covers two overlapping groups: those who are in <a class="wiki-link" href="/organizations/zou-esh">zou-esh</a> training but have not yet completed it, and those who began the training and did not finish, the washouts. <span class="kt">kau</span> reads as a diminutive, a smaller or incomplete form, set against the full <span class="kt"><a class="wiki-link" href="/concepts/kahu">kahu</a></span>. a kau-esh is one who is on the path of the order, or was, without having arrived.

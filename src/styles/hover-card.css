@@ -1,5 +1,5 @@
 /* ============================================================
-   tora vyl drak — hover-card preview for internal wiki-links
+   tora vyl drak - hover-card preview for internal wiki-links
    Driven by public/hover-card.js. Desktop-only (the script no-ops
    on touch / no-hover devices), so we don't need a touch fallback.
    ============================================================ */
@@ -23,7 +23,7 @@
   display: none;
 }
 
-/* hide entirely on devices without a hover-capable pointer — the JS already
+/* hide entirely on devices without a hover-capable pointer - the JS already
    short-circuits, but this is belt-and-braces in case a script-injected
    card slips through. */
 @media (hover: none) {

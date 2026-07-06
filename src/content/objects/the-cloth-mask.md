@@ -6,7 +6,6 @@ summary: >-
   peli-shen spores at lowland concentrations. the first layer of defense against
   the fungus.
 open_canon:
-  - the kahu-tok name for the cloth mask
   - the precise biological or mechanical filtering mechanism of the mask
   - the operational lifespan of the mask in active use below the spore line
   - whether the mask requires periodic replacement or cleaning protocols
@@ -15,9 +14,11 @@ open_canon:
     speech, sleep)
 ---
 
-the cloth mask is the filtering respiratory protection of the zou-esh's kit. it covers the nose and mouth. its function is to filter <span class="kt">peli-shen</span> spores at the concentrations a zou-esh encounters below the five thousand foot spore line. the kahu-tok name for the mask is open canon.
+the cloth mask is the filtering respiratory protection of the zou-esh's kit. it covers the nose and mouth. its function is to filter <span class="kt">peli-shen</span> spores at the concentrations a zou-esh encounters below the five thousand foot spore line. the kahu-tok name for the mask is the <span class="kt">air-ropa</span>, the air-clothes.
 
 the mask is the first layer of the zou-esh's defense against <span class="kt">peli-shen</span>. the cat-kahu inoculation that protects the kahu cat traveling with the zou-esh, and the <span class="kt">air-klin</span> respiratory biome inoculation administered to the zou-esh themselves before deep operations, are the second and third layers. each is partial. together they provide the working protection that allows the zou-esh to operate in the lowlands at all.
+
+the mask is what makes the zou-esh sober witnesses in a world where almost no one else is. their judgment in the field is judgment about people who are, by default, neurologically impaired, and the order's watch-first protocol exists because of it.
 
 operationally, the mask is worn continuously while the zou-esh is below the spore line. it is removed only for the necessary functions that require it off (eating, drinking, sustained verbal communication when stealth is not a consideration, sleep in protected shelter). during these periods, the zou-esh relies on <span class="kt">air-klin</span> and the rapid clearing capabilities of the inoculated respiratory biome to handle the temporarily increased spore exposure. the protocols governing mask-off periods are open canon in their formal structure.
 

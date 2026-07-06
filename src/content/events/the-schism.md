@@ -16,7 +16,9 @@ the disagreement is not about whether kahu biotech is permitted. all kahu use th
 
 the disagreement is about how far the intervention should go. specifically, it is about lifespan extension and aggressive medical intervention in the second half of a long kahu life.
 
-the **technologists** support the full agent stack. they argue that the same logic that justifies suppressing disease in a child justifies suppressing the cumulative damage of age in an elder. they hold that the agents are kahu work, made by the community for the community, and that extending years of good health is a proper use of them. lifespans into the two hundreds are the technologist position.
+the agent stack has lengthened kahu lives slowly for as long as records run. a kahu of the present endura can expect two hundred years; the average age at death is about two hundred eight; the oldest kahu in the record died at two hundred thirty-seven. the technologists propose the next generation of the stack, reaching deliberately past two hundred fifty. the purists answer that there is a direction in which longer stops being living, and that the kahu have a name they refuse to say for the people who went that way. neither faction disputes the numbers. the dispute is what the numbers are for.
+
+the **technologists** support the full agent stack. they argue that the same logic that justifies suppressing disease in a child justifies suppressing the cumulative damage of age in an elder. they hold that the agents are kahu work, made by the community for the community, and that extending years of good health is a proper use of them.
 
 the **purists** hold that intervention should be limited. they argue that there is a proper duration to a human life, and that extending it past that duration is a betrayal of meaning rather than of biology. they accept the agents. they place the limit past the agents, in the territory of aggressive intervention. where exactly the limit falls is contested even among purists. their principle is that a limit exists and the kahu must observe it.
 

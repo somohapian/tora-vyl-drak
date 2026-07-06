@@ -2,26 +2,20 @@
 word: tonal tense
 pronunciation: n/a (a grammatical feature, not a single word)
 part_of_speech: grammatical system
-definition: the system of marking time in kahu-tok by tone. a level tone is present, a rising tone is future, a falling tone is past. the same base verb carries all three.
-etymology: a feature of kahu-tok grammar attributed to the bixel 1000 design, in which time is carried by the voice rather than by separate words.
-source: bixel 1000 engineered core
-entered: founding generation of kahu-tok, age of tapestry
+definition: the marking of time in kahu-tok. bixel's particles carry time in writing and formal use; in speech the worn-down particles survive as tones, a rising pitch for the future and a falling pitch for the past.
+etymology: bixel built particles; speech drifted; cruz codified; time completed the change. the tones are the ghosts of bixel's particles.
+source: the cruz redaction; mil-tok, grammar notes
+entered: particles from the founding generation; the tones settled by the middle of the age of bloom
 related:
   - kahu-tok
   - tok
   - importance-first-syntax
 open_canon:
-  - whether tone also marks aspect (ongoing, completed, habitual) in addition to tense
-  - whether the rising and falling tones carry secondary emotional or evidential meaning
-  - how the written script renders the tones in formal versus informal contexts
+  - whether any regional speech (nu-tera, the gate) preserved the spoken particles later than the caldera did
 ---
 
-kahu-tok marks time by tone. a verb does not change its form to move between past, present, and future. it changes its tone. the same base word, spoken three ways, carries all three times.
+kahu-tok carries time two ways, and the doubling is the language's history written into its grammar. <a class="wiki-link" href="/people/bixel">bixel</a>'s founding design marked time with particles inherited from <span class="kt"><a class="wiki-link" href="/language/tok-peles">tok-peles</a></span>: <span class="kt">bin</span> before a verb for the past, <span class="kt">bai</span> for the future, <span class="kt">le</span> for the completed, <span class="kt">stap</span> for the ongoing. particles were the point. a grieving adult can learn a particle in a winter; no adult learns a tone system in a winter, and the language was built to be learned by adults in grief.
 
-the system has three tones. the level, neutral tone is the present. <span class="kt">wo tok</span> is "i speak." the rising tone, the voice lifting across the syllable, is the future. <span class="kt">wo tȯk</span> is "i will speak." the falling tone, the voice dropping across the syllable, is the past. <span class="kt">wo tọk</span> is "i spoke." in the written script the rising tone is marked with a dot above the vowel and the falling tone with a dot below; the level tone is unmarked.
+the caldera-born children began the change. within two generations the high-frequency particles were wearing down in fast speech, <span class="kt">bin</span> collapsing into a falling pitch on the verb it once preceded, <span class="kt">bai</span> into a rising pitch. <a class="wiki-link" href="/people/yelena-cruz">yelena cruz</a>, completing the language after bixel's death, heard the pattern in the children and ruled rather than fought: speech may carry time in tone, writing keeps the particles, and the script gained two marks, a dot above the vowel for the rising future, a dot below for the falling past, for writers who want to write speech as it sounds.
 
-the choice to carry time in the voice rather than in separate words is consistent with the rest of <span class="kt"><a class="wiki-link" href="/language/kahu-tok">kahu-tok</a></span>. the language is built to put the most important element first and to avoid encoding distinctions it considers false or unnecessary. a separate word for "will" or "did" would push time into the sentence as its own piece of content, competing for position with the things that matter more. tone keeps time attached to the verb, where it belongs, without spending a word on it. the speaker says what is happening and, in the same breath, when.
-
-for <a class="wiki-link" href="/concepts/importance-first-syntax">importance-first syntax</a>, this matters. because time rides on the verb's tone rather than occupying its own slot, the ordering of a kahu-tok sentence is never disturbed by tense. the most important element still comes first whether the statement is about the past, the present, or what is to come. a kahu speaker can shift a whole statement from memory to intention by changing nothing but the pitch of one syllable, and the shape of the sentence holds.
-
-whether tone in kahu-tok also tracks aspect, the difference between an action ongoing, completed, or habitual, is open canon. so is the question of whether the rising and falling tones carry any secondary meaning beyond time, a coloring of hope or of loss that a careful speaker might lean into. the base system, three tones for three times on a single unchanging verb, is canon.
+by the middle of the <a class="wiki-link" href="/eras/age-of-bloom">age of bloom</a> the tones were the ordinary way of speaking and the particles had become what they remain: the formal register, the written record, the language of song and law. <span class="kt">le</span> and <span class="kt">stap</span> never eroded and still mark the completed and the ongoing in all registers. the tones are, in the exact sense, the ghosts of bixel's particles. <span class="kt">mi tok</span>, i speak. <span class="kt">mi tọk</span>, with the falling mark, i spoke. <span class="kt">mi tȯk</span>, with the rising mark, i will speak.

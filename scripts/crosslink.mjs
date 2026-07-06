@@ -135,28 +135,47 @@ function linkEntry(entry, index) {
 
   let body = entry.body;
 
-  // Pass A: kt-wrapped disambig → language link
+  // True when the offset sits inside an <a>…</a> pair. Guards both passes
+  // against emitting nested anchors (the peli-shen dual-link bug).
+  const insideAnchor = (s, offset) => {
+    const before = s.slice(0, offset);
+    const opens = (before.match(/<a[\s>]/gi) || []).length;
+    const closes = (before.match(/<\/a>/gi) || []).length;
+    return opens > closes;
+  };
+
+  // Pass A: kt-wrapped disambig → language link.
+  // Wrap the first kt-wrapped occurrence that is NOT already inside an anchor.
   for (const [word, route] of DISAMBIG) {
-    // Only link the first kt-wrapped occurrence in the body for this word.
-    const ktRe = new RegExp(
-      `<span class="kt">(${escapeRegex(word)})</span>`, 'i'
-    );
-    if (ktRe.test(body)) {
-      const targetKey = `language/${word}`;
-      if (`${entry.collection}/${entry.slug}` !== targetKey && !linkedTargets.has(route.kt)) {
-        body = body.replace(ktRe, (_m, w) => {
-          return `<a class="wiki-link" href="${route.kt}"><span class="kt">${w}</span></a>`;
-        });
-        linkedTargets.add(route.kt);
-        linkedAliases.add(word + ':kt');
-      }
+    const targetKey = `language/${word}`;
+    if (`${entry.collection}/${entry.slug}` === targetKey || linkedTargets.has(route.kt)) continue;
+    const ktRe = new RegExp(`<span class="kt">(${escapeRegex(word)})</span>`, 'gi');
+    let m;
+    while ((m = ktRe.exec(body)) !== null) {
+      if (insideAnchor(body, m.index)) continue;
+      body =
+        body.slice(0, m.index) +
+        `<a class="wiki-link" href="${route.kt}"><span class="kt">${m[1]}</span></a>` +
+        body.slice(m.index + m[0].length);
+      linkedTargets.add(route.kt);
+      linkedAliases.add(word + ':kt');
+      break;
     }
   }
 
-  // Re-tokenize with the updated body.
+  // Re-tokenize with the updated body. Track anchor nesting so text that
+  // already sits inside an <a>…</a> is never linkified again (nested anchors
+  // are invalid HTML and render the outer href as literal text).
   const parts2 = tokenize(body);
+  let anchorDepth = 0;
   for (const part of parts2) {
     if (part.kind === 'tag') {
+      if (/^<a[\s>]/i.test(part.value)) anchorDepth++;
+      else if (/^<\/a>/i.test(part.value)) anchorDepth = Math.max(0, anchorDepth - 1);
+      result.push(part.value);
+      continue;
+    }
+    if (anchorDepth > 0) {
       result.push(part.value);
       continue;
     }

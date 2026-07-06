@@ -5,7 +5,7 @@ era: pre-collapse
 born: pre-impact, exact year unknown
 died: in the fracture, november 2075
 status: historical
-summary: pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture; forgotten by name in the present, remembered only in the records.
+summary: pre-impact researcher whose work became the basis for the longs' immortality and the kahu purist tradition. died in the fracture. her name survives in the present in one place only, the purist tradition, which keeps it as a founding vow; outside that lineage she is the unnamed refusal of the deep records.
 open_canon:
   - hanna's exact year of birth
   - the precise mechanism of her telomere intervention
@@ -17,6 +17,6 @@ hanna miskinnis discovered biological immortality. her research group, working i
 
 hanna refused to use the intervention herself. the reason she gave, in the records that survive, was that what she had built was for the species and not for the individual. she would not be the first to take it.
 
-after the fracture and <a class="wiki-link" href="/events/the-leveling">the leveling</a>, with the longs sealed in and forgotten by the world above, hanna's name and her work followed separate paths. the longs retained the intervention. the <a class="wiki-link" href="/concepts/kahu">kahu</a> retained the refusal. when <a class="wiki-link" href="/events/the-schism">the schism</a> arose more than two thousand years later, the purists invoked hanna's refusal as their founding precedent.
+after the fracture and <a class="wiki-link" href="/events/the-leveling">the leveling</a>, with the longs sealed in and forgotten by the world above, hanna's name and her work followed separate paths. the longs retained the intervention. the <a class="wiki-link" href="/concepts/kahu">kahu</a> retained the refusal. when <a class="wiki-link" href="/events/the-schism">the schism</a> arose more than two thousand years later, the purists invoked hanna's refusal as their founding precedent. her name survives in the present in one place only: the purist tradition, which keeps it as a founding vow. outside that lineage she is the unnamed refusal of the deep records.
 
 the kahu's own longevity tradition descends from a separate and later development, the viral and bacterial agents that suppress disease across long life. that path is not telomere intervention and is not hanna's. the kahu who hold the limit and refuse the further step place themselves in hanna's lineage through shared conviction rather than shared method.
