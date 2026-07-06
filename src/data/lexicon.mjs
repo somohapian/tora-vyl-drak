@@ -126,3 +126,7 @@ export function buildDictionary() {
 export function compoundsOf(slug, dict) {
   return dict.filter((r) => r.slug !== slug && r.slug.split('-').includes(slug));
 }
+
+import { foundation } from './lexicon-foundation.mjs';
+supplemental.push(...foundation);
+

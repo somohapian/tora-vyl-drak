@@ -74,6 +74,13 @@
     },
     {
       "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    },
+    {
+      "collection": "language",
       "slug": "drak",
       "name": "drak",
       "kahuTok": "",
@@ -249,6 +256,13 @@
     },
     {
       "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
+    },
+    {
+      "collection": "organizations",
       "slug": "the-council",
       "name": "the council",
       "kahuTok": "",
@@ -413,6 +427,13 @@
       "name": "the seizure",
       "kahuTok": "",
       "summary": "the mid-bloom episode in which the head of the zou-esh captured the sanctuary and ended the kahu's first government, and the resistance that deposed and exiled him."
+    },
+    {
+      "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
     },
     {
       "collection": "language",
@@ -703,6 +724,13 @@
       "name": "tonal tense",
       "kahuTok": "",
       "summary": "the marking of time in kahu-tok. bixel's particles carry time in writing and formal use; in speech the worn-down particles survive as tones, a rising pitch for the future and a falling pitch for the past."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "people",
@@ -1850,6 +1878,13 @@
       "name": "zou-esh",
       "kahuTok": "",
       "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "organizations",
@@ -3187,6 +3222,13 @@
     },
     {
       "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    },
+    {
+      "collection": "language",
       "slug": "drak",
       "name": "drak",
       "kahuTok": "",
@@ -3429,6 +3471,13 @@
       "name": "the zou-kit",
       "kahuTok": "",
       "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "organizations",
@@ -3797,6 +3846,13 @@
       "name": "the great silence",
       "kahuTok": "",
       "summary": "the global electromagnetic pulse that ended the age of electricity in the moments of the fracture. the moment the pre-collapse world went dark."
+    },
+    {
+      "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
     },
     {
       "collection": "language",
@@ -4455,6 +4511,13 @@
     },
     {
       "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
+    },
+    {
+      "collection": "organizations",
       "slug": "the-council",
       "name": "the council",
       "kahuTok": "",
@@ -4490,6 +4553,15 @@
     }
   ],
   "concepts/zou-tora": [],
+  "organizations/the-buk-kahu": [
+    {
+      "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    }
+  ],
   "organizations/the-cat-kahu": [
     {
       "collection": "concepts",
@@ -4560,6 +4632,13 @@
       "name": "the zou-kit",
       "kahuTok": "",
       "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "organizations",
@@ -4751,10 +4830,24 @@
     },
     {
       "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    },
+    {
+      "collection": "language",
       "slug": "konsil",
       "name": "konsil",
       "kahuTok": "",
       "summary": "the seated body that decides."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "organizations",
@@ -4994,6 +5087,13 @@
       "name": "the gloves",
       "kahuTok": "",
       "summary": "the adhering gloves of the zou-esh kit. provide controlled retention of the jefe-tri bow and its broken-down components across complex movements."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "organizations",
@@ -5838,6 +5938,7 @@
     }
   ],
   "objects/the-zou-kit": [],
+  "language/bild-tok": [],
   "language/drak": [
     {
       "collection": "concepts",
@@ -5971,6 +6072,13 @@
       "name": "zou-esh",
       "kahuTok": "",
       "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "organizations",
@@ -6158,6 +6266,13 @@
       "name": "the provisioning of tora vyl drak",
       "kahuTok": "",
       "summary": "how the caldera and plateau feed about two hundred seventy-eight thousand people with room to spare, and why the kahu worry about food anyway."
+    },
+    {
+      "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
     },
     {
       "collection": "organizations",
@@ -6963,6 +7078,13 @@
     },
     {
       "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    },
+    {
+      "collection": "language",
       "slug": "drak",
       "name": "drak",
       "kahuTok": "",
@@ -7198,6 +7320,13 @@
       "name": "the zou-kit",
       "kahuTok": "",
       "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "organizations",
@@ -7448,6 +7577,13 @@
   "language/kasa": [
     {
       "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    },
+    {
+      "collection": "language",
       "slug": "micasu",
       "name": "micasu",
       "kahuTok": "",
@@ -7542,6 +7678,13 @@
       "name": "the seizure",
       "kahuTok": "",
       "summary": "the mid-bloom episode in which the head of the zou-esh captured the sanctuary and ended the kahu's first government, and the resistance that deposed and exiled him."
+    },
+    {
+      "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
     },
     {
       "collection": "language",
@@ -7752,6 +7895,13 @@
     },
     {
       "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    },
+    {
+      "collection": "language",
       "slug": "drak",
       "name": "drak",
       "kahuTok": "",
@@ -7826,6 +7976,13 @@
       "name": "the zou-kit",
       "kahuTok": "",
       "summary": "the standard field equipment of the zou-esh. mask, undersuit, armor cloth, camouflage cloak, gloves, bow. living cloth and biotech in a single working outfit."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "organizations",
@@ -8008,6 +8165,13 @@
     },
     {
       "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    },
+    {
+      "collection": "language",
       "slug": "peli",
       "name": "peli",
       "kahuTok": "",
@@ -8135,6 +8299,13 @@
       "name": "no",
       "kahuTok": "",
       "summary": "no; the answer-word and the grammatical negation."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     }
   ],
   "language/shen": [
@@ -8266,7 +8437,22 @@
     }
   ],
   "language/tera": [],
-  "language/tok-kahu": [],
+  "language/tok-kahu": [
+    {
+      "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
+    }
+  ],
   "language/tok-peles": [
     {
       "collection": "concepts",
@@ -8442,6 +8628,13 @@
     },
     {
       "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
+    },
+    {
+      "collection": "organizations",
       "slug": "the-cat-kahu",
       "name": "the cat-kahu",
       "kahuTok": "",
@@ -8604,6 +8797,13 @@
   ],
   "language/toska": [
     {
+      "collection": "language",
+      "slug": "bild-tok",
+      "name": "bild-tok",
+      "kahuTok": "",
+      "summary": "a built word; the craft of building words. how the language makes what it needs."
+    },
+    {
       "collection": "people",
       "slug": "akika",
       "name": "akika",
@@ -8758,6 +8958,13 @@
       "name": "zou-esh",
       "kahuTok": "",
       "summary": "the scholar-warrior order of the kahu. used both for the order collectively and for an individual member."
+    },
+    {
+      "collection": "organizations",
+      "slug": "the-buk-kahu",
+      "name": "the buk-kahu",
+      "kahuTok": "buk-kahu (proposed, pending approval)",
+      "summary": "the librarian family of tora vyl drak. one kahu holding the charge of the library, the keeping of the tok-kahu dictionary, and the charting of the language across the centuries. keepers of the memo-kasa, the memory-house."
     },
     {
       "collection": "organizations",
