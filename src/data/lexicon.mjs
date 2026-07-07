@@ -52,6 +52,8 @@ export const supplemental = [
   { w: 'tonal tense', slug: 'tonal-tense', gloss: 'the marking of time in speech by tone: level for now, rising for the future, falling for the past. the worn-down ghosts of bixel’s particles', provenance: 'the grammar of the language', domain: 'grammar and the small words' },
   { w: 'tok-kahu', gloss: 'the family of words: this dictionary, the archive’s working record of the whole language', provenance: 'the archive, 4625', domain: 'speech, story, and knowledge',
     note: 'the mirror of kahu-tok: the community’s speech, turned to face the speech’s community. bixel’s mil-tok is a primary document and stays whole; the tok-kahu is the archive speaking, one word at a time.' },
+  { w: 'tru-tenk', gloss: 'thank you; truly thanks. gratitude given its full weight', provenance: 'the archive, 4625', domain: 'set phrases and greetings',
+    note: 'tru, true, laid on tenk, thanks: thanks made a vow. the archive answers every offering to the tok-kahu with it.' },
 ];
 
 // dictionary-only etymology notes for mil-tok rows, in the archive's voice.

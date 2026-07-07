@@ -1,9 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-// offer a word: the public gate of the tok-kahu. the form composes a mail to
-// the archive keeper (jay@somohapian.com); nothing enters the record without
-// review, and new coinages wait on jay's confirm, per the standing doctrine.
+// offer a word: the public gate of the tok-kahu. the form posts to the desk
+// (the archive's own machine) and the offering travels onward from there;
+// no address appears anywhere on this page, by jay's ruling. the archive
+// answers with tru-tenk (thank you; truly thanks), lexicon.mjs entry of 4625.
+// nothing enters the record without review.
 ---
 
 <Layout
@@ -20,7 +22,7 @@ import Layout from '../../layouts/Layout.astro';
     </nav>
 
     <h1>offer a word</h1>
-    <p class="lede">a language grows at its edges. if you hold a word the record does not, offer it here: the word, the year you place it in, and what it means. the archive reads every offering; nothing enters the record unreviewed.</p>
+    <p class="lede">a language grows at its edges. if you hold a word the record does not, offer it here: the word, the year you place it in, and what it means. no name is asked and none is kept; the archive reads every offering, and nothing enters the record unreviewed.</p>
     <hr class="kahu-rule" />
 
     <form class="offer-form" data-offer-form novalidate>
@@ -39,12 +41,17 @@ import Layout from '../../layouts/Layout.astro';
         <textarea name="meaning" rows="7" required data-offer-meaning></textarea>
       </label>
 
-      <button type="submit" class="offer-send">send to the archive</button>
+      <p class="offer-web" aria-hidden="true">
+        <label>leave this empty <input type="text" name="web" tabindex="-1" autocomplete="off" data-offer-web /></label>
+      </p>
 
-      <p class="offer-note">the form opens your own mail, addressed to the archive, so the archive can answer you. or write directly: <a class="wiki-link" href="mailto:jay@somohapian.com">jay@somohapian.com</a>.</p>
+      <button type="submit" class="offer-send" data-offer-send>send to the archive</button>
+
       <p class="offer-missing" data-offer-missing hidden>the archive needs all three: the word, the year, and its meaning.</p>
-      <p class="offer-sent" data-offer-sent hidden>your mail is opening. send it, and the offering is with the archive.</p>
+      <p class="offer-fail" data-offer-fail hidden>the gate is closed just now. the archive is not always awake; keep the word and try again in a little while.</p>
     </form>
+
+    <p class="offer-tenk" data-offer-tenk hidden><span class="kt">tru-tenk</span>. the offering is with the archive now. if the word enters the record, the <a class="wiki-link" href="/dictionary">tok-kahu</a> will hold it.</p>
   </article>
 </Layout>
 
@@ -53,32 +60,46 @@ import Layout from '../../layouts/Layout.astro';
   const word = document.querySelector<HTMLInputElement>('[data-offer-word]');
   const year = document.querySelector<HTMLInputElement>('[data-offer-year]');
   const meaning = document.querySelector<HTMLTextAreaElement>('[data-offer-meaning]');
+  const web = document.querySelector<HTMLInputElement>('[data-offer-web]');
+  const send = document.querySelector<HTMLButtonElement>('[data-offer-send]');
   const missing = document.querySelector<HTMLElement>('[data-offer-missing]');
-  const sent = document.querySelector<HTMLElement>('[data-offer-sent]');
+  const fail = document.querySelector<HTMLElement>('[data-offer-fail]');
+  const tenk = document.querySelector<HTMLElement>('[data-offer-tenk]');
 
-  if (form && word && year && meaning) {
-    form.addEventListener('submit', (e) => {
+  if (form && word && year && meaning && send) {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const w = word.value.trim();
       const y = year.value.trim();
       const m = meaning.value.trim();
+      if (missing) missing.hidden = true;
+      if (fail) fail.hidden = true;
       if (!w || !y || !m) {
         if (missing) missing.hidden = false;
-        if (sent) sent.hidden = true;
         return;
       }
-      if (missing) missing.hidden = true;
-      const subject = `a word offered to the tok-kahu: ${w}`;
-      const body = [
-        `word: ${w}`,
-        `year: ${y}`,
-        'what it is, and its meaning:',
-        m,
-        '',
-        'offered through somohapian.com/dictionary/submit',
-      ].join('\n');
-      if (sent) sent.hidden = false;
-      window.location.href = `mailto:jay@somohapian.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      send.disabled = true;
+      send.textContent = 'carrying it in…';
+      try {
+        const r = await fetch('https://desk.somohapian.com/offer', {
+          method: 'POST',
+          body: new URLSearchParams({ word: w, year: y, meaning: m, web: web ? web.value : '' }),
+        });
+        if (r.ok) {
+          form.hidden = true;
+          if (tenk) tenk.hidden = false;
+          return;
+        }
+        if (r.status === 400 && missing) {
+          missing.hidden = false;
+        } else if (fail) {
+          fail.hidden = false;
+        }
+      } catch {
+        if (fail) fail.hidden = false;
+      }
+      send.disabled = false;
+      send.textContent = 'send to the archive';
     });
   }
 </script>
@@ -125,6 +146,12 @@ import Layout from '../../layouts/Layout.astro';
     outline: none;
     border-color: var(--ember);
   }
+  .offer-web {
+    position: absolute;
+    left: -9999px;
+    height: 1px;
+    overflow: hidden;
+  }
   .offer-send {
     align-self: flex-start;
     background: var(--paper-deeper);
@@ -140,20 +167,21 @@ import Layout from '../../layouts/Layout.astro';
     border-color: var(--ember);
     color: var(--ember-deep);
   }
-  .offer-note {
-    color: var(--ink-soft);
-    font-size: 0.92rem;
-    margin: 0.2rem 0 0;
+  .offer-send:disabled {
+    opacity: 0.6;
+    cursor: default;
   }
-  .offer-missing {
+  .offer-missing,
+  .offer-fail {
     color: var(--ember-deep);
     font-size: 0.95rem;
     margin: 0;
   }
-  .offer-sent {
-    color: var(--ink-soft);
-    font-style: italic;
-    font-size: 0.95rem;
-    margin: 0;
+  .offer-tenk {
+    margin-top: 1.6rem;
+    font-size: 1.05rem;
+  }
+  .offer-tenk .kt {
+    font-size: 1.15rem;
   }
 </style>
