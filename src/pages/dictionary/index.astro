@@ -28,6 +28,8 @@ const byLetter = letters.map((l) => ({
     <p class="lede">the family of words: the archive's dictionary of <a class="wiki-link" href="/language/kahu-tok"><span class="kt">kahu-tok</span></a>, {dict.length} words, each its own entry. <a class="wiki-link" href="/language/mil-tok">the mil-tok</a> is bixel's own document and stays whole; the tok-kahu is the archive speaking, one word at a time.</p>
     <hr class="kahu-rule" />
 
+    <p class="dict-offer">the record is not finished. heard a word it does not hold? <a class="wiki-link" href="/dictionary/submit">offer a word</a>.</p>
+
     <div class="dict-tools">
       <input
         type="search"
@@ -84,6 +86,11 @@ const byLetter = letters.map((l) => ({
 
 <style>
   .dict { max-width: 46rem; }
+  .dict-offer {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    margin: -0.2rem 0 1.1rem;
+  }
   .dict h1 {
     font-family: var(--serif-display);
     font-weight: 500;
