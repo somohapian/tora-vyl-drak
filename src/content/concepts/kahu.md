@@ -28,3 +28,4 @@ within the kahu, vocations differentiate without splitting. <a class="wiki-link"
 a kahu does not lose the word by leaving the tapestry. someone who walks down to nu-tera alone for a season is still kahu. someone who is born at nu-tera, settles into the agricultural belt, and never moves up to the caldera is kahu in the full sense. the word does not subdivide by geography either.
 
 what the word excludes is the deliberate position of standing apart. that position is available, in principle, to any kahu. it is the position the longs took and the position the kahu, by their language and their philosophy, decline to take.
+
